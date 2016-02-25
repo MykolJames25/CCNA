@@ -510,7 +510,7 @@ label.narrow-control:empty + .wide-control {
 }
 @media all and (min-width: 320px) {
   .row-height-5 > .col > .content-area {
-    min-height: 100px;
+    min-height: 398.625px;
   }
 }
 .uib_row_6:not(.cright) > .col {
@@ -818,4 +818,10 @@ label.narrow-control:empty + .wide-control {
 }
 .width {
   width: 200px;
+}
+.onHover:hover {
+  background-color: yellow;
+}
+.margin-auto {
+  margin: auto;
 }

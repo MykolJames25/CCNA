@@ -23,3 +23,7 @@
 
 
 // ...additional event handlers here...
+
+var menuData = [];
+var moduleData = [];
+var chapterData = [];
