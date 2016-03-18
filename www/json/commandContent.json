@@ -1,0 +1,1430 @@
+[
+  {
+    "command_name":"Convention",
+    "config_name":"Conventions",
+    "command_title":"encapsulation frame-relay [cisco | ietf]",
+    "command_desc":"\"cisco\" from options is default"
+  },
+  {
+    "command_name":"Convention",
+    "config_name":"Conventions",
+    "command_title":"<>",
+    "command_desc":"mandatory, are values (user indicated)"
+  },
+  {
+    "command_name":"Convention",
+    "config_name":"Conventions",
+    "command_title":"[]",
+    "command_desc":"optional"
+  },
+  {
+    "command_name":"Convention",
+    "config_name":"Conventions",
+    "command_title":"{}",
+    "command_desc":"required "
+  },
+  {
+    "command_name":"Convention",
+    "config_name":"Conventions",
+    "command_title":"|",
+    "command_desc":"alternative"
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Configuration Command",
+    "command_title":"bandwidth <kbps>",
+    "command_desc":"Interface command that sets the router�s perception of bandwidth of the interface, in a unit of kbps."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Configuration Command",
+    "command_title":"clock rate <rate>",
+    "command_desc":"Interface command that sets the speed at which the router supplies a clocking signal, applicable only when the router has a DCE cable installed. The unit is bits/second."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Configuration Command",
+    "command_title":"config-register <value>",
+    "command_desc":"Global command that sets the hexadecimal value of the configuration register."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Configuration Command",
+    "command_title":"boot system {file-url | filename}",
+    "command_desc":"Global command that identifies an externally located IOS image using a URL."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Configuration Command",
+    "command_title":"boot system flash [flash-fs:] [filename]",
+    "command_desc":"Global command that identifies the location of an IOS image in Flash memory."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Configuration Command",
+    "command_title":"boot system rom",
+    "command_desc":"Global command that tells the router to load the RxBoot OS found in ROM, if one exists."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Configuration Command",
+    "command_title":"boot system {rcp | tftp | ftp} filename [ip-address]",
+    "command_desc":"Global command that identifies an external server, protocol, and filename to use to load an IOS from an external server."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Exec Command",
+    "command_title":"show interfaces [type number]",
+    "command_desc":"Lists a large set of informational messages about each interface, or about the one specifically listed interface."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Exec Command",
+    "command_title":"show ip interface brief",
+    "command_desc":"Lists a single line of information about each interface, including the IP address, line and protocol status, and the method with which the address was configured (manual or DHCP)."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Exec Command",
+    "command_title":"show protocols <type> <number>",
+    "command_desc":"Lists a single line of information about the listed interface, including the IP address, mask, and line/protocol status."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Exec Command",
+    "command_title":"show controllers [type number]",
+    "command_desc":"Lists many lines of information per interface, or for one interface, for the hardware controller of the interface. On serial interfaces, this command identifies the cable as either a DCE or DTE cable."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Exec Command",
+    "command_title":"show version",
+    "command_desc":"Lists the IOS version, as well as a large set of other useful information"
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Exec Command",
+    "command_title":"setup",
+    "command_desc":"Starts the setup (initial configuration) dialog in which the router prompts the user for basic configuration settings."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Exec Command",
+    "command_title":"copy <source-url> <destination-url>",
+    "command_desc":"Copies a file from the first listed URL to the destination URL."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Exec Command",
+    "command_title":"show flash",
+    "command_desc":"Lists the names and size of the files in Flash memory, as well as noting the amount of Flash memory consumed and available."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Exec Command",
+    "command_title":"reload",
+    "command_desc":"Enable mode command that reinitializes (reboots) the router."
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Exec Command",
+    "command_title":"show sessions",
+    "command_desc":"Information about Telnet/ssh connections from your router (to other devices)"
+  },
+  {
+    "command_name":"Operating Cisco Router",
+    "config_name":"Exec Command",
+    "command_title":"show users",
+    "command_desc":"shows telnet/ssh connections to your router"
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"router rip",
+    "command_desc":"Global command that moves the user into RIP configuration mode."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"network <network-number>",
+    "command_desc":"RIP subcommand that lists a classful network number, enabling RIP on all of that router�s interfaces in that classful network."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"version {1 | 2}",
+    "command_desc":"RIP subcommand that sets the RIP version."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"passive-interface [default] {interface-type interface-number}",
+    "command_desc":"RIP subcommand that tells RIP to no longer advertise RIP updates on the listed interface."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"ip address <ip-address> <mask>",
+    "command_desc":"Interface subcommand that sets the router�s interface IP address and mask."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"ip route <prefix> mask {ip-address | interface-type interface-number}",
+    "command_desc":"Global command that defines a static route."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"service timestamps",
+    "command_desc":"Global command that tells the router to put a timestamp on log messages, including debug messages."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show ip interface brief",
+    "command_desc":"Lists one line per router interface, including the IP address and interface status; an interface must have an IP address, and be in an �up and up� status, before RIP begins to work on the interface. "
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show ip route [rip | static | connected | ospf | ...]",
+    "command_desc":"Lists the routing table, including RIP-learned routes, and optionally just RIP-learned routes."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show ip route <ip-address>",
+    "command_desc":"Lists details about the route the router would match for a packet sent to the listed IP address."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show ip protocols",
+    "command_desc":"Lists information about the RIP configuration, plus the IP addresses of neighboring RIP routers from which the local router has learned routes."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show process",
+    "command_desc":"Lists information about the various processes running in IOS, and most importantly, overall CPU utilization statistics."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Exec Command",
+    "command_title":"terminal ip netmask-format decimal",
+    "command_desc":"For the length of the user�s session, causes IOS to display mask information in dotted-decimal format instead of prefix format."
+  },
+  {
+    "command_name":"Routing Protocol Concepts and Configuration",
+    "config_name":"Exec Command",
+    "command_title":"debug ip rip",
+    "command_desc":"Tells the router to generate detailed messages for each sent and received RIP update."
+  },
+  {
+    "command_name":"IP Routing: Static and Connected Routes",
+    "config_name":"Configuration Command",
+    "command_title":"encapsulation dot1q <vlan-id> [native]",
+    "command_desc":"A subinterface subcommand that tells the router to use 802.1Q trunking, for a particular VLAN, and with the native keyword, to not encapsulate in a trunking header"
+  },
+  {
+    "command_name":"IP Routing: Static and Connected Routes",
+    "config_name":"Configuration Command",
+    "command_title":"encapsulation isl <vlan-identifier>",
+    "command_desc":"A subinterface subcommand that tells the router to use ISL trunking for a particular VLAN"
+  },
+  {
+    "command_name":"IP Routing: Static and Connected Routes",
+    "config_name":"Configuration Command",
+    "command_title":"[no] ip classless",
+    "command_desc":"Global command that enables (ip classless) or disables (no ip classless) classless routing "
+  },
+  {
+    "command_name":"IP Routing: Static and Connected Routes",
+    "config_name":"Configuration Command",
+    "command_title":"[no] ip subnet-zero",
+    "command_desc":"Global command that allows (ip subnet-zero) or disallows (no ip subnet-zero) the configuration of an interface IP address in a zero subnet"
+  },
+  {
+    "command_name":"IP Routing: Static and Connected Routes",
+    "config_name":"Configuration Command",
+    "command_title":"ip address <ip-address> <mask> [secondary]",
+    "command_desc":"Interface subcommand that assigns the interface�s IP address and optionally makes the address a secondary address"
+  },
+  {
+    "command_name":"IP Routing: Static and Connected Routes",
+    "config_name":"Configuration Command",
+    "command_title":"ip route <prefix> <mask> {ip-address | interface-type interface-number} [distance] [permanent]",
+    "command_desc":"Global configuration command that creates a static route"
+  },
+  {
+    "command_name":"IP Routing: Static and Connected Routes",
+    "config_name":"Configuration Command",
+    "command_title":"ip default-network <network-number>",
+    "command_desc":"Global command that creates a default route based on the router�s route to reach the classful network listed in the command"
+  },
+  {
+    "command_name":"IP Routing: Static and Connected Routes",
+    "config_name":"Exec Command",
+    "command_title":"show ip route",
+    "command_desc":"Lists the router�s entire routing table"
+  },
+  {
+    "command_name":"IP Routing: Static and Connected Routes",
+    "config_name":"Exec Command",
+    "command_title":"show ip route <ip-address>",
+    "command_desc":"Lists detailed information about the route that a router matches for the listed IP address"
+  },
+  {
+    "command_name":"IP Routing: Static and Connected Routes",
+    "config_name":"Exec Command",
+    "command_title":"ping {host-name | ip-address}",
+    "command_desc":"Tests IP routes by sending an ICMP packet to the destination host"
+  },
+  {
+    "command_name":"IP Routing: Static and Connected Routes",
+    "config_name":"Exec Command",
+    "command_title":"traceroute {host-name | ip-address}",
+    "command_desc":"Tests IP routes by discovering the IP addresses of the routes between a router and the listed destination"
+  },
+  {
+    "command_name":"WAN Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"encapsulation {hdlc | ppp | frame-relay}",
+    "command_desc":"Serial interface subcommand that de?nes the data-link protocol to use on the link"
+  },
+  {
+    "command_name":"WAN Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"clock rate <speed>",
+    "command_desc":"Serial interface subcommand that, when used on an interface with a DCE cable, sets the clock speed in bps"
+  },
+  {
+    "command_name":"WAN Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"bandwidth <speed-kbps>",
+    "command_desc":"Interface subcommand that sets the router�s opinion of the link speed, in kbps, but has no effect on the actual speed"
+  },
+  {
+    "command_name":"WAN Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"description <text>",
+    "command_desc":"Interface subcommand that can set a text description of the interface"
+  },
+  {
+    "command_name":"WAN Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show ip nat translations",
+    "command_desc":"Lists the NAT/PAT translation table entries"
+  },
+  {
+    "command_name":"WAN Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show dhcp server",
+    "command_desc":"Lists information learned from a DHCP server, by a router acting as a DHCP client"
+  },
+  {
+    "command_name":"WAN Configuration",
+    "config_name":"Exec Command",
+    "command_title":"clear ip nat translation *",
+    "command_desc":"Clears (removes) all dynamic entries in the NAT table"
+  },
+  {
+    "command_name":"WAN Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show interfaces",
+    "command_desc":"Lists several important settings on serial links, including encapsulation, bandwidth, keepalives, the two status codes, description, and IP address/mask"
+  },
+  {
+    "command_name":"WAN Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show controllers serial <number>",
+    "command_desc":"Lists whether a cable is connected to the interface, and if so, whether it is a DTE or DCE cable"
+  },
+  {
+    "command_name":"WAN Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show interfaces [type number] description",
+    "command_desc":"Lists a single line per interface (or if the interface is included, just one line of output total) that lists the interface status and description"
+  },
+  {
+    "command_name":"WAN Configuratio: PPP",
+    "config_name":"Configuration Command",
+    "command_title":"encapsulation {hdlc | ppp}",
+    "command_desc":"Interface subcommand that defines the serial data-link protocol"
+  },
+  {
+    "command_name":"WAN Configuratio: PPP",
+    "config_name":"Configuration Command",
+    "command_title":"ppp authentication {pap | chap | pap chap | chap pap}",
+    "command_desc":"Interface subcommand that enables only PAP, only CHAP, or both (order-dependent)"
+  },
+  {
+    "command_name":"WAN Configuratio: PPP",
+    "config_name":"Configuration Command",
+    "command_title":"username <name> password <secret>",
+    "command_desc":"Global command that sets the password that this router expects to use when authenticating the router with the listed hostname"
+  },
+  {
+    "command_name":"WAN Configuratio: PPP",
+    "config_name":"Exec Command",
+    "command_title":"show interfaces [type number]",
+    "command_desc":"Lists statistics and details of interface configuration, including the encapsulation type"
+  },
+  {
+    "command_name":"WAN Configuratio: PPP",
+    "config_name":"Exec Command",
+    "command_title":"debug ppp authentication",
+    "command_desc":"Generates messages for each step in the PAP or CHAP authentication process"
+  },
+  {
+    "command_name":"WAN Configuratio: PPP",
+    "config_name":"Exec Command",
+    "command_title":"debug ppp negotiation",
+    "command_desc":"Generates debug messages for the LCP and NCP negotiation messages sent between the devices"
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Configuration Command",
+    "command_title":"encapsulation frame-relay [cisco | ietf]",
+    "command_desc":"Interface configuration command that defines the Frame Relay encapsulation that is used rather than HDLC, PPP, and so on"
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Configuration Command",
+    "command_title":"frame-relay lmi-type {ansi | q933a | cisco}",
+    "command_desc":"Interface configuration mode command that defines the type of LMI messages sent to the switch"
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Configuration Command",
+    "command_title":"bandwidth <num>",
+    "command_desc":"Interface subcommand that sets the router�s perceived interface speed"
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Configuration Command",
+    "command_title":"frame-relay map {protocol protocol-address dlci} [broadcast] [ietf | cisco]",
+    "command_desc":"Interface configuration mode command that statically defines a mapping between a network layer address and a DLCI. When the �broadcast� keyword is included, it turns Frame Relay network as a broadcast network, which can forward broadcasts"
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Configuration Command",
+    "command_title":"keepalive <sec>",
+    "command_desc":"Interface configuration mode command that defines whether and how often LMI status inquiry messages are sent and expected"
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Configuration Command",
+    "command_title":"interface serial <number.sub> [point-to-point | multipoint]",
+    "command_desc":"Global configuration mode command that creates a subinterface or references a previously created subinterface"
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Configuration Command",
+    "command_title":"frame-relay interface-dlci dlci [ietf | cisco]",
+    "command_desc":"Subinterface configuration mode command that links or correlates a DLCI to the subinterface"
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Exec Command",
+    "command_title":"show interfaces [type number]",
+    "command_desc":"Shows the physical interface status"
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Exec Command",
+    "command_title":"show frame-relay pvc [interface interface][dlci]",
+    "command_desc":"This command shows the status of the permanent virtual circuit (PVC), packets in and out, dropped packets if there is congestion on the line via forward explicit congestion notification (FECN) and backward explicit congestion notification (BECN), and so on."
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Exec Command",
+    "command_title":"show frame-relay lmi [type number]",
+    "command_desc":"This command is used to verify some LMI statistics in the output, look for any non-zero \"Invalid\" items"
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Exec Command",
+    "command_title":"show frame-relay map",
+    "command_desc":"Display the current map entries and information about the connections."
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Exec Command",
+    "command_title":"debug frame-relay lmi",
+    "command_desc":"Displays the contents of LMI messages"
+  },
+  {
+    "command_name":"WAN Configuration: Frame-Relay",
+    "config_name":"Exec Command",
+    "command_title":"debug frame-relay events",
+    "command_desc":"Lists messages about certain Frame Relay events, including Inverse ARP messages"
+  },
+  {
+    "command_name":"NAT",
+    "config_name":"Configuration Command",
+    "command_title":"ip nat {inside | outside}",
+    "command_desc":"Interface subcommand to enable NAT and identify whether the interface is in the inside or outside of the network"
+  },
+  {
+    "command_name":"NAT",
+    "config_name":"Configuration Command",
+    "command_title":"ip nat inside source {list {access-list-number | access-list-name}} {interface type number | pool pool-name}[overload]",
+    "command_desc":"Global command that enables NAT globally, referencing the ACL that defines which source addresses to NAT, and the interface or pool from which to find global addresses"
+  },
+  {
+    "command_name":"NAT",
+    "config_name":"Configuration Command",
+    "command_title":"ip nat <pool name> <start-ip> <end-ip> {netmask <netmask> | prefix-length <prefix-length>}",
+    "command_desc":"Global command to define a pool of NAT addresses"
+  },
+  {
+    "command_name":"NAT",
+    "config_name":"Configuration Command",
+    "command_title":"ip nat source static inside-ip {outside-ip | interface-id}",
+    "command_desc":"Global command that lists the inside and outside address (or, an outside interface whose IP address should be used) to be paired and added to the NAT translation table"
+  },
+  {
+    "command_name":"NAT",
+    "config_name":"Exec Command",
+    "command_title":"show ip nat statistics",
+    "command_desc":"Lists counters for packets and NAT table entries, as well as basic configuration information"
+  },
+  {
+    "command_name":"NAT",
+    "config_name":"Exec Command",
+    "command_title":"show ip nat translations [verbose]",
+    "command_desc":"Displays the NAT table"
+  },
+  {
+    "command_name":"NAT",
+    "config_name":"Exec Command",
+    "command_title":"clear ip nat translation {* | [inside <global-ip> <local-ip>] [outside <local-ip> <global-ip>]}",
+    "command_desc":"Clears all or some of the dynamic entries in the NAT table, depending on which parameters are used"
+  },
+  {
+    "command_name":"NAT",
+    "config_name":"Exec Command",
+    "command_title":"clear ip nat translation <protocol> inside <global-ip> <global-port> <local-ip> <local-port> [outside <local-ip> <global-ip>]",
+    "command_desc":"Clears some of the dynamic entries in the NAT table, depending on which parameters are used"
+  },
+  {
+    "command_name":"NAT",
+    "config_name":"Exec Command",
+    "command_title":"debug ip nat",
+    "command_desc":"Issues a log message describing each packet whose IP address is translated with NAT"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Configuration Command",
+    "command_title":"ipv6 unicast-routing",
+    "command_desc":"Global command that enables IPv6 routing on the router"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Configuration Command",
+    "command_title":"ipv6 router rip <tag>",
+    "command_desc":"Global command that enables RIPng"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Configuration Command",
+    "command_title":"ipv6 rip <name> enable",
+    "command_desc":"Interface subcommand that enables RIPng on the interface"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Configuration Command",
+    "command_title":"ipv6 address {<ipv6-address>/<prefix-length> | <prefix-name> <sub-bits>/<prefix-length>} eui-64",
+    "command_desc":"Interface subcommand that manually configures either the entire interface IP address, or a /64 prefix with the router building the EUI-64 format interface ID automatically"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Configuration Command",
+    "command_title":"ipv6 host <name> <ipv6-address1> [ipv6-address2...ipv6-address4]",
+    "command_desc":"Global command to create a static host name definition"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Configuration Command",
+    "command_title":"ip name-server <name-server-address1> [server-address2...server-address6]",
+    "command_desc":"Global command to point to one or more name servers, to resolve a name into either an IPv4 or IPv6 address"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Configuration Command",
+    "command_title":"[no] ip domain-lookup",
+    "command_desc":"Global command that enables the router as a DNS client, or with the no option, disables the router as a DNS client"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Exec Command",
+    "command_title":"show ipv6 route ",
+    "command_desc":"Lists IPv6 routes"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Exec Command",
+    "command_title":"show ipv6 route <ipv6-address>",
+    "command_desc":"Lists the route(s) this router would match for packets sent to the listed address"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Exec Command",
+    "command_title":"show ipv6 route [prefix/prefix-length]",
+    "command_desc":"Lists the route for the specifically listed prefix/length"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Exec Command",
+    "command_title":"show ipv6 interface [type number]",
+    "command_desc":"Lists IPv6 settings on an interface, including link local and other unicast IP addresses"
+  },
+  {
+    "command_name":"IPv6",
+    "config_name":"Exec Command",
+    "command_title":"show ipv6 interface brief",
+    "command_desc":"Lists interface status and IPv6 addresses for each interface"
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"line console 0",
+    "command_desc":"Changes the context to console configuration mode."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"line vty <1st-vty> <2nd-vty>",
+    "command_desc":"Changes the context to vty configuration mode for the range of vty lines listed in the command."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"login",
+    "command_desc":"Console and vty configuration mode. Tells IOS to prompt for password."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Configuration Command",
+    "command_title":"password <pass-value>",
+    "command_desc":"Console and vty configuration mode. The password required if the login command (with no other parameters) is configured."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Username/Password and SSH Configuration",
+    "command_title":"login local",
+    "command_desc":"Console and vty configuration mode. Tells IOS to prompt for a username and password, to be checked against locally configured username global configuration commands on this switch or router."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Username/Password and SSH Configuration",
+    "command_title":"username <name> password <pass-value>",
+    "command_desc":"Global command. Defines one of possibly multiple usernames and associated passwords, used for user authentication. Used when the login local line configuration command has been used."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Username/Password and SSH Configuration",
+    "command_title":"crypto key generate rsa",
+    "command_desc":"Global command. Creates and stores (in a hidden location in fiash memory) the keys required by SSH."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Username/Password and SSH Configuration",
+    "command_title":"transport input {telnet | ssh} ",
+    "command_desc":"vty line configuration mode. Defines whether Telnet and/or SSH access is allowed into this switch"
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"IP Address Configuration",
+    "command_title":"interface vlan <number>",
+    "command_desc":"Global command. Changes the context to VLAN interface mode. For VLAN 1, allows the configuration of the switch�s IP address."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"IP Address Configuration",
+    "command_title":"ip address <ip-address> <subnet-mask>",
+    "command_desc":"VLAN interface mode. Statically configures the switch�s IP address and mask."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"IP Address Configuration",
+    "command_title":"ip address dhcp",
+    "command_desc":"VLAN interface mode. Configures the switch as a DHCP client to discover its IP address, mask, and default gateway."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"IP Address Configuration",
+    "command_title":"VLAN interface mode. Configures the switch as a DHCP client to discover its IP address, mask, and default gateway.",
+    "command_desc":"Global command. Configures the switch�s default gateway IP address. Not required if the switch uses DHCP."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Interface Configuration",
+    "command_title":"interface <type> <port-number>",
+    "command_desc":"Changes context to interface mode. The type is typically FastEthernet or gigabitEthernet. The possible port numbers vary depending on the model of switch�for example, Fa0/1, Fa0/2, and so on."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Interface Configuration",
+    "command_title":"interface range <type> <port-range>",
+    "command_desc":"Changes the context to interface mode for a range of consecutively numbered interfaces. The subcommands that follow then apply to all interfaces in the range."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Interface Configuration",
+    "command_title":"shutdown/no shutdown",
+    "command_desc":"Interface mode. Disables or enables the interface, respectively."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Interface Configuration",
+    "command_title":"speed {10 | 100 | 1000 | auto}",
+    "command_desc":"Interface mode. Manually sets the speed to the listed speed or, with the auto setting, automatically negotiates the speed."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Interface Configuration",
+    "command_title":"duplex {auto | full | half}",
+    "command_desc":"Interface mode. Manually sets the duplex to half or full, or to autonegotiate the duplex setting."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Interface Configuration",
+    "command_title":"description <text>",
+    "command_desc":"Interface mode. Description, place."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Miscellaneous",
+    "command_title":"hostname <name>",
+    "command_desc":"Global command. Sets this switch�s hostname, which is also used as the first part of the switch�s command prompt."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Miscellaneous",
+    "command_title":"enable secret <pass-value>",
+    "command_desc":"Global command. Sets this switch�s password that is required for any user to reach _enable_ mode."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Miscellaneous",
+    "command_title":"history size <length>",
+    "command_desc":"Line config mode. Defines the number of commands held in the history buffer, for later recall, for users of those lines."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Miscellaneous",
+    "command_title":"switchport port-security mac-address <mac-address>",
+    "command_desc":"Interface configuration mode command that statically adds a specific MAC address as an allowed MAC address on the interface."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Miscellaneous",
+    "command_title":"switchport port-security mac-address sticky",
+    "command_desc":"Interface subcommand that tells the switch to learn MAC addresses on the interface and add them to the configuration for the interface as secure MAC addresses."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Miscellaneous",
+    "command_title":"switchport port-security maximum <value>",
+    "command_desc":"Interface subcommand that sets the maximum number of static secure MAC addresses that can be assigned to a single interface."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Miscellaneous",
+    "command_title":"switchport port-security violation {protect | restrict | shutdown}",
+    "command_desc":"Interface subcommand that tells the switch what to do if an inappropriate MAC address tries to access the network through a secure switch port. protect - discard traffic, no log, no disable interface. restrict - discard traffic, log, no disable interface. shutdown - discard traffic, log, disable interface"
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Miscellaneous",
+    "command_title":"arp 1.2.3.4 AAAA.BBBB.DDDD arpa",
+    "command_desc":"Global. Configure a static ARP entry for the mac address of AAAA.BBBB.DDDD for IP 1.2.3.4"
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show mac address-table dynamic",
+    "command_desc":"Lists the dynamically learned entries in the switch�s address (forwarding) table."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show dhcp lease",
+    "command_desc":"Lists any information the switch acquires as a DHCP client. This includes IP address, subnet mask, and default gateway information."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show crypto key mypubkey rsa",
+    "command_desc":"Lists the public and shared key created for use with SSH using the crypto key generate rsa global configuration command."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show interfaces status",
+    "command_desc":"Lists one output line per interface, noting the description, operating state, and settings for duplex and speed on each interface."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show interfaces vlan 1",
+    "command_desc":"Lists an interface�s port security configuration settings and security operational status."
+  },
+  {
+    "command_name":"Ethernet Switch Configuration",
+    "config_name":"Exec Command",
+    "command_title":"show arp",
+    "command_desc":"Display Address Resolution Protocol"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"vlan vlan-id ",
+    "command_desc":"Global config command that both creates the VLAN and puts the CLI into VLAN configuration mode"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"name vlan-name ",
+    "command_desc":"VLAN subcommand that names the VLAN"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"shutdown ",
+    "command_desc":"VLAN subcommand that prevents that one switch from forwarding traffic in that VLAN"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"shutdown vlan vlan-id ",
+    "command_desc":"Global config command that administratively disables a VLAN, preventing the switch from forwarding frames in that VLAN"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"vtp domain domain-name",
+    "command_desc":"Global config command that defines the VTP domain name"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"vtp password password ",
+    "command_desc":"Global config command that defines the VTP password"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"vtp mode {server | client | transparent}",
+    "command_desc":"Global config command that defines the VTP mode"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"vtp pruning ",
+    "command_desc":"Global config command that tells the VTP server to tell all switches to use VTP pruning"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"switchport mode {access | dynamic {auto | desirable} | trunk}",
+    "command_desc":"Interface subcommand that configures the trunking administrative mode on the interface"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"switchport trunk allowed vlan {add | all | except | remove} vlan-list",
+    "command_desc":"Interface subcommand that defines the list of allowed VLANs"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"switchport access vlan vlan-id",
+    "command_desc":"Interface subcommand that statically configures the interface into that one VLAN"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"switchport trunk encapsulation {dot1q | isl| negotiate}",
+    "command_desc":"Interface subcommand that defines which type of trunking to use, assuming that trunking is configured or negotiated"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"switchport voice vlan vlan-id ",
+    "command_desc":"Interface subcommand that defines the VLAN used for frames sent to and from a Cisco IP phone"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"switchport nonnegotiate",
+    "command_desc":"Interface subcommand that disables the negotiation of VLAN trunking (DTP)"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"cdp run",
+    "command_desc":"Global command. Enable CDP on device"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"no cdp run",
+    "command_desc":"Global command. Disable CDP on device"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Configuration Command",
+    "command_title":"cdp enable",
+    "command_desc":"Interface command. Enable CDP on specific interface"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Exec Command",
+    "command_title":"show interfaces interface-id switchport",
+    "command_desc":"Lists information about any interface regarding administrative settings and operational state"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Exec Command",
+    "command_title":"show interfaces interface-id trunk",
+    "command_desc":"Lists information about all operational trunks (but no other interfaces), including the list of VLANs that can be forwarded over the trunk"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Exec Command",
+    "command_title":"show vlan [brief | id <vlan-id> | name <vlan-name> | summary]",
+    "command_desc":"Lists information about the VLAN"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Exec Command",
+    "command_title":"show vlan [vlan] ",
+    "command_desc":"Displays VLAN information"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Exec Command",
+    "command_title":"show vtp status",
+    "command_desc":"Lists VTP configuration and status information"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Exec Command",
+    "command_title":"show vtp password",
+    "command_desc":"Lists the VTP password"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Exec Command",
+    "command_title":"show cdp neighbors | interface | traffic",
+    "command_desc":"CDP neighbor information by neighbors, interfaces, traffic"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Exec Command",
+    "command_title":"show cdp neighbors detail",
+    "command_desc":"Show detailed information"
+  },
+  {
+    "command_name":"VTP, VLAN, DTP, CDP",
+    "config_name":"Exec Command",
+    "command_title":"show cdp entry <device-ID>",
+    "command_desc":"Show CDP info for Device-ID from show cdp neighbor"
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Configuration Command",
+    "command_title":"spanning-tree mode {mst | rapid-pvst | pvst}",
+    "command_desc":"Global command to enable PVST+ and 802.1d (pvst),PVRST and 802.1w (rapid-pvst), or IEEE 802.1s (multiple spanning trees) and 802.1w (mst)."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Configuration Command",
+    "command_title":"spanning-tree vlan vlan-number root primary",
+    "command_desc":"Global configuration command that changes this switch to the root switch. The switch�s priority is changed to the lower of either 24,576 or 4096 less than the priority of the current root bridge."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Configuration Command",
+    "command_title":"spanning-tree vlan vlan-number root secondary",
+    "command_desc":"Global configuration command that sets this switch�s STP base priority to 28,672."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Configuration Command",
+    "command_title":"spanning-tree [vlan vlan-id] {priority priority}",
+    "command_desc":"Global configuration command that changes the bridge priority of this switch for the specified VLAN."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Configuration Command",
+    "command_title":"spanning-tree [vlan vlan-number] cost cost",
+    "command_desc":"Interface subcommand that changes the STP cost to the configured value."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Configuration Command",
+    "command_title":"channel-group channel-group-number mode {auto | desirable | on}",
+    "command_desc":"Interface subcommand that enables EtherChannel on the interface."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Configuration Command",
+    "command_title":"spanning-tree portfast ",
+    "command_desc":"Interface subcommand that enables PortFast on the interface."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Configuration Command",
+    "command_title":"spanning-tree bpduguard enable ",
+    "command_desc":"Interface subcommand to enable BPDU Guard on an interface"
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Exec Command",
+    "command_title":"show spanning-tree ",
+    "command_desc":"Lists details about the state of STP on the switch, including the state of each port."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Exec Command",
+    "command_title":"show spanning-tree interface interface-id ",
+    "command_desc":"Lists STP information only for the speci?ed port."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Exec Command",
+    "command_title":"show spanning-tree vlan vlan-id ",
+    "command_desc":"Lists STP information for the specified VLAN."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Exec Command",
+    "command_title":"show spanning-tree [vlan vlan-id] root ",
+    "command_desc":"Lists information about each VLAN�s root or for just the specified VLAN."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Exec Command",
+    "command_title":"show spanning-tree [vlan vlan-id] bridge ",
+    "command_desc":"Lists STP information about the local switch for each VLAN or for just the specified VLAN."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Exec Command",
+    "command_title":"debug spanning-tree events ",
+    "command_desc":"Causes the switch to provide informational messages about changes in the STP topology."
+  },
+  {
+    "command_name":"STP",
+    "config_name":"Exec Command",
+    "command_title":"show etherchannel [channel-group-number] {brief | detail | port | port-channel | summary}",
+    "command_desc":"Lists information about the state of EtherChannels on this switch."
+  },
+  {
+    "command_name":"Standard ACL",
+    "config_name":"Configuration Command",
+    "command_title":"access-list <access-list-number> {deny | permit} <source> [source-wildcard] [log]",
+    "command_desc":"Global command for standard numbered access lists. Use a number between 1 and 99 or 1300 and 1999, inclusive."
+  },
+  {
+    "command_name":"Standard ACL",
+    "config_name":"Configuration Command",
+    "command_title":"access-list <access-list-number> remark <text>",
+    "command_desc":"Defines a remark that helps you remember what the ACL is supposed to do."
+  },
+  {
+    "command_name":"Standard ACL",
+    "config_name":"Configuration Command",
+    "command_title":"ip access-group {number | name [in | out]}",
+    "command_desc":"Interface subcommand to enable access lists."
+  },
+  {
+    "command_name":"Standard ACL",
+    "config_name":"Exec Command",
+    "command_title":"show ip <interface> [type number]",
+    "command_desc":"Includes a reference to the access lists enabled on the interface."
+  },
+  {
+    "command_name":"Standard ACL",
+    "config_name":"Exec Command",
+    "command_title":"show access-lists [access-list-number | access-list-name]",
+    "command_desc":"Shows details of configured access lists for all protocols."
+  },
+  {
+    "command_name":"Standard ACL",
+    "config_name":"Exec Command",
+    "command_title":"show ip access-list [access-list-number | access-list-name]",
+    "command_desc":"Shows IP access lists."
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Configuration Command",
+    "command_title":"access-list <access-list-number> {deny | permit} <protocol> <source> <source-wildcard> <destination> <destination-wildcard> [log]",
+    "command_desc":"Extended. Global command for extended numbered access lists. Use a number between 100 and 199 or 2000 and 2699, inclusive."
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Configuration Command",
+    "command_title":"access-list <access-list-number> {deny | permit} tcp <source> <source-wildcard> [operator [port]] <destination> <destination-wildcard> [operator [port]] [log]",
+    "command_desc":"Extended. A version of the access-list command with TCP-specific parameters."
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Configuration Command",
+    "command_title":"access-list <access-list-number> remark <text>",
+    "command_desc":"Extended. Defines a remark that helps you remember what the ACL is supposed to do."
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Configuration Command",
+    "command_title":"ip access-group {number | name [in | out]}",
+    "command_desc":"Extended. Interface subcommand to enable access lists"
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Configuration Command",
+    "command_title":"access-class <number> | name [in | out]",
+    "command_desc":"Line subcommand to enable either standard or extended access lists"
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Configuration Command",
+    "command_title":"ip access-list {standard | extended} <name>",
+    "command_desc":"Global command to configure a named standard or extended ACL and enter ACL configuration mode"
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Configuration Command",
+    "command_title":"{deny | permit} <source> [source wildcard] [log]",
+    "command_desc":"ACL mode subcommand to configure the matching details and action for a standard named ACL"
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Configuration Command",
+    "command_title":"{deny | permit} <protocol> <source> <source-wildcard> <destination> <destination-wildcard> [log]",
+    "command_desc":"ACL mode subcommand to configure the matching details and action for an extended named ACL"
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Configuration Command",
+    "command_title":"{deny | permit} tcp <source> <source-wildcard> [operator [port]] <destination> <destination-wildcard> [operator [port]] [log]",
+    "command_desc":"ACL mode subcommand to configure the matching details and action for a named ACL that matches TCP segments"
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Configuration Command",
+    "command_title":"remark <text>",
+    "command_desc":"ACL mode subcommand to configure a description of a named ACL."
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Exec Command",
+    "command_title":"show ip interface [type number]",
+    "command_desc":"Includes a reference to the access lists enabled on the interface."
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Exec Command",
+    "command_title":"show access-lists [access-list-number | access-list-name]",
+    "command_desc":"Shows details of configured access lists for all protocols."
+  },
+  {
+    "command_name":"Advanced ACL",
+    "config_name":"Exec Command",
+    "command_title":"show ip access-list [access-list-number | access-list-name]",
+    "command_desc":"Shows IP access lists."
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"router ospf <process-id>",
+    "command_desc":"Enters OSPF configuration mode for the listed process"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"router-id <id>",
+    "command_desc":"OSPF command that statically sets the router ID"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"network <ip-address> <wildcard-mask> area <area-id>",
+    "command_desc":"Router subcommand that enables OSPF on interfaces matching the address/wildcard combination and sets the OSPF area"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"ip ospf cost <interface-cost>",
+    "command_desc":"Interface subcommand that sets the OSPF cost associated with the interface"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"bandwidth <bandwidth>",
+    "command_desc":"Interface subcommand that directly sets the interface bandwidth (Kbps)"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"auto-cost reference-bandwidth <number>",
+    "command_desc":"Router subcommand that tells OSPF the numerator in the Ref-BW/Int-BW formula used to calculate the OSPF cost based on the interface bandwidth"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"ip ospf hello-interval <number>",
+    "command_desc":"Interface subcommand that sets the OSPF Hello interval and also resets the Dead interval to 4 times this number"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"ip ospf dead-interval <number>",
+    "command_desc":"Interface subcommand that sets the OSPF dead timer"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"ip ospf network <type>",
+    "command_desc":"Interface subcommand that defines the OSPF network type"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"ip ospf hello-interval <seconds>",
+    "command_desc":"Interface subcommand that sets the interval for periodic Hellos"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"ip ospf priority <number-value>",
+    "command_desc":"Interface subcommand that sets the OSPF priority on an interface"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"maximum-paths <number-of-paths>",
+    "command_desc":"Router subcommand that defines the maximum number of equal-cost routes that can be added to the routing table"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"ip ospf authentication [null | message-digest]",
+    "command_desc":"Interface subcommand that enables type 0 (null), type 1 (no optional parameter listed), or type 2 (message-digest) authentication"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"ip ospf message-digest-key <key-number> md5 <key-value>",
+    "command_desc":"Interface subcommand that sets the OSPF authentication key if MD5 authentication is used"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"ip ospf authentication <key-value>",
+    "command_desc":"Interface subcommand that sets the OSPF authentication key if simple password authentication is used"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Configuration Command",
+    "command_title":"area <area> authentication [message-digest | null]",
+    "command_desc":"Router subcommand that configures the default authentication service for interfaces in the listed area"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Exec Command",
+    "command_title":"show ip route ospf ",
+    "command_desc":"Lists routes in the routing table learned by OSPF"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Exec Command",
+    "command_title":"show ip protocols",
+    "command_desc":"Shows routing protocol parameters and current timer values"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Exec Command",
+    "command_title":"show ip ospf interface",
+    "command_desc":"Lists the area in which the interface resides, neighbors adjacent on this interface, and Hello and dead timers"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Exec Command",
+    "command_title":"show ip ospf neighbor [neighbor-RID]",
+    "command_desc":"Lists neighbors and current status with neighbors, per interface, and optionally lists details for the router ID listed in the command"
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Exec Command",
+    "command_title":"debug ip ospf events�",
+    "command_desc":"Issues log messages for each OSPF packet."
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Exec Command",
+    "command_title":"debug ip ospf packet",
+    "command_desc":"Issues log messages describing the contents of all OSPF packets."
+  },
+  {
+    "command_name":"OSPF",
+    "config_name":"Exec Command",
+    "command_title":"debug ip ospf hello",
+    "command_desc":"Issues log messages describing Hellos and Hello failures."
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"router eigrp <autonomous-system>",
+    "command_desc":"Global command to move the user into EIGRP configuration mode for the listed ASN "
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"network network-number [wildcard-mask]",
+    "command_desc":"EIGRP router subcommand that matches either all interfaces in a classful network, or a subset of interfaces based on the ACL-style wildcard mask, enabling EIGRP on those interfaces."
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"maximum-paths <number-paths>",
+    "command_desc":"Router subcommand that defines the maximum number of equal-cost routes that can be added to the routing table"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"variance <multiplier>",
+    "command_desc":"Router subcommand that defines an EIGRP multiplier used to determine if a feasible successor route�s metric is close enough to the successor�s metric to be considered equal"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"bandwidth <bandwidth>",
+    "command_desc":"Interface subcommand directly sets the interface bandwidth (kbps)"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"delay <delay-value>",
+    "command_desc":"Interface subcommand to set the interface delay value with a unit of tens-of-microseconds"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"ip hello-interval eigrp <as-number> <timer-value>",
+    "command_desc":"Interface subcommand that sets the EIGRP Hello interval for that EIGRP process"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"ip hold-time eigrp <as-number> <timer-value>",
+    "command_desc":"Interface subcommand that sets the EIGRP hold time for the interface"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"maximum-paths <number-of-paths>",
+    "command_desc":"Router subcommand that defines the maximum number of equal-cost routes that can be added to the routing table"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"ip authentication key-chain eigrp <asn> <chain-name>",
+    "command_desc":"Interface subcommand that references the key chain used for MD5 authentication with EIGRP"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"ip authentication mode eigrp <asn> md5",
+    "command_desc":"Interface subcommand that enables EIGRP MD5 authentication for all neighbors reached on the interface"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"key chain <name>",
+    "command_desc":"Global command to create and name an authentication key chain"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"key <integer-number>",
+    "command_desc":"Key chain mode command to create a new key number."
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"key-string <text>",
+    "command_desc":"Key chain mode command to create the authentication key�s value"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"accept-lifetime <start-time> {infinite | end-time | duration seconds}",
+    "command_desc":"Key chain mode command to set the time frame during which a router will accept the use of a particular key"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Configuration Command",
+    "command_title":"send-lifetime <start-time> {infinite | end-time | duration seconds}",
+    "command_desc":"Key chain mode command to set the time frame during which a router will send EIGRP messages using a particular key"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Exec Command",
+    "command_title":"show ip route eigrp",
+    "command_desc":"Lists routes in the routing table learned by EIGRP"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Exec Command",
+    "command_title":"show ip route <ip-address> [mask]",
+    "command_desc":"Shows the entire routing table or a subset if parameters are entered"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Exec Command",
+    "command_title":"show ip protocols",
+    "command_desc":"Shows routing protocol parameters and current timer values"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Exec Command",
+    "command_title":"show ip eigrp neighbors",
+    "command_desc":"Lists EIGRP neighbors and status"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Exec Command",
+    "command_title":"show ip eigrp topology",
+    "command_desc":"Lists the contents of the EIGRP topology table, including successors and feasible successors"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Exec Command",
+    "command_title":"show ip eigrp traffic",
+    "command_desc":"Lists statistics on the number of EIGRP messages sent and received by a router"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Exec Command",
+    "command_title":"debug eigrp packets",
+    "command_desc":"Displays the contents of EIGRP packets"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Exec Command",
+    "command_title":"debug eigrp fsm",
+    "command_desc":"Displays changes to the EIGRP successor and feasible successor routes"
+  },
+  {
+    "command_name":"EIGRP",
+    "config_name":"Exec Command",
+    "command_title":"debug ip eigrp",
+    "command_desc":"Displays similar output to the debug eigrp packets command but specifically for IP"
+  }
+]

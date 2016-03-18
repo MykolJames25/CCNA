@@ -1,0 +1,202 @@
+[
+  {
+    "chapter_id":1,
+    "module_id":1,
+    "chapter_name":"Ch 1. Explore the Network"
+  },
+  {
+    "chapter_id":2,
+    "module_id":1,
+    "chapter_name":"Ch 2. Configure a Network Operating System"
+  },
+  {
+    "chapter_id":3,
+    "module_id":1,
+    "chapter_name":"Ch 3. Network Protocols and Communications"
+  },
+  {
+    "chapter_id":4,
+    "module_id":1,
+    "chapter_name":"Ch 4. Network Access"
+  },
+  {
+    "chapter_id":5,
+    "module_id":1,
+    "chapter_name":"Ch 5. Ethernet"
+  },
+  {
+    "chapter_id":6,
+    "module_id":1,
+    "chapter_name":"Ch 6. Network Layer"
+  },
+  {
+    "chapter_id":7,
+    "module_id":1,
+    "chapter_name":"Ch 7. Transport Layer"
+  },
+  {
+    "chapter_id":8,
+    "module_id":1,
+    "chapter_name":"Ch 8. IP Addressing"
+  },
+  {
+    "chapter_id":9,
+    "module_id":1,
+    "chapter_name":"Ch 9. Subnetting IP Networks"
+  },
+  {
+    "chapter_id":10,
+    "module_id":1,
+    "chapter_name":"Ch 10. Application Layer"
+  },
+  {
+    "chapter_id":11,
+    "module_id":1,
+    "chapter_name":"Ch 11. It's a Network"
+  },
+  {
+    "chapter_id":12,
+    "module_id":2,
+    "chapter_name":"Ch 1. Introduction to Switched Networks"
+  },
+  {
+    "chapter_id":13,
+    "module_id":2,
+    "chapter_name":"Ch 2. Basic Switching Concepts and Configuration"
+  },
+  {
+    "chapter_id":14,
+    "module_id":2,
+    "chapter_name":"Ch 3. VLANs"
+  },
+  {
+    "chapter_id":15,
+    "module_id":2,
+    "chapter_name":"Ch 4. Routing Concepts"
+  },
+  {
+    "chapter_id":16,
+    "module_id":2,
+    "chapter_name":"Ch 5. Inter-VLAN Routing"
+  },
+  {
+    "chapter_id":17,
+    "module_id":2,
+    "chapter_name":"Ch 6. Static Routing"
+  },
+  {
+    "chapter_id":18,
+    "module_id":2,
+    "chapter_name":"Ch 7. Routing Dynamically"
+  },
+  {
+    "chapter_id":19,
+    "module_id":2,
+    "chapter_name":"Ch 8. Single-Area OSPF"
+  },
+  {
+    "chapter_id":20,
+    "module_id":2,
+    "chapter_name":"Ch 9. Access Control Lists"
+  },
+  {
+    "chapter_id":21,
+    "module_id":2,
+    "chapter_name":"Ch 10. Application Layer"
+  },
+  {
+    "chapter_id":22,
+    "module_id":2,
+    "chapter_name":"Ch 11. Network Address Translation for IPv4"
+  },
+  {
+    "chapter_id":23,
+    "module_id":3,
+    "chapter_name":"Ch 1. Introduction to Scaling Networks"
+  },
+  {
+    "chapter_id":24,
+    "module_id":3,
+    "chapter_name":"Ch 2. LAN Redundancy"
+  },
+  {
+    "chapter_id":25,
+    "module_id":3,
+    "chapter_name":"Ch 3. Link Aggregation"
+  },
+  {
+    "chapter_id":26,
+    "module_id":3,
+    "chapter_name":"Ch 4. Wireless LANs"
+  },
+  {
+    "chapter_id":27,
+    "module_id":3,
+    "chapter_name":"Ch 5. Adjust and Troubleshoot Single-Area OSPF"
+  },
+  {
+    "chapter_id":28,
+    "module_id":3,
+    "chapter_name":"Ch 6. Multiarea OSPF"
+  },
+  {
+    "chapter_id":29,
+    "module_id":3,
+    "chapter_name":"Ch 7. EIGRP"
+  },
+  {
+    "chapter_id":30,
+    "module_id":3,
+    "chapter_name":"Ch 8. EIGRP Advanced Configurations and Troubleshooting"
+  },
+  {
+    "chapter_id":31,
+    "module_id":3,
+    "chapter_name":"Ch 9. IOS Images and Licensing"
+  },
+  {
+    "chapter_id":32,
+    "module_id":4,
+    "chapter_name":"Ch 1. Hierarchical Network Design"
+  },
+  {
+    "chapter_id":33,
+    "module_id":4,
+    "chapter_name":"Ch 2. Connecting to the WAN"
+  },
+  {
+    "chapter_id":34,
+    "module_id":4,
+    "chapter_name":"Ch 3. Point-to-Point Connections"
+  },
+  {
+    "chapter_id":35,
+    "module_id":4,
+    "chapter_name":"Ch 4. Frame Relay"
+  },
+  {
+    "chapter_id":36,
+    "module_id":4,
+    "chapter_name":"Ch 5. Network Address Translation for IPv4"
+  },
+  {
+    "chapter_id":37,
+    "module_id":4,
+    "chapter_name":"Ch 6. Broadband Solutions"
+  },
+  {
+    "chapter_id":38,
+    "module_id":4,
+    "chapter_name":"Ch 7. Securing Site-to-Site Connectivity"
+  },
+  {
+    "chapter_id":39,
+    "module_id":4,
+    "chapter_name":"Ch 8. Monitoring the Network"
+  },
+  {
+    "chapter_id":40,
+    "module_id":4,
+    "chapter_name":"Ch 9. Troubleshooting the Network"
+  }
+]

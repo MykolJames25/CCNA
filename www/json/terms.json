@@ -1,0 +1,2347 @@
+[
+  {
+    "terms_id":1,
+    "terms_name":"ACK",
+    "terms_desc":"In TCP ACK is used in the initial 3 way handshake to acknowledge the sending station's sequence number and in the actual sending of data the ACK is used to acknowledge sent segments. ",
+    "terms_seelaso":"acknowledgment",
+    "terms_var":""
+  },
+  {
+    "terms_id":2,
+    "terms_name":"acknowledgment",
+    "terms_desc":"Acknowledgments are sent by receiving stations to sending stations to confirm receipt of data. ",
+    "terms_seelaso":"ACK",
+    "terms_var":""
+  },
+  {
+    "terms_id":3,
+    "terms_name":"address pool",
+    "terms_desc":"A group of addresses assigned by the IANA or one of its associated organizations.",
+    "terms_seelaso":"",
+    "terms_var":"Address Block,Address pool"
+  },
+  {
+    "terms_id":4,
+    "terms_name":"Address Resolution Protocol (ARP)",
+    "terms_desc":"Address Resolution Protocol (ARP). The method for finding a host's hardware address when only its network layer address is known. Primarily used to translate IP addresses to Ethernet MAC addresses.",
+    "terms_seelaso":"ARP",
+    "terms_var":""
+  },
+  {
+    "terms_id":5,
+    "terms_name":"administratively scoped addresses",
+    "terms_desc":"Administratively scoped addresses are also called limited scope addresses. These addresses are restricted to a local group or organization.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":6,
+    "terms_name":"American National Standards Institute (ANSI)",
+    "terms_desc":"American National Standards Institute. private non-profit organization that oversees the development of voluntary consensus standards for products, services, processes, systems, and personnel in the United States.",
+    "terms_seelaso":"",
+    "terms_var":"ANSI"
+  },
+  {
+    "terms_id":7,
+    "terms_name":"AND",
+    "terms_desc":"A Boolean operation used to combine search terms and find a result. If x = 1 and y =1 then z = 1. If x = 1 and y = 0 then z = 0. If x = 0 and y = 1 then z = 0. If x = 1 and y = 0 then z = 0.",
+    "terms_seelaso":"digital logic",
+    "terms_var":""
+  },
+  {
+    "terms_id":8,
+    "terms_name":"applications",
+    "terms_desc":"A complete software program designed for end users.",
+    "terms_seelaso":"Programs",
+    "terms_var":""
+  },
+  {
+    "terms_id":9,
+    "terms_name":"ARP",
+    "terms_desc":"Address Resolution Protocol. A host wishing to discover another host's MAC address broadcasts an ARP request onto the network. The host on the network that has the IP address in the request then replies with its MAC address. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":10,
+    "terms_name":"ARP cache",
+    "terms_desc":"Storage of ARP entries that show MAC address and the associated IP address.",
+    "terms_seelaso":"ARP table",
+    "terms_var":""
+  },
+  {
+    "terms_id":11,
+    "terms_name":"ARP poisoning",
+    "terms_desc":"The sending of fake ARP messages to an Ethernet LAN. These frames contain false MAC addresses that \"confuse\" network devices, such as switches. As a result frames intended for one node can be mistakenly sent to another node. Also known as ARP spoofing.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":12,
+    "terms_name":"ARP table",
+    "terms_desc":"A cache in which a device keeps a table of MAC addresses and their associated layer 3 address.",
+    "terms_seelaso":"ARP cache",
+    "terms_var":""
+  },
+  {
+    "terms_id":13,
+    "terms_name":"asynchronous transmission mode",
+    "terms_desc":"Term describing digital signals that are transmitted without precise clocking. Such signals generally have different frequencies and phase relationships. Asynchronous transmissions usually encapsulate individual characters in control bits (called start and stop bits) that designate the beginning and end of each character.",
+    "terms_seelaso":"Synchronous",
+    "terms_var":""
+  },
+  {
+    "terms_id":14,
+    "terms_name":"attenuation",
+    "terms_desc":"The decrease in signal strength along an electrical or optical cable.",
+    "terms_seelaso":"",
+    "terms_var":"Attenuation"
+  },
+  {
+    "terms_id":15,
+    "terms_name":"authentication",
+    "terms_desc":"A process whereupon a person must prove that they are legitimate users of that certain resource.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":16,
+    "terms_name":"authoritative",
+    "terms_desc":"A source of information that is highly reliable and known for its accuracy.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":17,
+    "terms_name":"aux port",
+    "terms_desc":"Auxiliary port of a router. Is used for out of band connectivity with the router. It is usually used to get dial-in access to the router. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":18,
+    "terms_name":"backoff",
+    "terms_desc":"The (usually random) retransmission delay enforced by contentious MAC protocols after a network node with data to transmit determines that the physical medium is already in use.",
+    "terms_seelaso":"",
+    "terms_var":"back off,CSMA/CD"
+  },
+  {
+    "terms_id":19,
+    "terms_name":"backoff algorithm",
+    "terms_desc":"When a collision is detected each sender will delay before retransmitting. Each sender chooses a random delay between 0 and d (d is some standard delay value). If another collision occurs, each computer doubles the range from which the delay is chosen, that means, the random delay will now be between 0 and 2d. If another collision occurs the range will be between 0 and 4d and so on. After each collision the range of the random delay increases.",
+    "terms_seelaso":" back off,CSMA/CD",
+    "terms_var":""
+  },
+  {
+    "terms_id":20,
+    "terms_name":"bandwidth",
+    "terms_desc":"The amount of data that can be transmitted in a certain amount of time. For digital bandwidth, it is usually expressed in bits per second (bps). For analog bandwidth, it is expressed in cycles per second, or Hertz (Hz).",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":21,
+    "terms_name":"benchmarks",
+    "terms_desc":"A standard by which something can be measured or judged. A benchmark is usually used when testing network performance and comparing it to the performance results of the benchmark. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":22,
+    "terms_name":"binary",
+    "terms_desc":"A numbering system characterized by ones and zeros (1 = on, 0 = off).",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":23,
+    "terms_name":"binary values",
+    "terms_desc":"A combination of binary digits that represent a certain value.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":24,
+    "terms_name":"bit time",
+    "terms_desc":"The time it takes for one bit to be transmitted from a NIC operating at some predefined standard speed. The time is measured between the time the logical link control layer 2 sub layer receives the instruction from the operating system until the bit actually leaves the NIC.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":25,
+    "terms_name":"bits",
+    "terms_desc":"A bit is a binary digit, taking a value of either 0 or 1. Binary digits are units of information storage and communication in computing.",
+    "terms_seelaso":"binary",
+    "terms_var":""
+  },
+  {
+    "terms_id":26,
+    "terms_name":"bridge",
+    "terms_desc":"A layer 2 device that connects multiple network segments at the data link layer of the OSI model.",
+    "terms_seelaso":"switch",
+    "terms_var":""
+  },
+  {
+    "terms_id":27,
+    "terms_name":"bridge table",
+    "terms_desc":"The table that the bridge creates that associates mac addresses with the outgoing port.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":28,
+    "terms_name":"bridging",
+    "terms_desc":"The process of forwarding frames from one port to another port or from segment to segment.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":29,
+    "terms_name":"broadcast",
+    "terms_desc":"A form of transmission whereupon one device transmits to all devices within the network or on another network.",
+    "terms_seelaso":"limited broadcast",
+    "terms_var":""
+  },
+  {
+    "terms_id":30,
+    "terms_name":"broadcast address",
+    "terms_desc":"An address that is meant to represent a transmission from one device to all devices based on the specified broadcast address.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":31,
+    "terms_name":"broadcast domain",
+    "terms_desc":"A logical network composed of all the computers and networking devices that can be reached by sending a frame to the data link layer broadcast address.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":32,
+    "terms_name":"burned-in-address",
+    "terms_desc":"The MAC address of a network interface card. It is called burned-in because the address cannot be changed.",
+    "terms_seelaso":"MAC address",
+    "terms_var":""
+  },
+  {
+    "terms_id":33,
+    "terms_name":"cache",
+    "terms_desc":"A temporary storage where data that is accessed frequently can be stored. Once the data is stored in the cache, accessing the cached copy instead of accessing the original data, so that the average access time is lower. For example a proxy server that has a cache.",
+    "terms_seelaso":"ARP cache",
+    "terms_var":""
+  },
+  {
+    "terms_id":34,
+    "terms_name":"carrier",
+    "terms_desc":"Electromagnetic wave or alternating current of a single frequency, suitable for modulation by another, data-bearing signal.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":35,
+    "terms_name":"Carrier Sense Multiple Access (CSMA)",
+    "terms_desc":"A protocol in which a node wishing to transmit listens for a carrier wave before trying to send. If a carrier is sensed, the node waits for the transmission in progress to finish before initiating its own transmission.",
+    "terms_seelaso":"CSMA",
+    "terms_var":""
+  },
+  {
+    "terms_id":36,
+    "terms_name":"CCNA",
+    "terms_desc":"Cisco Certified Network Associate. The associate level certification founded by Cisco Systems.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":37,
+    "terms_name":"channel",
+    "terms_desc":"The medium used to transport information from a sender to a receiver.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":38,
+    "terms_name":"checksum",
+    "terms_desc":"A checksum is a form of redundancy check, a simple way to protect the integrity of data by detecting errors in data that are sent through space (telecommunications) or time (storage). It works by adding up the basic components of a message, typically the asserted bits, and storing the resulting value. Anyone can later perform the same operation on the data, compare the result to the authentic checksum, and (assuming that the sums match) conclude that the message was probably not corrupted",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":39,
+    "terms_name":"classful addressing",
+    "terms_desc":"In the early days of IPv4, IP addresses are divided into 5 classes, namely, Class A, Class B, Class C, Class D, and Class E.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":40,
+    "terms_name":"classless addressing",
+    "terms_desc":"Ipv4 addressing scheme that uses a subnet mask that does not follow classful addressing rules. It provides increased flexibility when dividing ranges of IP addresses into separate networks. ",
+    "terms_seelaso":"Variable length subnet mask",
+    "terms_var":""
+  },
+  {
+    "terms_id":41,
+    "terms_name":"client",
+    "terms_desc":"A client is a computer system that accesses a service on another computer remotely by accessing the network.",
+    "terms_seelaso":"Host",
+    "terms_var":""
+  },
+  {
+    "terms_id":42,
+    "terms_name":"client/server model",
+    "terms_desc":"A network architecture that connects a client to a server whereupon the client accesses services provided by the server.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":43,
+    "terms_name":"cloud",
+    "terms_desc":"The cloud symbol is used to represent network communications without showing specific details of the network architecture. The cloud typically is used to hide the details of Layer 1 and Layer 2.",
+    "terms_seelaso":"",
+    "terms_var":"Cloud"
+  },
+  {
+    "terms_id":44,
+    "terms_name":"coaxial",
+    "terms_desc":"Components that share a common axis. In the case of Coaxial cable there are three different layers of material surrounding the inner conducting material. The outer conductor, the insulator and the protective outer jacket.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":45,
+    "terms_name":"code",
+    "terms_desc":"A set of symbols for communicating information or instructions.",
+    "terms_seelaso":"",
+    "terms_var":"Code,encoding,decoding"
+  },
+  {
+    "terms_id":46,
+    "terms_name":"code groups",
+    "terms_desc":"A code group is a consecutive sequence of code bits that are interpreted and mapped as data bit patterns.",
+    "terms_seelaso":"",
+    "terms_var":"Code groups"
+  },
+  {
+    "terms_id":47,
+    "terms_name":"collaboration tool",
+    "terms_desc":"A collaboration tool is something that helps people work together on a particular file or piece of software. Many people use the term collaboration tool in a software context, for instance, collaboration software such as google docs, Microsoft sharepoint server. ",
+    "terms_seelaso":"",
+    "terms_var":"Collaboration tool"
+  },
+  {
+    "terms_id":48,
+    "terms_name":"collaborative (information systems)",
+    "terms_desc":"Information systems that allow the creation of a document or documents that can be edited by more than one person in real-time.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":49,
+    "terms_name":"Collision",
+    "terms_desc":"In Ethernet, the result of two nodes transmitting simultaneously. The frames from each device impact and are damaged when they meet on the physical media.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":50,
+    "terms_name":"Collision avoidance (CA)",
+    "terms_desc":"Used in multiple access topologies such as wireless LAN networks. When a node wants to transmit, it sends a signal called Request-To-Send (RTS) with the length of the data frame to send. If the receiving station wishes to allow the transmission, it replies the sender a signal called Clear-To-Send (CTS) with the length of the frame that is about to receive. If another node hears the RTS will not transmit in order to avoid conflict with the CTS.",
+    "terms_seelaso":"",
+    "terms_var":"Collision Avoidance"
+  },
+  {
+    "terms_id":51,
+    "terms_name":"collision domain",
+    "terms_desc":"A network segment where if one particular device sends a frame on a network segment, every other device on that same segment will process that frame. This also means that if two or more devices on that same segment transmit a frame at the same time there will be a collision.",
+    "terms_seelaso":"",
+    "terms_var":"Collision domain, Collision"
+  },
+  {
+    "terms_id":52,
+    "terms_name":"collision fragment",
+    "terms_desc":"Collision fragments are the product of a collision on a shared medium. The fragments sizes are less than 64 bytes.",
+    "terms_seelaso":"",
+    "terms_var":"Collision fragment, runt frame"
+  },
+  {
+    "terms_id":53,
+    "terms_name":"Command Line Interface (CLI)",
+    "terms_desc":"A method for interacting with computers using text as input. CLI can generally be considered as consisting of syntax and semantics. The syntax is the grammar that all commands must follow. ",
+    "terms_seelaso":"",
+    "terms_var":"A method for interacting with computers using text as input. CLI can generally be considered as consisting of syntax and semantics. The syntax is the grammar that all commands must follow. "
+  },
+  {
+    "terms_id":54,
+    "terms_name":"computer virus",
+    "terms_desc":"A computer virus is a computer program that can copy itself and infect a computer without permission or knowledge of the user.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":55,
+    "terms_name":"conduit (cabling)",
+    "terms_desc":"A tube or duct for enclosing electric wires or cable.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":56,
+    "terms_name":"congestion",
+    "terms_desc":"The state of a network when there is not sufficient bandwidth to support the amount of network traffic.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":57,
+    "terms_name":"console password",
+    "terms_desc":"A password configured on the console line of the router or switch that requires a user to access the console port only after providing a password.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":58,
+    "terms_name":"console port",
+    "terms_desc":"A port in which we can connect a terminal or computer with a terminal emulator to the network device in order to communicate and configure the network device.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":59,
+    "terms_name":"control data",
+    "terms_desc":"Data that guides a process. A flag in a data-link frame is an example of control data.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":60,
+    "terms_name":"converge",
+    "terms_desc":"When different intermediary devices exchange information in order to have a consistent viewpoint of the network. We can also use another form of the root word converge in the phrase \"converged network\". This kind of network aggregates various forms of traffic such as voice, video and data on the same network infrastructure. ",
+    "terms_seelaso":"converged network",
+    "terms_var":""
+  },
+  {
+    "terms_id":61,
+    "terms_name":"converged network",
+    "terms_desc":"A network that allows for voice, video and data to use the same IP network.",
+    "terms_seelaso":"converge",
+    "terms_var":""
+  },
+  {
+    "terms_id":62,
+    "terms_name":"crosstalk",
+    "terms_desc":"The effect by which a signal transmitted on one circuit or channel of a wire creates an undesired effect in another circuit or channel.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":63,
+    "terms_name":"CSMA/CA",
+    "terms_desc":"Collision Sense Multiple Access with Collision Avoidance. A \"flavor\" of CSMA that includes CA (Collision Avoidance).",
+    "terms_seelaso":"collision avoidance",
+    "terms_var":""
+  },
+  {
+    "terms_id":64,
+    "terms_name":"CSMA/CD",
+    "terms_desc":"Carrier sense multiple access with collision detection. Media-access mechanism wherein devices ready to transmit data first check the channel for a carrier. If no carrier is sensed for a specific period of time, a device can transmit. If two devices transmit at once, a collision occurs and is detected by all colliding devices. This collision subsequently delays retransmissions from those devices for some random length of time. CSMA/CD access is used by Ethernet and IEEE 802.3. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":65,
+    "terms_name":"CSU/DSU",
+    "terms_desc":"Channel Service Unit/Data Service Unit. A hardware device that converts a digital data frame from a local area network (LAN) into a frame appropriate to a wide-area network (WAN) and vice versa.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":66,
+    "terms_name":"cyclic redundancy check (CRC)",
+    "terms_desc":"Cyclical Redundancy Check is a type of hash function (one way encryption), which is used to produce a small, fixed-size checksum of a block of data, such as a packet or a computer file. A CRC is computed and appended before transmission or storage, and verified afterwards by the recipient to confirm that no changes have happened in transit.",
+    "terms_seelaso":"",
+    "terms_var":"Cyclic Redundancy Check, CRC, checksum"
+  },
+  {
+    "terms_id":67,
+    "terms_name":"daemon",
+    "terms_desc":"A computer program that runs in the background and are usually initiated as processes.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":68,
+    "terms_name":"data collision",
+    "terms_desc":"When two stations transmit at the same time on a multiple access topology and the frames of both sending stations collide with each other altering the original frame structure and creating fragments.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":69,
+    "terms_name":"When two stations transmit at the same time on a multiple access topology and the frames of both sending stations collide with each other altering the original frame structure and creating fragments.",
+    "terms_desc":"Data communications equipment (EIA expansion) or data circuit-terminating equipment (ITU-T expansion). The devices and connections of a communications network that comprise the network end of the user-to-network interface. The DCE provides a physical connection to the network, forwards traffic, and provides a clocking signal used to synchronize data transmission between DCE and DTE devices. Modems and interface cards are examples of DCE. Compare with DTE.",
+    "terms_seelaso":"",
+    "terms_var":"DCE"
+  },
+  {
+    "terms_id":70,
+    "terms_name":"data networks",
+    "terms_desc":"Digital networks used to send data between computers.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":71,
+    "terms_name":"Data Service Units (DSU)",
+    "terms_desc":"A device used in digital transmission for connecting a CSU (Channel Service Unit) to Data Terminal Equipment such as a router. ",
+    "terms_seelaso":"",
+    "terms_var":"Data Service Units, DSU, Data Terminal Equipment (DTE)"
+  },
+  {
+    "terms_id":72,
+    "terms_name":"Data Terminal Equipment (DTE)",
+    "terms_desc":"The interface between the router and the DCE (CSU/DSU). Controls data coming inbound (WAN to LAN) or outbound (LAN to WAN).",
+    "terms_seelaso":"",
+    "terms_var":"data terminal equipment (DTE), DTE, Data Service Units (DSU), Data Communications Equipment (DCE)"
+  },
+  {
+    "terms_id":73,
+    "terms_name":"datagrams",
+    "terms_desc":" A data packet that traverses an IP based network.",
+    "terms_seelaso":"",
+    "terms_var":"datagram, Datagram"
+  },
+  {
+    "terms_id":74,
+    "terms_name":"decapsulation",
+    "terms_desc":"The process of removing encapsulations in a receiving device. As PDUs arrive on each layer of the OSI model by the receiving computer the system discards of the previous layer's PDU in order to analyze its current layer's respective PDU.",
+    "terms_seelaso":"",
+    "terms_var":"Decapsulation"
+  },
+  {
+    "terms_id":75,
+    "terms_name":"decoding",
+    "terms_desc":"The reverse of encoding. Usually a sending station encodes and the receiving station decodes. There are many different meanings of decoding. Line encoding and decryption are contexts of decoding.",
+    "terms_seelaso":"",
+    "terms_var":"Decoding"
+  },
+  {
+    "terms_id":76,
+    "terms_name":"default gateway",
+    "terms_desc":"A device on a network that serves as an access point to another network. A default gateway is used by a host when an IP packet's destination address belongs to someplace outside the local subnet. A router is a good example of a default gateway.",
+    "terms_seelaso":"",
+    "terms_var":"Default Gateway"
+  },
+  {
+    "terms_id":77,
+    "terms_name":"default route",
+    "terms_desc":"The route used by a router when no other known route exists for a given packet's destination address.",
+    "terms_seelaso":"",
+    "terms_var":"Default route"
+  },
+  {
+    "terms_id":78,
+    "terms_name":"denial of service",
+    "terms_desc":"An attempt to make a computer resource unavailable to its intended user. Also called DoS.",
+    "terms_seelaso":"",
+    "terms_var":"Denial of Service, DoS"
+  },
+  {
+    "terms_id":79,
+    "terms_name":"destination address",
+    "terms_desc":"The address to which the data is going.",
+    "terms_seelaso":"",
+    "terms_var":"Destination address"
+  },
+  {
+    "terms_id":80,
+    "terms_name":"deterministic",
+    "terms_desc":"Used in multiple access topologies where there are rules that govern who can transmit. An example of a deterministic network is a Token Ring topology where the station that has the token can transmit. While there is only one station with the token, the other stations wait for possession of the same in order to transmit.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":81,
+    "terms_name":"digital logic",
+    "terms_desc":"Also known as Boolean algebra. These consist of the AND, OR, IF operations.",
+    "terms_seelaso":"",
+    "terms_var":"AND"
+  },
+  {
+    "terms_id":82,
+    "terms_name":"digital signatures",
+    "terms_desc":"A type of asymmetric cryptography used to simulate the security properties of a signature in digital form rather than written form.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":83,
+    "terms_name":"directed broadcast",
+    "terms_desc":"A single copy of a directed broadcast is routed to the specified network, where it is broadcast to all terminals on that network.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":84,
+    "terms_name":"directly connected",
+    "terms_desc":"A network that is directly connected to a device's interface. For example, networks that interface with the router are known to be directly connected.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":85,
+    "terms_name":"distributed information systems",
+    "terms_desc":"A method of computer processing in which different parts of a program run simultaneously on two or more computers that are communicating with each other over a network.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":86,
+    "terms_name":"DNS resolver",
+    "terms_desc":"In Unix/Linux computer systems, resolver is a set of software routines used for making, sending and interpreting query and reply messages with Internet domain name servers.",
+    "terms_seelaso":"Domain Name System (DNS)",
+    "terms_var":""
+  },
+  {
+    "terms_id":87,
+    "terms_name":"domain name",
+    "terms_desc":"Names used for the Domain Name System (DNS), for example the special name which follows the @ sign in an email address, or the Top-level domains like .com.",
+    "terms_seelaso":"DNS resolver, Domain Name System (DNS)",
+    "terms_var":""
+  },
+  {
+    "terms_id":88,
+    "terms_name":"Domain Name System (DNS)",
+    "terms_desc":"Translates domain names (computer hostnames) to IP addresses.",
+    "terms_seelaso":"",
+    "terms_var":"DNS, domain name"
+  },
+  {
+    "terms_id":89,
+    "terms_name":"dotted decimal",
+    "terms_desc":"The format in which an ip address follows. For example: 10.0.0.1.",
+    "terms_seelaso":"IPv4",
+    "terms_var":""
+  },
+  {
+    "terms_id":90,
+    "terms_name":"download",
+    "terms_desc":"Transferring data (usually a file) from another computer to the computer you are using.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":91,
+    "terms_name":"dynamic and/or private ports",
+    "terms_desc":"Ports in the 49152-65535 range and are not used by any defined application.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":92,
+    "terms_name":"Dynamic Host Configuration Protocol (DHCP)",
+    "terms_desc":"DHCP (Dynamic Host Configuration Protocol) is the protocol used to request and assign an IP address, default gateway, and DNS server address to a network host.",
+    "terms_seelaso":"",
+    "terms_var":"DHCP"
+  },
+  {
+    "terms_id":93,
+    "terms_name":"EIA/TIA",
+    "terms_desc":"Electronic Industries Alliance and the Telecommunication Industry Association. Responsible for developing standards. Responsible for the cabling standard EIA/TIA 568 a and b.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":94,
+    "terms_name":"electronic impulses",
+    "terms_desc":"A surge of electrical power in one direction.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":95,
+    "terms_name":"e-mail",
+    "terms_desc":"Electronic mail (abbreviated \"e-mail\" or, often, \"email\") is a store and forward method of composing, sending, storing, and receiving messages over electronic communication systems.",
+    "terms_seelaso":"",
+    "terms_var":"E-mail"
+  },
+  {
+    "terms_id":96,
+    "terms_name":"e-mail client",
+    "terms_desc":"Program used to download and send email. Email clients use pop3 to receive emails and use SMTP to send emails.",
+    "terms_seelaso":"",
+    "terms_var":"E-mail client, MUA"
+  },
+  {
+    "terms_id":97,
+    "terms_name":"EMI",
+    "terms_desc":"Interference in a radio receiver or other electrical circuit by electromagnetic radiation emitted from an external source.",
+    "terms_seelaso":"RFI",
+    "terms_var":""
+  },
+  {
+    "terms_id":98,
+    "terms_name":"enable mode",
+    "terms_desc":"Term used to represent the privileged exec mode.",
+    "terms_seelaso":"privileged executive mode",
+    "terms_var":""
+  },
+  {
+    "terms_id":99,
+    "terms_name":"enable password",
+    "terms_desc":"Unencrypted password used from User exec mode to enter Privileged exec mode.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":100,
+    "terms_name":"enable secret password",
+    "terms_desc":"Strong encrypted password that is required when a user wishes to enter priviledged exec mode.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":101,
+    "terms_name":"encapsulation",
+    "terms_desc":"The wrapping of data in a particular protocol header.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":102,
+    "terms_name":"encoding",
+    "terms_desc":"The process of transforming data from one form to another form. Line encoding is the process by which information from a source is converted into symbols to be communicated.",
+    "terms_seelaso":"encryption, decoding, manchester encoding",
+    "terms_var":""
+  },
+  {
+    "terms_id":103,
+    "terms_name":"encrypted",
+    "terms_desc":"The process of obscuring information to make it unreadable without special knowledge, sometimes referred to as scrambling.",
+    "terms_seelaso":"",
+    "terms_var":"Encrypted Encoding, Decoding, encryption"
+  },
+  {
+    "terms_id":104,
+    "terms_name":"encryption",
+    "terms_desc":"Data which has had a specific algorithm applied so as to alter the appearance of the data making it incomprehensible to those who are not authorized to see the information.",
+    "terms_seelaso":"",
+    "terms_var":"Encryption, Encoding, Decoding, encrypted"
+  },
+  {
+    "terms_id":105,
+    "terms_name":"end devices",
+    "terms_desc":"A device such as a desktop or mobile device that is used by an end user. ",
+    "terms_seelaso":"host, client",
+    "terms_var":""
+  },
+  {
+    "terms_id":106,
+    "terms_name":"end-to-end",
+    "terms_desc":"End user device to end user device.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":107,
+    "terms_name":"error recovery",
+    "terms_desc":"A procedure that allows a user to recover from errors such as failure of either host system or transfer process. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":108,
+    "terms_name":"Ethernet crossover",
+    "terms_desc":"UTP cabling where the pins order on one end follows the 568a pinning order and the other end of the cable follows the 568b pinning order. Use when connecting two pieces of equipment that have the same pinage on both ports.",
+    "terms_seelaso":"Ethernet straight-through",
+    "terms_var":""
+  },
+  {
+    "terms_id":109,
+    "terms_name":"Ethernet PHY",
+    "terms_desc":"Ethernet PHY is the physical interface transceiver meaning that it deals with layer 1 (the physical layer, hence the PHY) of Ethernet.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":110,
+    "terms_name":"Ethernet straight-through",
+    "terms_desc":"UTP cabling where the pins order on one end follows the 568a pinning order and the other end of the cable follows the same 568a pinning order. Used when connecting a computer or a router to a switch.",
+    "terms_seelaso":" Ethernet crossover",
+    "terms_var":""
+  },
+  {
+    "terms_id":111,
+    "terms_name":"expansion slot",
+    "terms_desc":"A slot on a motherboard in which you can insert a kind of card to expand the computer's capabilities. For example an AGP slot is known as na expansion slot.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":112,
+    "terms_name":"extranets ",
+    "terms_desc":"Part of a company's Intranet that is extended to users outside the company (e.g.: normally over the Internet).",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":113,
+    "terms_name":"Federal Communication Commission (FCC)",
+    "terms_desc":"Federal Communications Commission. Responsible for the regulation of all non-Federal Government use of radio and television, all interstate telecommunications (wire, satellite and cable) as well as all international communications that originate or terminate in the United States.",
+    "terms_seelaso":"",
+    "terms_var":"FCC"
+  },
+  {
+    "terms_id":114,
+    "terms_name":"fiber-optics",
+    "terms_desc":"Physical medium that uses glass or plastic threads to transmit data. A fiber optic cable consists of a bundle of these threads, each of which is capable of transmitting electric signals into light waves.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":115,
+    "terms_name":"filtering",
+    "terms_desc":"The act of selecting data and discarding it based on certain predefined criteria.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":116,
+    "terms_name":"FIN (Finish)",
+    "terms_desc":"A message used in TCP that is used by a device that wishes to terminate its session with the other device. This is done by inserting the FIN flag in the flag field found in the TCP segment.",
+    "terms_seelaso":"TCP",
+    "terms_var":""
+  },
+  {
+    "terms_id":117,
+    "terms_name":"firewall",
+    "terms_desc":"A firewall is a hardware device or a software application designed to protect network devices from outside network users and/or malicious applications and files.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":118,
+    "terms_name":"flooding",
+    "terms_desc":"The sending of frames through all outgoing ports.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":119,
+    "terms_name":"flow",
+    "terms_desc":"Stream of data traveling between two endpoints across a network (for example, from one LAN station to another). Multiple flows can be transmitted on a single circuit.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":120,
+    "terms_name":"flow control",
+    "terms_desc":"Flow control is the management of data flow between devices in a network. It is used to avoid too much data arriving before a device can handle it, causing data overflow. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":121,
+    "terms_name":"fragment offset",
+    "terms_desc":"Field within an IP datagram that provides information about the position of the fragment within the original datagram.",
+    "terms_seelaso":"fragmentation",
+    "terms_var":""
+  },
+  {
+    "terms_id":122,
+    "terms_name":"fragmentation",
+    "terms_desc":"The fragmenting of IP datagrams in order to meet the MTU requirements of a layer 2 protocols.",
+    "terms_seelaso":"fragment offset",
+    "terms_var":""
+  },
+  {
+    "terms_id":123,
+    "terms_name":"frame",
+    "terms_desc":"The layer two PDU which has been encoded by a data link layer protocol for digital transmission. Some different kinds of frames are Ethernet frames and PPP frames.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":124,
+    "terms_name":"full-duplex",
+    "terms_desc":"Communication that allows for receipt and transmission simultaneously. A station can transmit and receive at the same time. There are no collisions with full duplex transmission.",
+    "terms_seelaso":"half duplex",
+    "terms_var":""
+  },
+  {
+    "terms_id":125,
+    "terms_name":"gateway",
+    "terms_desc":"In the IP community, an older term referring to a routing device. Today, the term router is used to describe nodes that perform this function, and gateway refers to a special-purpose device that performs an application-layer conversion of information from one protocol stack to another. Compare with router.",
+    "terms_seelaso":"",
+    "terms_var":"Gateway, default gateway"
+  },
+  {
+    "terms_id":126,
+    "terms_name":"Gbps",
+    "terms_desc":"Gigabits (a billion bits) per second.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":127,
+    "terms_name":"global configuration mode",
+    "terms_desc":"From the privileged mode we enter the global configuration mode where we can configure global parameters or enter other configuration submodes such as interface, router, and line configuration submodes.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":128,
+    "terms_name":"globally scoped addresses",
+    "terms_desc":"Unique addresses that are public domain addresses.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":129,
+    "terms_name":"goodput",
+    "terms_desc":"Application level throughput. It is the number of useful bits per unit of time from a certain source address to a certain destination, excluding protocol overhead, and excluding retransmitted data packets.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":130,
+    "terms_name":"half-duplex",
+    "terms_desc":"Communication that only allows for one station to receive while the other station is transmitting.",
+    "terms_seelaso":"full-duplex",
+    "terms_var":""
+  },
+  {
+    "terms_id":131,
+    "terms_name":"hardware",
+    "terms_desc":"Hardware are physical components of a computer, such as the hard drive, memory chip, motherboard, CPU, etc.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":132,
+    "terms_name":"hardware interface",
+    "terms_desc":"A physical connector that joins electrical circuits together. A hardware interface completes the connection of both ends. For instance, a hardware interface is where you connect the cable connector to the piece of equipment.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":133,
+    "terms_name":"hashing algorithms",
+    "terms_desc":"Reproducible method of turning some kind of data into a (relatively) small number that may serve as a digital \"fingerprint\" of the data. The algorithm \"chops and mixes\" (i.e., substitutes or transposes) the data to create such fingerprints, called hash values.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":134,
+    "terms_name":"header",
+    "terms_desc":"The informational data at the beginning of a data block that devices use to process the datagram.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":135,
+    "terms_name":"hexadecimal",
+    "terms_desc":"A base 16 numeral system whose characters begin at 0 -9 and A - F (to represent 10 - 15).",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":136,
+    "terms_name":"Hierarchical",
+    "terms_desc":"Something that is classified according to various criteria into successive levels or layers. For instance, you can plan your network addressing in hierarchical way in order to provide for efficient routing.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":137,
+    "terms_name":"hierarchical addressing",
+    "terms_desc":"An addressing scheme in which a network is partitioned into sections, with the section identifier forming one part of each destinations address, and the destination identifier forming another.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":138,
+    "terms_name":"hop",
+    "terms_desc":"The passage of a data packet between two network nodes (for example, between two routers). ",
+    "terms_seelaso":"next-hop",
+    "terms_var":""
+  },
+  {
+    "terms_id":139,
+    "terms_name":"host",
+    "terms_desc":"A device that communicates over a network.",
+    "terms_seelaso":"client, node",
+    "terms_var":""
+  },
+  {
+    "terms_id":140,
+    "terms_name":"host address",
+    "terms_desc":"An address of a network host. When talking about host addresses, we are usually talking the network layer address.",
+    "terms_seelaso":"host, ip address",
+    "terms_var":""
+  },
+  {
+    "terms_id":141,
+    "terms_name":"host-group",
+    "terms_desc":"A host-group is a group defined by a class D address (multicast, ranging from 224.0.0.0 - 239.255.255.255) whereupon hosts can pertain to multicast groups. Hosts that have the same multicast address are part of the same host-group.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":142,
+    "terms_name":"HTML",
+    "terms_desc":"Hyper Text Markup Language. Source code that web sites are written in. Web browsers download the source code from web servers and \"translate\" the code into visual format for the end user to see. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":143,
+    "terms_name":"Hub",
+    "terms_desc":"By definition a hub is a meeting place of sorts. A place of aggregation. In terms of equipment, a hub is a piece of equipment that acts as a multiport repeater. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":144,
+    "terms_name":"hybrid fiber coax (HFC)",
+    "terms_desc":"A network which incorporates optical fiber along with coaxial cable to create a broadband network. Commonly used by cable TV companies.",
+    "terms_seelaso":"",
+    "terms_var":"HFC"
+  },
+  {
+    "terms_id":145,
+    "terms_name":"Hypertext Transfer Protocol (HTTP)",
+    "terms_desc":"Hypertext Transfer Protocol (HTTP) is a method used to transfer or convey information on the World Wide Web. Its original purpose was to provide a way to publish and retrieve HTML pages.",
+    "terms_seelaso":"",
+    "terms_var":"HTTP"
+  },
+  {
+    "terms_id":146,
+    "terms_name":"instant messaging",
+    "terms_desc":"Real-time communication between two or more people via text or other data.",
+    "terms_seelaso":"",
+    "terms_var":"IM, Instant Messaging"
+  },
+  {
+    "terms_id":147,
+    "terms_name":"Institute of Electrical and Electronics Engineers",
+    "terms_desc":"An international non-profit organization for the advancement of technology related to electricity. It has more than 360,000 members in around 175 countries.",
+    "terms_seelaso":"",
+    "terms_var":"IEEE, Institute of Electrical and Electronics Engineers (IEEE)"
+  },
+  {
+    "terms_id":148,
+    "terms_name":"intelligent devices",
+    "terms_desc":"An intelligent device is any type of equipment, instrument, or machine that has its own computing capability.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":149,
+    "terms_name":"interframe gap",
+    "terms_desc":"Interframe Gap provides a brief recovery time between frames to allow devices to prepare for reception of the next frame. The usual interframe spacing between Ethernet frames is 96 bit times.",
+    "terms_seelaso":"",
+    "terms_var":"Interframe Gap"
+  },
+  {
+    "terms_id":150,
+    "terms_name":"intermediary devices",
+    "terms_desc":"A device that connects directly to end user devices or provides end user routing to other networks. For instance, a router is an example of an intermediary device.",
+    "terms_seelaso":"",
+    "terms_var":"intermediary device, Intermediary devices, router, switch"
+  },
+  {
+    "terms_id":151,
+    "terms_name":"International Organization for Standardization",
+    "terms_desc":"An international standard-setting organization composed of representatives from various national standards bodies. Also called ISO. There are many ISO standards that span various industries ranging from quality standards to information security standards. ",
+    "terms_seelaso":"",
+    "terms_var":"ISO"
+  },
+  {
+    "terms_id":152,
+    "terms_name":"International Telecommunication Union (ITU)",
+    "terms_desc":"Regulates international radio and telecommunications. Standardizatizes, organizes interconnection agreements between different countries to allow international phone communications and is responsible for allocation of the radio spectrum.",
+    "terms_seelaso":"",
+    "terms_var":"ITU"
+  },
+  {
+    "terms_id":153,
+    "terms_name":"Internet",
+    "terms_desc":"The Internet is a publicly accessible network of interconnected computer networks that transmit data by using IP, the internet protocol.",
+    "terms_seelaso":"World Wide Web (WWW)",
+    "terms_var":""
+  },
+  {
+    "terms_id":154,
+    "terms_name":"Internet Assigned Numbers Authority (IANA)",
+    "terms_desc":"An organization responsible for the allocation of Internet Protocol addresses to Internet service providers (ISPs).",
+    "terms_seelaso":"",
+    "terms_var":"IANARIR"
+  },
+  {
+    "terms_id":155,
+    "terms_name":"Internet backbone",
+    "terms_desc":"A high-speed line or series of connections that forms a major pathway within a network. The term Internet backbone is often used to describe the main network connections composing the Internet.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":156,
+    "terms_name":"Internet Control Messaging Protocol (ICMP)",
+    "terms_desc":"Internet Control Message Protocol. Network layer Internet protocol that reports errors and provides other information relevant to IP packet processing. Documented in RFC 792.",
+    "terms_seelaso":"",
+    "terms_var":"ICMP, Internet control messaging protocol, internet control messaging protocol"
+  },
+  {
+    "terms_id":157,
+    "terms_name":"Internet Engineering Task Force (IETF)",
+    "terms_desc":"Internet Engineering Task Force. Task force consisting of over 80 working groups responsible for developing Internet standards. The IETF operates under the auspices of ISOC.",
+    "terms_seelaso":"",
+    "terms_var":"IETF"
+  },
+  {
+    "terms_id":158,
+    "terms_name":"Internet Protocol (IP)",
+    "terms_desc":"Internet Protocol. Network layer protocol in the TCP/IP stack offering a connectionless internetwork service. IP provides features for addressing, type-of-service specification, fragmentation and reassembly, and security. Documented in RFC 791.",
+    "terms_seelaso":"",
+    "terms_var":"IP"
+  },
+  {
+    "terms_id":159,
+    "terms_name":"Internet Service Provider (ISP)",
+    "terms_desc":"An ISP is a company that provides access to the Internet to individuals or companies.",
+    "terms_seelaso":"",
+    "terms_var":"ISP"
+  },
+  {
+    "terms_id":160,
+    "terms_name":"internetwork",
+    "terms_desc":"The interconnection of two or more different networks.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":161,
+    "terms_name":"Internetwork Operating System (IOS)",
+    "terms_desc":"Internetwork Operating System. This is the operating system that many Cisco Systems network devices use. Different versions of IOS have different functions for different devices. ",
+    "terms_seelaso":"",
+    "terms_var":"IOS"
+  },
+  {
+    "terms_id":162,
+    "terms_name":"interpret as command (iac)",
+    "terms_desc":"In the telnet application, commands are always introduced by a character with the decimal code 255 known as an Interpret as Command (IAC) character.",
+    "terms_seelaso":"",
+    "terms_var":"IAC, Interpret as Command (IAC)"
+  },
+  {
+    "terms_id":163,
+    "terms_name":"intranet",
+    "terms_desc":"A system internal to an organization such as a web site that is explicitly used by internal employees or students. Can be accessed internally or remotely.",
+    "terms_seelaso":"Intranet",
+    "terms_var":""
+  },
+  {
+    "terms_id":164,
+    "terms_name":"IP address",
+    "terms_desc":"Unique number that devices use in order to identify and communicate with each other on a computer network utilizing the Internet Protocol standard (IP).",
+    "terms_seelaso":"IP AddressIPv4,IPv6",
+    "terms_var":""
+  },
+  {
+    "terms_id":165,
+    "terms_name":"IPv4",
+    "terms_desc":"Short for Internet Protocol version 4. It is the current version of Internet Protocol.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":166,
+    "terms_name":"IPv6",
+    "terms_desc":"A network layer protocol for packet-switched internet works. The successor of IPv4 for general use on the Internet.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":167,
+    "terms_name":"latency",
+    "terms_desc":"Latency is the time delay between the moment a process is started and the moment the effects of that same process are detected. For instance, when transmitting data, latency is the delay it takes for the data to be sent between the sender and the receiver.",
+    "terms_seelaso":"",
+    "terms_var":"Latency"
+  },
+  {
+    "terms_id":168,
+    "terms_name":"layered model",
+    "terms_desc":"A model that consists of various layers that enables the development and explanation of technology to be done on a modular basis. This allows for interoperability amongst different technologies within and between the different layers.",
+    "terms_seelaso":"OSI model",
+    "terms_var":""
+  },
+  {
+    "terms_id":169,
+    "terms_name":"limited broadcast",
+    "terms_desc":"A broadcast that is sent to a specific network or series of networks.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":170,
+    "terms_name":"link-local addresses",
+    "terms_desc":"An IP address in the range from 169.254.1.0 to 169.254.254.255",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":171,
+    "terms_name":"Linux",
+    "terms_desc":"A Unix-like computer operating system family. Some versions of Linux are free with underlying source code available for anyone to use. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":172,
+    "terms_name":"llc",
+    "terms_desc":"Logical Link Control is the upper layer of the OSI data link layer. When a host receives a frame and looks in the LLC header it finds out what upper layer protocol is being transported in the frame for example the IP protocol at the Network layer or IPX.",
+    "terms_seelaso":"",
+    "terms_var":"Logical Link Control, logical link control"
+  },
+  {
+    "terms_id":173,
+    "terms_name":"Local Area Network (LAN)",
+    "terms_desc":"The term Local Area Network (LAN) refers to a local network, or a group of interconnected local networks that are under the same administrative control. In the early days of networking, LANs were defined as small networks that existed in a single physical location. While LANs can be a single local network installed in a home or small office, the definition of LAN has evolved to include interconnected local networks consisting of many hundreds of hosts, installed in multiple buildings and locations.",
+    "terms_seelaso":"",
+    "terms_var":"LAN, Local Area Networks, WAN"
+  },
+  {
+    "terms_id":174,
+    "terms_name":"logical address",
+    "terms_desc":"A network layer address. An address that can be changed at any time unlike a data-link layer address which is burned in the NIC.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":175,
+    "terms_name":"logical topology",
+    "terms_desc":"The map of devices on a network and how they communicate with one another. Shows the flow of data on a network.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":176,
+    "terms_name":"loop back",
+    "terms_desc":"127.0.0.1 is an IP address available on all devices to test to see if the NIC card on that device is functioning. If you send data to 127.0.0.1, it loops back on itself, thereby sending the data to the NIC on that device. If you get a positive response to a ping 127.0.0.1, you know your NIC card is up and running.",
+    "terms_seelaso":"",
+    "terms_var":"loopback"
+  },
+  {
+    "terms_id":177,
+    "terms_name":"MAC Address",
+    "terms_desc":"Standardized data link layer address that is required for every port or device that connects to a LAN. Other devices in the network use these addresses to locate specific ports in the network and to create and update routing tables and data structures. MAC addresses are 6 bytes long and are controlled by the IEEE.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":178,
+    "terms_name":"mac table",
+    "terms_desc":"The table that a switch creates in order to know where to forward outgoing frames. The MAC table consists of port number and the MAC address of the host associated with the same port. On a Cisco switch, it is called a CAM table.",
+    "terms_seelaso":"",
+    "terms_var":"MAC table, MAC Table"
+  },
+  {
+    "terms_id":179,
+    "terms_name":"mail carrier",
+    "terms_desc":" A person that delivers mail.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":180,
+    "terms_name":"Mail User Agent (MUA)",
+    "terms_desc":"Mail User Agent (MUA) allows messages to be sent and places received messages into the client's mailbox, both of which are distinct processes.",
+    "terms_seelaso":"",
+    "terms_var":"mail user agent, MUA, e-mail client"
+  },
+  {
+    "terms_id":181,
+    "terms_name":"managed (device)",
+    "terms_desc":"A device that a user can connect to either a console port or via HTTP to monitor and configure the device.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":182,
+    "terms_name":"Manchester encoding",
+    "terms_desc":"Line code in which each bit of data is signified by at least one voltage level transition.",
+    "terms_seelaso":"encoding, decoding",
+    "terms_var":""
+  },
+  {
+    "terms_id":183,
+    "terms_name":"Maximum Transmission Unit (MTU)",
+    "terms_desc":"Maximum transmission unit. Maximum packet size, in bytes, that a particular interface can handle.",
+    "terms_seelaso":"",
+    "terms_var":"MTU"
+  },
+  {
+    "terms_id":184,
+    "terms_name":"mbps",
+    "terms_desc":"megabits (a million bits) per second.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":185,
+    "terms_name":"MDI",
+    "terms_desc":"Medium Dependent Interface. Basically the pinout order on a NIC card on a PC. On Hubs or switches it is also known as an uplink port. ",
+    "terms_seelaso":"",
+    "terms_var":"mdi"
+  },
+  {
+    "terms_id":186,
+    "terms_name":"MDIX",
+    "terms_desc":"Media Dependent Interface Crossover is the pinout of a hub or switch in which the input pins on side correspond with the output pins on the other side.",
+    "terms_seelaso":"",
+    "terms_var":"mdix"
+  },
+  {
+    "terms_id":187,
+    "terms_name":"media",
+    "terms_desc":"In the context of this course media is the plural form of medium.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":188,
+    "terms_name":"medium",
+    "terms_desc":"A physical medium in which data is transferred. For example, UTP is a form of networking media.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":189,
+    "terms_name":"Metropolitan Area Network (MAN)",
+    "terms_desc":"Metropolitan Area Network is a network that spans a city. The network consists of various buildings interconnected via either wireless or fiber optic backbones.",
+    "terms_seelaso":"",
+    "terms_var":"MAN"
+  },
+  {
+    "terms_id":190,
+    "terms_name":"modal dispersion",
+    "terms_desc":"The modes of light that enter the fiber at the same time and exit the fiber at different times. This condition causes the light pulse to spread. As the length of the fiber increases, modal dispersion increases.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":191,
+    "terms_name":"most-significant bit",
+    "terms_desc":"The bit position in a binary number having the greatest value. The msb is sometimes referred to as the left-most bit.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":192,
+    "terms_name":"multicast client",
+    "terms_desc":"A member of a multicast group. Every multicast client in each group has the same IP address. Multicast addresses begin with 224.*.*.* and end with 239.*.*.*",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":193,
+    "terms_name":"multicast group",
+    "terms_desc":"A multicast group is a group that receives a multicast transmission. The members of a multicast group have the same multicast IP addressing in order to receive the same transmission (a one to many transmission).",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":194,
+    "terms_name":"multiplexing",
+    "terms_desc":"A process where multiple digital data streams are combined into one signal.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":195,
+    "terms_name":"ndp",
+    "terms_desc":"Neighbor Discovery Protocol (NDP) . It replaces ARP in IPv6.",
+    "terms_seelaso":"",
+    "terms_var":"NDP, neighbor discovery protocol"
+  },
+  {
+    "terms_id":196,
+    "terms_name":"network",
+    "terms_desc":"A network is multiple computers connected together using a communications system. The purpose of a network is for computers to communicate and share files.",
+    "terms_seelaso":"",
+    "terms_var":"Networks, Network"
+  },
+  {
+    "terms_id":197,
+    "terms_name":"network address",
+    "terms_desc":"Network layer address referring to a logical, rather than a physical, network device. Also called a protocol address. ",
+    "terms_seelaso":"",
+    "terms_var":"Network Address, Network addressip address"
+  },
+  {
+    "terms_id":198,
+    "terms_name":"Network Address Translation (NAT)",
+    "terms_desc":"Translation of RFC 1918 addresses to public domain addresses. Since RFC 1918 addresses are not routed on the internet hosts accessing the internet must use public domain addresses.",
+    "terms_seelaso":"",
+    "terms_var":"NAT"
+  },
+  {
+    "terms_id":199,
+    "terms_name":"network baseline",
+    "terms_desc":"A network baseline is a process that involves monitoring network performance and behavior over a certain period of time allowing for a point of reference when wanting to monitor performance in the future. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":200,
+    "terms_name":"network interface card",
+    "terms_desc":"A piece of computer hardware designed to allow computers to communicate over a computer network.",
+    "terms_seelaso":"",
+    "terms_var":"NIC, Network Interface Card"
+  },
+  {
+    "terms_id":201,
+    "terms_name":"network segment",
+    "terms_desc":"A part of a computer network that every device communicates using the same physical medium. Network segments are extended by hubs or repeaters.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":202,
+    "terms_name":"Network Time Protocol (NTP)",
+    "terms_desc":"A protocol for synchronizing the clocks of computer systems over packet-switched data networks. NTP uses UDP port 123 as its transport layer.",
+    "terms_seelaso":"",
+    "terms_var":"NTP"
+  },
+  {
+    "terms_id":203,
+    "terms_name":"next-hop",
+    "terms_desc":"The next point of routing. When routers are not directly connected to the destination network, they will have a neighboring router that provides the next step in routing the data to its destination.",
+    "terms_seelaso":"",
+    "terms_var":"hop"
+  },
+  {
+    "terms_id":204,
+    "terms_name":"nibbles",
+    "terms_desc":"A single hexadecimal digit represented by 4 bits.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":205,
+    "terms_name":"node",
+    "terms_desc":"A data-link layer term describing a device connected to the network.",
+    "terms_seelaso":"",
+    "terms_var":"Node, host"
+  },
+  {
+    "terms_id":206,
+    "terms_name":"non-return to zero (NRZ)",
+    "terms_desc":"Signals that maintain constant voltage levels with no signal transitions (no return to a zero-voltage level) during a bit interval.",
+    "terms_seelaso":"",
+    "terms_var":"NRZ, Non-return to Zero, Non-Return to Zero encoding"
+  },
+  {
+    "terms_id":207,
+    "terms_name":"nslookup ",
+    "terms_desc":"NSLOOKUP is a service or a program to look up information in the DNS (Domain Name System).",
+    "terms_seelaso":"",
+    "terms_var":"NSLOOKUP"
+  },
+  {
+    "terms_id":208,
+    "terms_name":"NVRAM",
+    "terms_desc":"Non Volatile Random Access Memory. Random access memory that, when the computer shuts down, the contents in NVRAM remain there.",
+    "terms_seelaso":"",
+    "terms_var":"nvram"
+  },
+  {
+    "terms_id":209,
+    "terms_name":"octet",
+    "terms_desc":"A group of 8 binary bits. It is similar, but not the same, to byte. One application in computer networking is to use octet to divide IPv4 addresses into 4 components.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":210,
+    "terms_name":"Open System Interconnection (OSI)",
+    "terms_desc":"Open System Interconnection. International standardization program created by ISO and ITU-T to develop standards for data networking that facilitate multivendor equipment interoperability.",
+    "terms_seelaso":"",
+    "terms_var":"OSI"
+  },
+  {
+    "terms_id":211,
+    "terms_name":"operating system",
+    "terms_desc":"A software that performs basic tasks such as controlling and allocating memory, prioritizing system requests, controlling input and output devices, facilitating networking, and managing file systems.",
+    "terms_seelaso":"",
+    "terms_var":"Operating System, Operating system"
+  },
+  {
+    "terms_id":212,
+    "terms_name":"oui",
+    "terms_desc":"Organizationally Unique Identifier. This identifier uniquely identifies a vendor, manufacturer of a network interface card. It is the first 24 bits of a network interface card.",
+    "terms_seelaso":"",
+    "terms_var":"OUI, Organizationally Unique Identifier, MAC address"
+  },
+  {
+    "terms_id":213,
+    "terms_name":"p2p",
+    "terms_desc":"Peer to peer networking whereupon computers that are part of the same network create a distributed system. Mostly used to share files with other p2p peers. Peer-to-peer computing calls for each network device to run both client and server portions of an application.",
+    "terms_seelaso":"peer",
+    "terms_var":""
+  },
+  {
+    "terms_id":214,
+    "terms_name":"packet",
+    "terms_desc":"Logical grouping of information that includes a header containing control information and (usually) user data. Packets are most often used to refer to network layer units of data. The terms datagram, frame, message, and segment are also used to describe logical information groupings at various layers of the OSI reference model and in various technology circles.",
+    "terms_seelaso":"",
+    "terms_var":"Packet, packets, pdu"
+  },
+  {
+    "terms_id":215,
+    "terms_name":"packet tracer",
+    "terms_desc":"An instructional tool and network simulator developed by Cisco Systems to design, configure, troubleshoot, and visualize network traffic within a controlled, simulated program environment.",
+    "terms_seelaso":"",
+    "terms_var":"Packet Tracer"
+  },
+  {
+    "terms_id":216,
+    "terms_name":"pad",
+    "terms_desc":"A part of the Ethernet frame that fills in the data field to ensure that the data field meets the minimum size requirement of 46 bytes.",
+    "terms_seelaso":"",
+    "terms_var":"PAD"
+  },
+  {
+    "terms_id":217,
+    "terms_name":"pam",
+    "terms_desc":"Pulse-amplitude Modulation. A form of signal modulation where the message information is encoded in the amplitude of a series of signal pulses. It transmits data by varying the amplitudes (voltage or power levels) of the individual pulses. Is now obsolete and has been replaced by Pulse-code Modulation.",
+    "terms_seelaso":"",
+    "terms_var":"PAM"
+  },
+  {
+    "terms_id":218,
+    "terms_name":"pda",
+    "terms_desc":"A PDA (Personal Digital Assistant) is a hand-held device normally used to help keep a person organized.",
+    "terms_seelaso":"",
+    "terms_var":"PDA, PDAs"
+  },
+  {
+    "terms_id":219,
+    "terms_name":"pdu",
+    "terms_desc":"Short for Protocol Data Unit. The term PDU is used to describe data as it moves from one layer of the OSI model to another. In this reference, PDU is often used synonymously with packet.",
+    "terms_seelaso":"",
+    "terms_var":"PDU, OSI model, packet"
+  },
+  {
+    "terms_id":220,
+    "terms_name":"peer",
+    "terms_desc":"A host or node that participates in some form of group. For instance peer-to-peer technology defines a group of peers that participate jointly in the same activity, each one have a server and client component.",
+    "terms_seelaso":"",
+    "terms_var":"Peer, p2p"
+  },
+  {
+    "terms_id":221,
+    "terms_name":"physical address",
+    "terms_desc":"A data-link layer address, for example a MAC address.",
+    "terms_seelaso":"",
+    "terms_var":"Physical address, MAC address"
+  },
+  {
+    "terms_id":222,
+    "terms_name":"physical topology",
+    "terms_desc":"The physical topology of a network refers to the configuration of cables, computers, and other peripherals.",
+    "terms_seelaso":"",
+    "terms_var":"Physical topology"
+  },
+  {
+    "terms_id":223,
+    "terms_name":"pinouts",
+    "terms_desc":"The pin assignment that describes which signal may be obtained from some position in the connector.",
+    "terms_seelaso":"",
+    "terms_var":"pinout, PinoutMDI, MDIX"
+  },
+  {
+    "terms_id":224,
+    "terms_name":"plug-in",
+    "terms_desc":"A program that acts as an add-on to a main program such as the flash player that you install in order to view flash animations in your navigator.",
+    "terms_seelaso":"",
+    "terms_var":"Plugin, Plug-in"
+  },
+  {
+    "terms_id":225,
+    "terms_name":"podcasting",
+    "terms_desc":"Podcast is a digital media file or files that are distributed over the Internet using syndication feeds, for playback on portable media players and personal computers.",
+    "terms_seelaso":"",
+    "terms_var":"Podcasting"
+  },
+  {
+    "terms_id":226,
+    "terms_name":"points of failure",
+    "terms_desc":"Describes any part of the system that can, if it fails, cause an interruption of required service.",
+    "terms_seelaso":"",
+    "terms_var":"Points of failure"
+  },
+  {
+    "terms_id":227,
+    "terms_name":"ports",
+    "terms_desc":"Ports are typically used to identify a certain process or service on a computer. When a remote device wishes to access a certain service on a server, for example, it will direct that data to a certain port which will identify the kind of service that device wants to use. ",
+    "terms_seelaso":"",
+    "terms_var":"port"
+  },
+  {
+    "terms_id":228,
+    "terms_name":"positional notation",
+    "terms_desc":"Positional notation or place-value notation system is a numeral system in which each position is related to the next by a constant multiplier, a common ratio, called the base or radix of that numeral system.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":229,
+    "terms_name":"Post Office Protocol (POP)",
+    "terms_desc":"POP (Post Office Protocol) is a protocol used when retrieving an e-mail message.",
+    "terms_seelaso":"",
+    "terms_var":"POP, SMTP"
+  },
+  {
+    "terms_id":230,
+    "terms_name":"Power Over Ethernet (POE)",
+    "terms_desc":"A method of transmitting power to a device by carrying power in the unused 4/5 and 7/8 wires of a UTP cable. It allows access points and other remote devices to be installed where there is no AC power outlet.",
+    "terms_seelaso":"",
+    "terms_var":"POE, power over Ethernet"
+  },
+  {
+    "terms_id":231,
+    "terms_name":"prefix length",
+    "terms_desc":"Number of bits that are used to define the subnet mask. For example the subnet mask 255.255.0.0 is a /16 prefix.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":232,
+    "terms_name":"private addresses",
+    "terms_desc":"An address that is used for internal networks. This address follows RFC 1918 addressing. Not routable on the internet.",
+    "terms_seelaso":"ip address",
+    "terms_var":""
+  },
+  {
+    "terms_id":233,
+    "terms_name":"privileged executive mode",
+    "terms_desc":"Privileged Exec Mode is the administration mode for the router or switch. This mode by allows you to view router settings that are considered only accessible to the administrator. This mode also allows you to enter global configuration mode. To get into the privileged exec mode you must use the enable command.",
+    "terms_seelaso":"",
+    "terms_var":"Privileged exec mode, privileged exec mode, enable mode"
+  },
+  {
+    "terms_id":234,
+    "terms_name":"process",
+    "terms_desc":"A series of progressive and interdependent steps by which an end is attained.",
+    "terms_seelaso":"",
+    "terms_var":"Process"
+  },
+  {
+    "terms_id":235,
+    "terms_name":"protocol",
+    "terms_desc":"A set of rules governing communication.",
+    "terms_seelaso":"",
+    "terms_var":"Protocol"
+  },
+  {
+    "terms_id":236,
+    "terms_name":"protocol suite",
+    "terms_desc":"Set of communications protocols that implement the protocol stack on which networks run.",
+    "terms_seelaso":"",
+    "terms_var":"Protocol suite"
+  },
+  {
+    "terms_id":237,
+    "terms_name":"proxy arp",
+    "terms_desc":"Proxy ARP is when routers respond to ARP requests on one interface with its own MAC address as being responsible for addresses of device addresses on another interface.",
+    "terms_seelaso":"",
+    "terms_var":"proxy ARP, Proxy ARP"
+  },
+  {
+    "terms_id":238,
+    "terms_name":"proxy server",
+    "terms_desc":"A server that acts as a kind of relay between the client and the destination server on the internet. The proxy server acts on behalf of the client and the server on the internet. All requests from the clients to the Internet go to the proxy server first. The proxy evaluates them, and if allowed, re-establishes the requests on the outbound side to the Internet. This is also the case on inbound traffic.",
+    "terms_seelaso":"",
+    "terms_var":"Proxy server"
+  },
+  {
+    "terms_id":239,
+    "terms_name":"public addresses",
+    "terms_desc":"Public addresses are assigned by InterNIC and consist of class-based network IDs or blocks of CIDR-based addresses (called CIDR blocks) that are globally unique to the Internet.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":240,
+    "terms_name":"Quality of Service (QoS)",
+    "terms_desc":"QoS (Quality of Service) is a control mechanism that can provide different priority to different users or data flows, or guarantee a certain level of performance to a data flow in accordance with requests from the application program.",
+    "terms_seelaso":"",
+    "terms_var":"QoS"
+  },
+  {
+    "terms_id":241,
+    "terms_name":"query",
+    "terms_desc":"Message used to inquire about the value of some variable or set of variables.",
+    "terms_seelaso":"",
+    "terms_var":"Query"
+  },
+  {
+    "terms_id":242,
+    "terms_name":"raceway (cabling)",
+    "terms_desc":"Usually a fireproof external conduit where network cabling is placed in order to keep the physical network organized and the cabling in a safe place. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":243,
+    "terms_name":"radix",
+    "terms_desc":"The number of various unique digits, including zero that a positional numeral system uses to represent numbers. For instance in the binary system (base 2) the radix is 2. In the decimal system (base 10) the radix is 10.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":244,
+    "terms_name":"RAM",
+    "terms_desc":"Random Access Memory is a type of computer memory that can be accessed randomly;meaning any byte of memory can be accessed without concern for the preceding bytes. This is the memory that is available for programs. When the computer is shut down all data that was stored in RAM is lost.",
+    "terms_seelaso":"",
+    "terms_var":"Random Access Memory, random access memory"
+  },
+  {
+    "terms_id":245,
+    "terms_name":"real-time",
+    "terms_desc":"Events or signals that show output as fast as possible, or as they happen.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":246,
+    "terms_name":"Real-time Streaming Protocol (RTSP)",
+    "terms_desc":"A protocol for use in streaming media systems which allows a client to control a media stream. ",
+    "terms_seelaso":"",
+    "terms_var":"RTSP stream, streaming media"
+  },
+  {
+    "terms_id":247,
+    "terms_name":"Real-time Transport Control (RTTC)",
+    "terms_desc":"Gathers statistics on a media connection and information such as bytes sent, packets sent, lost packets, jitter, feedback and round trip delay. It is used to provide QoS information to RTP.",
+    "terms_seelaso":"",
+    "terms_var":"RTTC"
+  },
+  {
+    "terms_id":248,
+    "terms_name":"Real-time Transport Protocol (RTP)",
+    "terms_desc":"A standardized packet format for delivering audio and video over the Internet. ",
+    "terms_seelaso":"",
+    "terms_var":" RTTP"
+  },
+  {
+    "terms_id":249,
+    "terms_name":"redundant network architectures",
+    "terms_desc":"Network architecture designed to eliminate network downtime caused by a single point of failure.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":250,
+    "terms_name":"Regional Internet Registries (rirs)",
+    "terms_desc":"Organizations that are responsible for the allocation and registration of Internet number resources within a particular region of the world. American Registry for Internet Numbers (ARIN) for North America, RIPE Network Coordination Centre (RIPE NCC) for Europe, the Middle East and Central Asia, Asia-Pacific Network Information Centre (APNIC) for Asia and the Pacific region, Latin American and Caribbean Internet Address Registry (LACNIC) for Latin America and the Caribbean region and African Network Information Centre (AfriNIC) for Africa.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":251,
+    "terms_name":"registered ports",
+    "terms_desc":"Port numbers that range from 1024-49151. Are used by user processes or programs executed by users.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":252,
+    "terms_name":"Requests for Comments (RFCS)",
+    "terms_desc":"RFCs are a series of documents and memoranda encompassing new research, innovations, and methodologies applicable to Internet technologies. RFCs are a reference for how technologies should work.",
+    "terms_seelaso":"",
+    "terms_var":"RFC, RFCs"
+  },
+  {
+    "terms_id":253,
+    "terms_name":"reserved link local addresses",
+    "terms_desc":"An IP address in the range from 169.254.1.0 to 169.254.254.255. It is used to automatically assign an IP address to a device in an IP network when there is no other assignment method available, such as a DHCP server.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":254,
+    "terms_name":"resource record",
+    "terms_desc":"Resource Records (RRs) are the DNS data records. Their precise format is defined in RFC 1035. The most important fields in a resource record are Name, Class, Type, and Data.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":255,
+    "terms_name":"RFI ",
+    "terms_desc":"Radio Frequency Interference is noise induced upon signal wires by ambient radio-frequency electromagnetic radiation that causes interference in neighboring wires. ",
+    "terms_seelaso":"",
+    "terms_var":"rfi, EMI"
+  },
+  {
+    "terms_id":256,
+    "terms_name":"rogue process",
+    "terms_desc":"Rogue processes are processes that are not started by the end user nor applications on the operating system, sometimes consuming a large percentage of CPU usage.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":257,
+    "terms_name":"rollover cable",
+    "terms_desc":"A null-modem cable that is most commonly used to connect a computer terminal to a router's or switch's console port.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":258,
+    "terms_name":"round trip time (rtt)",
+    "terms_desc":"The elapsed time for transit of a signal over a closed circuit, or time elapsed for a message to a remote place and back again.",
+    "terms_seelaso":"",
+    "terms_var":"rtt, RTT"
+  },
+  {
+    "terms_id":259,
+    "terms_name":"router",
+    "terms_desc":"Network layer device that uses one or more metrics to determine the optimal path along which network traffic should be forwarded. Routers forward packets from one network to another based on network layer information. ",
+    "terms_seelaso":"",
+    "terms_var":"Router, default gateway"
+  },
+  {
+    "terms_id":260,
+    "terms_name":"routing",
+    "terms_desc":"rocess of finding a path to a destination host. Routing is very complex in large networks because of the many potential intermediate destinations a packet might traverse before reaching its destination host.",
+    "terms_seelaso":"",
+    "terms_var":"Routing, router"
+  },
+  {
+    "terms_id":261,
+    "terms_name":"routing loop",
+    "terms_desc":"A network problem in which packets continue to be routed in an endless circle.",
+    "terms_seelaso":"",
+    "terms_var":"Routing loop, routing"
+  },
+  {
+    "terms_id":262,
+    "terms_name":"routing protocols",
+    "terms_desc":"Protocol that accomplishes routing through the implementation of a specific routing algorithm. Examples of routing protocols include IGRP, OSPF, and RIP.",
+    "terms_seelaso":"",
+    "terms_var":"Routing protocols, routing"
+  },
+  {
+    "terms_id":263,
+    "terms_name":"routing table",
+    "terms_desc":"A table stored in the memory of a router or some other internetworking device that keeps track of routes to particular network destinations. A router uses this list of networks to determine where to send data.",
+    "terms_seelaso":"",
+    "terms_var":"Routing table, routing"
+  },
+  {
+    "terms_id":264,
+    "terms_name":"runt frame",
+    "terms_desc":"Any frame that is less than 64 bytes (which is the minimum frame size in an Ethernet network). Runts are caused by collisions and are also known as collision fragments.",
+    "terms_seelaso":"",
+    "terms_var":"collision"
+  },
+  {
+    "terms_id":265,
+    "terms_name":"scheme",
+    "terms_desc":"A plan, design, or program of action to be followed. Sometimes an addressing plan is an addressing SCHEME.",
+    "terms_seelaso":"",
+    "terms_var":"Scheme, Addressing Scheme, Addressing scheme, addressing scheme"
+  },
+  {
+    "terms_id":266,
+    "terms_name":"scope",
+    "terms_desc":"The extent of a certain item. For example, an address scope is also known as a range of addresses from the beginning of the range to the end.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":267,
+    "terms_name":"Secure http (https)",
+    "terms_desc":"Uses https a URL that indicates that HTTP is to be used, but with a different default TCP port (443) and an additional encryption/authentication layer between the HTTP and TCP protocols.",
+    "terms_seelaso":"",
+    "terms_var":"HTTPS, https, Secure HTTP"
+  },
+  {
+    "terms_id":268,
+    "terms_name":"Secure Shell (ssh)",
+    "terms_desc":"Establishes a secure channel between a local and a remote computer. It uses public-key cryptography to authenticate the remote computer and to allow the remote computer to authenticate the user.",
+    "terms_seelaso":"",
+    "terms_var":"ssh, SSH, Secure Shell (SSH), telnet, encryption"
+  },
+  {
+    "terms_id":269,
+    "terms_name":"selective forwarding",
+    "terms_desc":"The forwarding of packets where the forwarding decision is taken dynamically, hop-by-hop, based on the conditions of downstream forwarding nodes.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":270,
+    "terms_name":"sequence numbers",
+    "terms_desc":"Used by TCP to ensure that segments are not lost. Each segment will have a sequence number appended to it. This also allows the receiving station to make sure that the data is delivered at the other end in the correct order.",
+    "terms_seelaso":"TCP/IP",
+    "terms_var":""
+  },
+  {
+    "terms_id":271,
+    "terms_name":"server",
+    "terms_desc":"A computer that provides services to clients. Servers are the central point in client/server model networks. There exist many services that a server can provide to network clients. For example; DNS, DHCP, File storage, Application hosting, web site hosting.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":272,
+    "terms_name":"Server Message Block (SMB)",
+    "terms_desc":"Server Message Block (SMB) is an application-level network protocol mainly applied to shared access to files, printers, serial ports, and miscellaneous communications between nodes on a network.",
+    "terms_seelaso":"",
+    "terms_var":"SMB"
+  },
+  {
+    "terms_id":273,
+    "terms_name":"session",
+    "terms_desc":"1) A related set of communications transactions between two or more network devices.<br/> <br/> 2) In Systems Network Architecture (SNA), a logical connection enabling two network addressable units (NAUs) to communicate.<br/>",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":274,
+    "terms_name":"signaling speed",
+    "terms_desc":"The speed at which data passes a point in the transmission path of a transmission system.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":275,
+    "terms_name":"Simple Mail Transfer Protocol (SMTP)",
+    "terms_desc":"Protocol for e-mail transmissions across the Internet. Uses port 25.",
+    "terms_seelaso":"",
+    "terms_var":"SMTP, smtp"
+  },
+  {
+    "terms_id":276,
+    "terms_name":"slot time",
+    "terms_desc":"Is the time it takes for an electronic pulse to travel the length of the maximum theoretical distance between two nodes. It is also the time that a transmitting station waits before attempting to retransmit following a collision.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":277,
+    "terms_name":"smart serial connector",
+    "terms_desc":"Cisco Smart Serial interfaces have a 26-pin connectors and can automatically detect RS-232, RS-449, RS-530, X.21, orV.35 connectors.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":278,
+    "terms_name":"smtp mail relaying",
+    "terms_desc":"A SMTP mail server that allows anyone on the internet to pass email through it as if the email was originating from it. This used to be a common way for spammers to send spam via another provider's email servers. The recipient of the SPAM would think that it came from the provider's domain and not be able to trace the true origin of the SPAM.",
+    "terms_seelaso":"",
+    "terms_var":"SMTP mail relaying"
+  },
+  {
+    "terms_id":279,
+    "terms_name":"software",
+    "terms_desc":"Program or codes used by computer to carry out certain functions.",
+    "terms_seelaso":"",
+    "terms_var":"Software, applications"
+  },
+  {
+    "terms_id":280,
+    "terms_name":"source",
+    "terms_desc":"The origin of a message.",
+    "terms_seelaso":"",
+    "terms_var":"Source"
+  },
+  {
+    "terms_id":281,
+    "terms_name":"source address",
+    "terms_desc":"In communications and networking, the origin of a communications channel.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":282,
+    "terms_name":"source device",
+    "terms_desc":"The sending station of a transmission.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":283,
+    "terms_name":"spam",
+    "terms_desc":"Spamming is sending spam, unsolicited commercial e-mail.",
+    "terms_seelaso":"",
+    "terms_var":"SPAM, spamming, Spamming"
+  },
+  {
+    "terms_id":284,
+    "terms_name":"standard",
+    "terms_desc":"An internationally recognized definition of technical specifications that ensure worldwide consistency.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":285,
+    "terms_name":"start of frame (sof)",
+    "terms_desc":"A field in a data-link frame denoting the beginning a frame transmission.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":286,
+    "terms_name":"static routing",
+    "terms_desc":"Routing that depends on manually entered routes in the routing table.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":287,
+    "terms_name":"store and forward",
+    "terms_desc":"A switching mode where the switch stores the entire frame and processes all the frame's content up until the FCS whereupon after successful FCS calculation the switch forwards the frame through the outgoing port.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":288,
+    "terms_name":"stream",
+    "terms_desc":"The continuous transmission of data from one location to another. For example a streaming video is a continuous, real-time flow of the video being downloaded as you watch the video. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":289,
+    "terms_name":"streaming media",
+    "terms_desc":"Multimedia that is continually downloaded to the receiving host as the end-user views the material. This allows for the end-user to view the material without having to fully download the multimedia file to their computer.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":290,
+    "terms_name":"strong passwords",
+    "terms_desc":"A strong password is a password that is complex and has a minimum of 8 characters. A strong password uses both alpha and numeric characters.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":291,
+    "terms_name":"subnet mask",
+    "terms_desc":"The function of a subnet mask is to identify the network portion, the subnet portion and the host portion of an IP address. Sub netting is a means of dividing the network and breaking a large or extremely large network up into smaller, more efficient and manageable segments, or subnets.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":292,
+    "terms_name":"suite",
+    "terms_desc":"A group of components that work cooperatively. TCP/IP is an example of a protocol suite. The protocols involved in TCP/IP work together to provide communication amongst computer networks.",
+    "terms_seelaso":"TCP/IP",
+    "terms_var":""
+  },
+  {
+    "terms_id":293,
+    "terms_name":"switch",
+    "terms_desc":"1) A network device that filters, forwards, and floods frames based on the destination address of each frame. The switch operates at the data link layer of the Open System Interconnection (OSI) model. <br/> <br/> 2) A general term applied to an electronic or mechanical device that allows a connection to be established as necessary and terminated when there is no longer a session to support.<br/>",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":294,
+    "terms_name":"synchronize sequence number (syn)",
+    "terms_desc":"A SYN flag is put into the the flag field of a segment by an end-point wishing to establish a TCP session with another end-point. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":295,
+    "terms_name":"synchronous transmission",
+    "terms_desc":"Term describing digital signals that are transmitted with precise clocking. Such signals have the same frequency, with individual characters encapsulated in control bits (called start bits and stop bits) that designate the beginning and the end of each character.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":296,
+    "terms_name":"syntax",
+    "terms_desc":"The rules governing the form of communication. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":297,
+    "terms_name":"TCP/IP",
+    "terms_desc":"Transmission Control Protocol/Internet Protocol. Common name for the suite of protocols developed by the U.S. DoD in the 1970s to support the construction of worldwide internetworks. TCP and IP are the two best-known protocols in the suite.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":298,
+    "terms_name":"teletype network service (telnet)",
+    "terms_desc":"TELNET (Teletype Network) is a network protocol used on the Internet or local area network (LAN) connections.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":299,
+    "terms_name":"telnet client application",
+    "terms_desc":"A terminal emulation program that enables the remote connection of a host to a device.",
+    "terms_seelaso":"telnet",
+    "terms_var":""
+  },
+  {
+    "terms_id":300,
+    "terms_name":"telnet daemon",
+    "terms_desc":"The Internet standard protocol for remote login. Runs on top of TCP/IP. ",
+    "terms_seelaso":"telnet",
+    "terms_var":""
+  },
+  {
+    "terms_id":301,
+    "terms_name":"thicknet",
+    "terms_desc":"Coaxial cable that is 0.4 inches in diameter and has 50 ohms of resistance. Originally used in the first LAN implementations.",
+    "terms_seelaso":"coaxial",
+    "terms_var":""
+  },
+  {
+    "terms_id":302,
+    "terms_name":"thinnet",
+    "terms_desc":"Coaxial cable that is 0.2 inches in diameter with the same impedance as Thicknet. Easier to install than thicknet.",
+    "terms_seelaso":"coaxial",
+    "terms_var":""
+  },
+  {
+    "terms_id":303,
+    "terms_name":"three-way handshake",
+    "terms_desc":"A process that establishes a TCP session between two endpoints. The process is as follows. 1. A client wishes to communicate with a server. The client sends a segment with the SYN flag marked. 2. In response, the server responds with a SYN-ACK. 3. The client then sends an ACK (usually called SYN-ACK-ACK) back to the other end and the session is established.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":304,
+    "terms_name":"throughput",
+    "terms_desc":"Throughput is the amount of digital data per time unit that is delivered from one node to another. Throughput takes into account latency variables.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":305,
+    "terms_name":"time to live (ttl)",
+    "terms_desc":"A limit on the time or number of iterations or transmissions in computer and computer network technology that a unit of data can experience before it should be discarded.",
+    "terms_seelaso":"",
+    "terms_var":"TTL"
+  },
+  {
+    "terms_id":306,
+    "terms_name":"token passing",
+    "terms_desc":"A deterministic network method where a \"token\" is passed around between nodes that authorizes the node to communicate.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":307,
+    "terms_name":"tracert",
+    "terms_desc":"A tool that shows the path in real-time from the source device to the destination device. It reports the IP addresses of all the routers (or hops) in the path.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":308,
+    "terms_name":"trailer",
+    "terms_desc":"The control information appended to data when data is encapsulated for network transmission.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":309,
+    "terms_name":"Transmission Control Protocol (TCP)",
+    "terms_desc":"Transmission control protocol: TCP is the protocol used as the basis of most Internet services. It is used in conjunction with the Internet Protocol (IP). It allows for reliable communication, ensuring that packets reach their intended destinations.",
+    "terms_seelaso":"",
+    "terms_var":"TCP, TCP/IP"
+  },
+  {
+    "terms_id":310,
+    "terms_name":"transparent bridging",
+    "terms_desc":"Transparent bridging is the learning of source addresses on incoming frames and adding them to the bridging table. After the table has been completed and when a frame is received on one of the bridge's interfaces, the bridge looks up the frame's destination address in its bridging table and the frame is forwarded out the indicated port.",
+    "terms_seelaso":"bridge",
+    "terms_var":""
+  },
+  {
+    "terms_id":311,
+    "terms_name":"UDP ",
+    "terms_desc":"The User Datagram Protocol (UDP) is a simple protocol that exchanges data without acknowledgments or guaranteed delivery. UDP relies on applications to handle error processing and retransmission.",
+    "terms_seelaso":"TCP",
+    "terms_var":""
+  },
+  {
+    "terms_id":312,
+    "terms_name":"Uniform Resource Identifier (URI)",
+    "terms_desc":"A string of characters used to identify or name a resource. Defined in RFC 1630 as the official identifier of web site names.",
+    "terms_seelaso":"",
+    "terms_var":"URI, Uniform Resource Locator (URL)"
+  },
+  {
+    "terms_id":313,
+    "terms_name":"Uniform Resource Locator (URL)",
+    "terms_desc":"The name of the web site you type in the name field of your navigator. This term gained popularity before the term URI became an RFC.",
+    "terms_seelaso":"",
+    "terms_var":"URL, Uniform Resource Identifier (URI)"
+  },
+  {
+    "terms_id":314,
+    "terms_name":"UNIX",
+    "terms_desc":"UNIX is a multi-user, multitasking operating system originally developed in the 1960s and 1970s by a group of AT&amp;T employees at Bell Labs including Ken Thompson, Dennis Ritchie, and Douglas McIlroy. Today's UNIX systems are split into various branches, developed over time by AT&amp;T, as well as various commercial vendors and non-profit organizations.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":315,
+    "terms_name":"upload",
+    "terms_desc":"To transmit data to a server or to another receiving device.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":316,
+    "terms_name":"User Datagram Protocol (UDP)",
+    "terms_desc":"A connectionless transport layer protocol in the Transmission Control Protocol/Internet Protocol (TCP/IP) protocol stack. UDP is a simple protocol that exchanges datagrams without acknowledgments or guaranteed delivery, and requires that error processing and retransmission be handled by other protocols. UDP is defined in RFC 768.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":317,
+    "terms_name":"user executive mode",
+    "terms_desc":"Also known as view mode, this mode is the most restricted on the IOS. The user is only able to monitor and view limited information on the router or switch. ",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":318,
+    "terms_name":"UTP",
+    "terms_desc":"UTP is a four-pair wire medium used in a variety of networks. UTP does not require the fixed spacing between connections that is necessary with coaxial-type connections. There are five types of UTP cabling commonly used: Category 1 cabling, Category 2 cabling, Category 3 cabling, Category 4 cabling, and Category 5 cabling.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":319,
+    "terms_name":"Variable Length Subnet Masking (VLSM)",
+    "terms_desc":"VLSM is the ability to specify a different subnet mask for the same network number on different subnets. VLSM can help optimize available address space.",
+    "terms_seelaso":"",
+    "terms_var":"VLSM, classless"
+  },
+  {
+    "terms_id":320,
+    "terms_name":"virtual circuit",
+    "terms_desc":"A method in which data is passed to a destination over more than one real communications circuits. End users do not notice the intermediate switching in between the source and destination. Frame Relay is a packet switching technology that uses virtual circuits.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":321,
+    "terms_name":"Virtual Local Area Network (VLAN)",
+    "terms_desc":"A network of computers that behave as if they are connected to the same network segment even though they may actually be physically located on different segments of a LAN. VLANs are configured via software on the switch and router.",
+    "terms_seelaso":"",
+    "terms_var":"VLAN"
+  },
+  {
+    "terms_id":322,
+    "terms_name":"virtual terminal (vty)",
+    "terms_desc":"A command line interface created in a router for a Telnet session.",
+    "terms_seelaso":"",
+    "terms_var":"VTY"
+  },
+  {
+    "terms_id":323,
+    "terms_name":"Voice over IP (VOIP)",
+    "terms_desc":"Voice data encapsulated in an IP packet allow it to traverse already implemented IP networks without needing its own network infrastructure. ",
+    "terms_seelaso":"",
+    "terms_var":"Voice Over IP (VOIP), VOIP, VoIP"
+  },
+  {
+    "terms_id":324,
+    "terms_name":"vty password",
+    "terms_desc":"The password on the VTY lines that is configured on each line or all lines together. When a user attempts to telnet to a router or switch they will be prompted the configured password.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":325,
+    "terms_name":"web browser",
+    "terms_desc":"GUI-based hypertext client application, such as Internet Explorer, Mosaic, and Netscape Navigator, used to access hypertext documents and other services located on innumerable remote servers throughout the WWW and Internet.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":326,
+    "terms_name":"web server",
+    "terms_desc":"A server that responds to HTTP requests and responding with HTTP response data. A web server also holds the directory structure of web sites and their associated images and other media files.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":327,
+    "terms_name":"weblogs",
+    "terms_desc":"A blog is a website where entries are made in journal style. A blog is created by the user and can make changes to the blog via templates or by altering the HTML code of the blog itself. Visitors can leave posts to the blog. Blog is short for Weblog.",
+    "terms_seelaso":"",
+    "terms_var":"Blog"
+  },
+  {
+    "terms_id":328,
+    "terms_name":"well-known ports",
+    "terms_desc":"orts that range from 0-1023.",
+    "terms_seelaso":"port",
+    "terms_var":""
+  },
+  {
+    "terms_id":329,
+    "terms_name":"Wide Area Network (WAN)",
+    "terms_desc":"Wide Area Network. A network that spans broader geographical area than a Local Area Network, over public communications networks.",
+    "terms_seelaso":"",
+    "terms_var":"wide area network, wide area networks, WAN, Local Area Network (LAN)"
+  },
+  {
+    "terms_id":330,
+    "terms_name":"wiki",
+    "terms_desc":"A wiki is a website that lets visitors add, edit and delete content, typically without the need for registration. A good example of this is a site called wikipedia where visitors can access the website and add their commentaries to already written articles or create a new article.",
+    "terms_seelaso":"",
+    "terms_var":"Wiki"
+  },
+  {
+    "terms_id":331,
+    "terms_name":"Winchester connector",
+    "terms_desc":"A 34 pin female v.35 serial cable connector.",
+    "terms_seelaso":"",
+    "terms_var":""
+  },
+  {
+    "terms_id":332,
+    "terms_name":"window size",
+    "terms_desc":"TCP uses window size to determine the number of segments sent by the sending device before the receiving device sends a confirmation. ",
+    "terms_seelaso":"",
+    "terms_var":"TCP"
+  },
+  {
+    "terms_id":333,
+    "terms_name":"wireless technology",
+    "terms_desc":"Technology that allows for communication without needing physical connectivity. Examples of wireless technology cellular telephones, personal digital assistants (PDA's), Wireless access points and wireless NICs.",
+    "terms_seelaso":"",
+    "terms_var":"Wireless technology"
+  },
+  {
+    "terms_id":334,
+    "terms_name":"Wireshark",
+    "terms_desc":"A packet sniffing application, used for network troubleshooting, analysis. This program captures packets on the NIC and decodes packet contents for readability.",
+    "terms_seelaso":"",
+    "terms_var":"wireshark"
+  },
+  {
+    "terms_id":335,
+    "terms_name":"World Wide Web (WWW)",
+    "terms_desc":"A large network of Internet sites whose servers provide information on a wide variety of topics and services such as purchasing products or playing games. Entry into the World Wide Web requires a program called a browser such as Internet Explorer or Netscape and connectivity through an internet service provider (ISP).",
+    "terms_seelaso":"",
+    "terms_var":"WWW, World Wide Web, Internet"
+  }
+]

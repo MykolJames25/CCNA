@@ -1,0 +1,66 @@
+[
+  {
+    "command_id":1,
+    "command_name":"Convention"
+  },
+  {
+    "command_id":2,
+    "command_name":"Operating Cisco Router"
+  },
+  {
+    "command_id":3,
+    "command_name":"Routing Protocol Concepts and Configuration"
+  },
+  {
+    "command_id":4,
+    "command_name":"IP Routing: Static and Connected Routes"
+  },
+  {
+    "command_id":5,
+    "command_name":"WAN Configuration"
+  },
+  {
+    "command_id":6,
+    "command_name":"WAN Configuratio: PPP"
+  },
+  {
+    "command_id":7,
+    "command_name":"WAN Configuration: Frame-Relay"
+  },
+  {
+    "command_id":8,
+    "command_name":"NAT"
+  },
+  {
+    "command_id":9,
+    "command_name":"IPv6"
+  },
+  {
+    "command_id":10,
+    "command_name":"Ethernet Switch Configuration"
+  },
+  {
+    "command_id":11,
+    "command_name":"VTP, VLAN, DTP, CDP"
+  },
+  {
+    "command_id":12,
+    "command_name":"STP"
+  },
+  {
+    "command_id":13,
+    "command_name":"Standard ACL"
+  },
+  {
+    "command_id":14,
+    "command_name":"Advanced ACL"
+  },
+  {
+    "command_id":15,
+    "command_name":"OSPF"
+  },
+  {
+    "command_id":16,
+    "command_name":"EIGRP"
+  }
+]

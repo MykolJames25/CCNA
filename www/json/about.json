@@ -1,0 +1,27 @@
+[
+  {
+    "about_id":1,
+    "about_title":"Application",
+    "about_content":"R&S MAESTRO is an application that is designed to help those who are taking CCNA R&S. As a mobile application, it can serve as a portable and easily accessible reference and supplement to classroom learning, literally providing a speedy lookup of information at one�s fingertips. It is intended to be a companion and complement to traditional classroom learning. For a person preparing for the certification exam, it is a good offline reference that presents in an easily understandable and interesting manner, making learning more interactive through the integration of text based instructions and exercises and video tutorials."
+  },
+  {
+    "about_id":2,
+    "about_title":"CCNA R&S",
+    "about_content":"Cisco Certified Network Associate (CCNA) Routing and Switching is a certification program for entry-level network engineers that helps maximize your investment in foundational networking knowledge and increase the value of your employer's network. CCNA Routing and Switching is for Network Specialists, Network Administrators, and Network Support Engineers with 1-3 years of experience. The CCNA Routing and Switching validates the ability to install, configure, operate, and troubleshoot medium-size routed and switched networks."
+  },
+  {
+    "about_id":3,
+    "about_title":"Quizzes",
+    "about_content":"Quizzes are available for each chapter of every module. There are three types of quiz items. First one is Multiple Choice Single Answer (MCSA), Multiple Choice Multiple Answers (MCMA) and Fill in the Blank. The user is given the option to view the correct answer and the explanation to that answer."
+  },
+  {
+    "about_id":4,
+    "about_title":"Exercises and Video Tutorials",
+    "about_content":"Most of the Exercises have a corresponding Video Tutorial. As for those that does not have Exercise Information, these are tutorials that focus on the idea or logic of the topic with/without going to the application of the topic. "
+  },
+  {
+    "about_id":5,
+    "about_title":"Intellectual Property",
+    "about_content":"All Intellectual Property is owned by Cisco Networking Academy."
+  }
+]

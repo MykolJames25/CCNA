@@ -1,0 +1,14 @@
+[
+  {
+    "type_id":1,
+    "quiz_type":"MCSA"
+  },
+  {
+    "type_id":2,
+    "quiz_type":"MCMA"
+  },
+  {
+    "type_id":3,
+    "quiz_type":"Fill in the Blank"
+  }
+]

@@ -27,3 +27,19 @@
 var menuData = [];
 var moduleData = [];
 var chapterData = [];
+var questionData = [];
+
+function onBackKeyDown() {
+    console.log('back button handler');
+    var activePage = $.mobile.activePage.attr('id');
+    alert(activePage)
+}
+
+
+function hideObject(id) {
+    document.getElementById(id).style.display = "none";
+}
+
+function showObject(id) {
+    document.getElementById(id).style.display = "block";
+}

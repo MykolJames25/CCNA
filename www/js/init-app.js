@@ -40,6 +40,7 @@ app.consoleLog = function () { // only emits console.log messages if app.LOG != 
 var mainMenu = new MainMenu();
 var modulesList = new ModulesList();
 var chapterList = new ChapterList();
+var quizPage = new QuizPage();
 
 
 app.initEvents = function () {
@@ -56,14 +57,21 @@ app.initEvents = function () {
     ko.applyBindings(mainMenu, document.getElementById("mainMenuListSubpage"));
     ko.applyBindings(modulesList, document.getElementById("modulesListSubpage"));
     ko.applyBindings(chapterList, document.getElementById("chaptersListSubpage"));
-
+    ko.applyBindings(quizPage, document.getElementById("quizzesTypeASubpage"));
+    ko.applyBindings(quizPage, document.getElementById("quizzesTypeBSubpage"));
+    ko.applyBindings(quizPage, document.getElementById("quizzesTypeCSubpage"));
+    console.log("Starting")
     $.getJSON("json/menu.json", function (menu) {
         menuData = menu;
         $.getJSON("json/modules.json", function (modules) {
             moduleData = modules;
             $.getJSON("json/chapters.json", function (chapter) {
                 chapterData = chapter;
-                mainMenu.load();
+                $.getJSON("json/quizQuestions.json", function (question) {
+                    questionData = question;
+                    console.log(questionData);
+                    mainMenu.load();
+                });
             });
         });
     });

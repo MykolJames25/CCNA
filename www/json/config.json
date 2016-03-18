@@ -1,0 +1,30 @@
+[
+  {
+    "config_id":0,
+    "config_name":"Conventions"
+  },
+  {
+    "config_id":1,
+    "config_name":"Configuration Command"
+  },
+  {
+    "config_id":2,
+    "config_name":"Exec Command"
+  },
+  {
+    "config_id":3,
+    "config_name":"Username/Password and SSH Configuration"
+  },
+  {
+    "config_id":4,
+    "config_name":"IP Address Configuration"
+  },
+  {
+    "config_id":5,
+    "config_name":"Interface Configuration"
+  },
+  {
+    "config_id":6,
+    "config_name":"Miscellaneous"
+  }
+]

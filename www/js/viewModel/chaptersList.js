@@ -18,11 +18,29 @@ function ChapterList() {
     }
 
     self.selectChapter = function (chapter) {
-        localStorage.chapter = chapter.id;
-        if (chapter.id == 1 || chapter.id == 2) {
-            console.log(localStorage);
-            //            modulesList.load(menu.id);
+        console.log(chapter);
+        localStorage.chapter = chapter.chapter_id;
+        if (localStorage.menu == 1) {
+            console.log("Modules");
+            window.location.href = "pdf/11/index.htm";
         }
+
+        if (localStorage.menu == 2) {
+            localStorage.quiz = chapter.chapter_id;
+            console.log("Quizzes");
+            var questionSet = []
+            console.log(questionData.length);
+            console.log(localStorage.module);
+            console.log(localStorage.quiz);
+            for (var i = 0; i < questionData.length; i++) {
+                if (questionData[i].module_id == localStorage.module && questionData[i].quiz_id == localStorage.quiz) {
+                    questionSet.push(questionData[i])
+                }
+            }
+            console.log(questionSet);
+            quizPage.load(questionSet,0);
+        }
+
     }
 
 

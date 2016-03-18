@@ -1,0 +1,272 @@
+[
+  {
+    "exercises_id":1,
+    "exercises_name":"CCNA1 RS Ch2 Configuring Initial Switch Settings",
+    "exercise_file":"1. CCNA1 RS Ch2 Configuring Initial Switch Settings.pdf",
+    "exercise_video":"1. CCNA1 RS Ch2 Configuring Initial Switch Settings.mp4"
+  },
+  {
+    "exercises_id":2,
+    "exercises_name":"CCNA1 RS Ch6 Configure Initial Router Settings",
+    "exercise_file":"2. CCNA1 RS Ch6 Configure Initial Router Settings.pdf",
+    "exercise_video":"2. CCNA1 RS Ch6 Configure Initial Router Settings.mp4"
+  },
+  {
+    "exercises_id":3,
+    "exercises_name":"IPv4 and IPv6",
+    "exercise_file":"(NA)",
+    "exercise_video":"3. IPv4 and IPv6.mp4"
+  },
+  {
+    "exercises_id":4,
+    "exercises_name":"VLSM",
+    "exercise_file":"(NA)",
+    "exercise_video":"4. VLSM.mp4"
+  },
+  {
+    "exercises_id":5,
+    "exercises_name":"CCNA2 RS Ch2 Configuring SSH",
+    "exercise_file":"5. CCNA2 RS Ch2 Configuring SSH.pdf",
+    "exercise_video":"5. CCNA2 RS Ch2 Configuring SSH.mp4"
+  },
+  {
+    "exercises_id":6,
+    "exercises_name":"CCNA2 RS Ch2 Configuring Switch Port Security",
+    "exercise_file":"6. CCNA2 RS Ch2 Configuring Switch Port Security.pdf",
+    "exercise_video":"6. CCNA2 RS Ch2 Configuring Switch Port Security.mp4"
+  },
+  {
+    "exercises_id":7,
+    "exercises_name":"CCNA2 RS Ch3 Configuring VLANs",
+    "exercise_file":"7. CCNA2 RS Ch3 Configuring VLANs.pdf",
+    "exercise_video":"7. CCNA2 RS Ch3 Configuring VLANs.mp4"
+  },
+  {
+    "exercises_id":8,
+    "exercises_name":"CCNA2 RS Ch3 Configuring Trunks",
+    "exercise_file":"8. CCNA2 RS Ch3 Configuring Trunks.pdf",
+    "exercise_video":"8. CCNA2 RS Ch3 Configuring Trunks.mp4"
+  },
+  {
+    "exercises_id":9,
+    "exercises_name":"VLANs and Trunking",
+    "exercise_file":"(NA)",
+    "exercise_video":"9. VLANs and Trunking.mp4"
+  },
+  {
+    "exercises_id":10,
+    "exercises_name":"VTP",
+    "exercise_file":"(NA)",
+    "exercise_video":"10. VTP.mp4"
+  },
+  {
+    "exercises_id":11,
+    "exercises_name":"Inter-VLAN Routing",
+    "exercise_file":"(NA)",
+    "exercise_video":"11. Inter-VLAN Routing.mp4"
+  },
+  {
+    "exercises_id":12,
+    "exercises_name":"CCNA2 RS Ch6 Configuring IPv4 Static and Default Routes",
+    "exercise_file":"12. CCNA2 RS Ch6 Configuring IPv4 Static and Default Routes.pdf",
+    "exercise_video":"12. CCNA2 RS Ch6 Configuring IPv4 Static and Default Routes.mp4"
+  },
+  {
+    "exercises_id":13,
+    "exercises_name":"CCNA2 RS Ch6 Configuring IPv6 Static and Default Routes",
+    "exercise_file":"13. CCNA2 RS Ch6 Configuring IPv6 Static and Default Routes.pdf",
+    "exercise_video":"13. CCNA2 RS Ch6 Configuring IPv6 Static and Default Routes.mp4"
+  },
+  {
+    "exercises_id":14,
+    "exercises_name":"CCNA2 RS Ch6 Configuring IPv4 Route Summarization - Scenario 1",
+    "exercise_file":"14. CCNA2 RS Ch6 Configuring IPv4 Route Summarization - Scenario 1.pdf",
+    "exercise_video":"14. CCNA2 RS Ch6 Configuring IPv4 Route Summarization - Scenario 1.mp4"
+  },
+  {
+    "exercises_id":15,
+    "exercises_name":"CCNA2 RS Ch6 Configuring IPv4 Route Summarization - Scenario 2",
+    "exercise_file":"15. CCNA2 RS Ch6 Configuring IPv4 Route Summarization - Scenario 2.pdf",
+    "exercise_video":"15. CCNA2 RS Ch6 Configuring IPv4 Route Summarization - Scenario 2.mp4"
+  },
+  {
+    "exercises_id":16,
+    "exercises_name":"CCNA2 RS Ch6 Configuring a Floating Static Route",
+    "exercise_file":"16. CCNA2 RS Ch6 Configuring a Floating Static Route.pdf",
+    "exercise_video":"16. CCNA2 RS Ch6 Configuring a Floating Static Route.mp4"
+  },
+  {
+    "exercises_id":17,
+    "exercises_name":"CCNA2 RS Ch6 Calculating and Configuring an IPv6 Route Summarization",
+    "exercise_file":"17. CCNA2 RS Ch6 Calculating and Configuring an IPv6 Route Summarization.pdf",
+    "exercise_video":"17. CCNA2 RS Ch6 Calculating and Configuring an IPv6 Route Summarization.mp4"
+  },
+  {
+    "exercises_id":18,
+    "exercises_name":"CCNA2 RS Ch7 Configuring RIPv2",
+    "exercise_file":"18. CCNA2 RS Ch7 Configuring RIPv2.pdf",
+    "exercise_video":"18. CCNA2 RS Ch7 Configuring RIPv2.mp4"
+  },
+  {
+    "exercises_id":19,
+    "exercises_name":"CCNA2 RS Ch7 Configuring RIPng",
+    "exercise_file":"19. CCNA2 RS Ch7 Configuring RIPng.pdf",
+    "exercise_video":"19. CCNA2 RS Ch7 Configuring RIPng.mp4"
+  },
+  {
+    "exercises_id":20,
+    "exercises_name":"RIP",
+    "exercise_file":"(NA)",
+    "exercise_video":"20. RIP.mp4"
+  },
+  {
+    "exercises_id":21,
+    "exercises_name":"CCNA2 RS Ch8 Configuring OSPFv2 in a Single Area",
+    "exercise_file":"21. CCNA2 RS Ch8 Configuring OSPFv2 in a Single Area.pdf",
+    "exercise_video":"21. CCNA2 RS Ch8 Configuring OSPFv2 in a Single Area.mp4"
+  },
+  {
+    "exercises_id":22,
+    "exercises_name":"CCNA2 RS Ch8 Configuring Basic OSPFv3 in a Single Area",
+    "exercise_file":"22. CCNA2 RS Ch8 Configuring Basic OSPFv3 in a Single Area.pdf",
+    "exercise_video":"22. CCNA2 RS Ch8 Configuring Basic OSPFv3 in a Single Area.mp4"
+  },
+  {
+    "exercises_id":23,
+    "exercises_name":"Single Area OSPF",
+    "exercise_file":"(NA)",
+    "exercise_video":"23. Single Area OSPF.mp4"
+  },
+  {
+    "exercises_id":24,
+    "exercises_name":"ACL",
+    "exercise_file":"(NA)",
+    "exercise_video":"24. ACL.mp4"
+  },
+  {
+    "exercises_id":25,
+    "exercises_name":"DHCP",
+    "exercise_file":"(NA)",
+    "exercise_video":"25. DHCP.mp4"
+  },
+  {
+    "exercises_id":26,
+    "exercises_name":"NAT",
+    "exercise_file":"(NA)",
+    "exercise_video":"26. NAT.mp4"
+  },
+  {
+    "exercises_id":27,
+    "exercises_name":"CCNA3 RS Ch3 Configuring EtherChannel",
+    "exercise_file":"27. CCNA3 RS Ch3 Configuring EtherChannel.pdf",
+    "exercise_video":"27. CCNA3 RS Ch3 Configuring EtherChannel.mp4"
+  },
+  {
+    "exercises_id":28,
+    "exercises_name":"CCNA3 RS Ch4 Configuring Wireless LAN Access",
+    "exercise_file":"28. CCNA3 RS Ch4 Configuring Wireless LAN Access.pdf",
+    "exercise_video":"28. CCNA3 RS Ch4 Configuring Wireless LAN Access.mp4"
+  },
+  {
+    "exercises_id":29,
+    "exercises_name":"CCNA3 RS Ch6 Configuring Multiarea OSPFv2",
+    "exercise_file":"29. CCNA3 RS Ch6 Configuring Multiarea OSPFv2.pdf",
+    "exercise_video":"29. CCNA3 RS Ch6 Configuring Multiarea OSPFv2.mp4"
+  },
+  {
+    "exercises_id":30,
+    "exercises_name":"CCNA3 RS Ch6 Configuring Multiarea OSPFv3",
+    "exercise_file":"30. CCNA3 RS Ch6 Configuring Multiarea OSPFv3.pdf",
+    "exercise_video":"30. CCNA3 RS Ch6 Configuring Multiarea OSPFv3.mp4"
+  },
+  {
+    "exercises_id":31,
+    "exercises_name":"MultiArea OSPF",
+    "exercise_file":"(NA)",
+    "exercise_video":"31. MultiArea OSPF.mp4"
+  },
+  {
+    "exercises_id":32,
+    "exercises_name":"CCNA3 RS Ch7 Configuring Basic EIGRP with IPv4",
+    "exercise_file":"32. CCNA3 RS Ch7 Configuring Basic EIGRP with IPv4.pdf",
+    "exercise_video":"32. CCNA3 RS Ch7 Configuring Basic EIGRP with IPv4.mp4"
+  },
+  {
+    "exercises_id":33,
+    "exercises_name":"CCNA3 RS Ch7 Configuring Basic EIGRP with IPv6 Routing",
+    "exercise_file":"33. CCNA3 RS Ch7 Configuring Basic EIGRP with IPv6 Routing.pdf",
+    "exercise_video":"33. CCNA3 RS Ch7 Configuring Basic EIGRP with IPv6 Routing.mp4"
+  },
+  {
+    "exercises_id":34,
+    "exercises_name":"CCNA3 RS  Ch8 Configuring EIGRP Manual Summary Routes for IPv4 and IPv6",
+    "exercise_file":"34. CCNA3 RS  Ch8 Configuring EIGRP Manual Summary Routes for IPv4 and IPv6.pdf",
+    "exercise_video":"34. CCNA3 RS  Ch8 Configuring EIGRP Manual Summary Routes for IPv4 and IPv6.mp4"
+  },
+  {
+    "exercises_id":35,
+    "exercises_name":"CCNA3 RS Ch8 Propagating a Default Route in EIGRP for IPv4 and IPv6",
+    "exercise_file":"35. CCNA3 RS Ch8 Propagating a Default Route in EIGRP for IPv4 and IPv6.pdf",
+    "exercise_video":"35. CCNA3 RS Ch8 Propagating a Default Route in EIGRP for IPv4 and IPv6.mp4"
+  },
+  {
+    "exercises_id":36,
+    "exercises_name":"EIGRP",
+    "exercise_file":"(NA)",
+    "exercise_video":"36. EIGRP.mp4"
+  },
+  {
+    "exercises_id":37,
+    "exercises_name":"CCNA3 RS Ch9 Decoding IOs Image Names",
+    "exercise_file":"(NA)",
+    "exercise_video":"37. CCNA3 RS Ch9 Decoding IOs Image Names.mp4"
+  },
+  {
+    "exercises_id":38,
+    "exercises_name":"CCNA3 RS Ch9 Using a TFTP Server to Upgrade a Cisco IOS Image",
+    "exercise_file":"38. CCNA3 RS Ch9 Using a TFTP Server to Upgrade a Cisco IOS Image.pdf",
+    "exercise_video":"38. CCNA3 RS Ch9 Using a TFTP Server to Upgrade a Cisco IOS Image.mp4"
+  },
+  {
+    "exercises_id":39,
+    "exercises_name":"CCNA4 RS Ch3 Configuring PAP and CHAP Authentication",
+    "exercise_file":"39. CCNA4 RS Ch3 Configuring PAP and CHAP Authentication.pdf",
+    "exercise_video":"39. CCNA4 RS Ch3 Configuring PAP and CHAP Authentication.mp4"
+  },
+  {
+    "exercises_id":40,
+    "exercises_name":"CCNA4 RS Ch4 Configuring Static Frame Relay Maps",
+    "exercise_file":"40. CCNA4 RS Ch4 Configuring Static Frame Relay Maps.pdf",
+    "exercise_video":"40. CCNA4 RS Ch4 Configuring Static Frame Relay Maps.mp4"
+  },
+  {
+    "exercises_id":41,
+    "exercises_name":"CCNA4 RS Ch4 Configuring Frame Relay Point-to-Point Subinterfaces",
+    "exercise_file":"41. CCNA4 RS Ch4 Configuring Frame Relay Point-to-Point Subinterfaces.pdf",
+    "exercise_video":"41. CCNA4 RS Ch4 Configuring Frame Relay Point-to-Point Subinterfaces.mp4"
+  },
+  {
+    "exercises_id":42,
+    "exercises_name":"Frame Relay",
+    "exercise_file":"(NA)",
+    "exercise_video":"42. Frame Relay.mp4"
+  },
+  {
+    "exercises_id":43,
+    "exercises_name":"CCNA4 RS Ch7 Configuring GRE",
+    "exercise_file":"43. CCNA4 RS Ch7 Configuring GRE.pdf",
+    "exercise_video":"43. CCNA4 RS Ch7 Configuring GRE.mp4"
+  },
+  {
+    "exercises_id":44,
+    "exercises_name":"CCNA4 RS Ch7 Configuring GRE Over IPsec",
+    "exercise_file":"44. CCNA4 RS Ch7 Configuring GRE Over IPsec.pdf",
+    "exercise_video":"44. CCNA4 RS Ch7 Configuring GRE Over IPsec.mp4"
+  },
+  {
+    "exercises_id":45,
+    "exercises_name":"CCNA4 RS Ch8 Configuring Syslog and NTP",
+    "exercise_file":"45. CCNA4 RS Ch8 Configuring Syslog and NTP.pdf",
+    "exercise_video":"45. CCNA4 RS Ch8 Configuring Syslog and NTP.mp4"
+  }
+]

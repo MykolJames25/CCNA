@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <!--
+<!--
   * Please see the included README.md file for license terms and conditions.
   -->
 
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="media_button_bar/css/media_button_bar.css">
-        <link rel="stylesheet" type="text/css" href="jqm/jquery.mobile-min.css">
-        <title>R&amp;S Maestro</title>
-        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="media_button_bar/css/media_button_bar.css">
+    <link rel="stylesheet" type="text/css" href="jqm/jquery.mobile-min.css">
+    <title>R&amp;S Maestro</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 
-        <!--
+    <!--
   * The "meta viewport" tag (below) helps your app size appropriately to a device's ideal viewport.
   * Note that Windows device viewports work better when initialized using the @viewport CSS rule.
   * For a quick overview of "meta viewport" and @viewport, see this article:
@@ -23,131 +23,305 @@
   *   https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html
 -->
 
-        <!-- <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1"> -->
-        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=2"> -->
+    <!-- <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=2"> -->
 
-        <style>
-            /* following three (cascaded) are equivalent to above three meta viewport statements */
-            /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html */
-            /* see http://dev.w3.org/csswg/css-device-adapt/ */
+    <style>
+        /* following three (cascaded) are equivalent to above three meta viewport statements */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html */
+        /* see http://dev.w3.org/csswg/css-device-adapt/ */
 
-            @-ms-viewport {
-                width: 100vw;
-                min-zoom: 100%;
-                zoom: 100%;
-            }
+        @-ms-viewport {
+            width: 100vw;
+            min-zoom: 100%;
+            zoom: 100%;
+        }
 
-            @viewport {
-                width: 100vw;
-                min-zoom: 100% zoom: 100%;
-            }
+        @viewport {
+            width: 100vw;
+            min-zoom: 100% zoom: 100%;
+        }
 
-            @-ms-viewport {
-                user-zoom: fixed;
-                min-zoom: 100%;
-            }
+        @-ms-viewport {
+            user-zoom: fixed;
+            min-zoom: 100%;
+        }
 
-            @viewport {
-                user-zoom: fixed;
-                min-zoom: 100%;
-            }
-            /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
-        </style>
+        @viewport {
+            user-zoom: fixed;
+            min-zoom: 100%;
+        }
+        /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
+    </style>
 
-        <link rel="stylesheet" href="css/app.css">
-        <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
 
-        <script src="cordova.js" id="xdkJScordova_"></script>
+    <script src="cordova.js" id="xdkJScordova_"></script>
 
-        <script type="application/javascript" src="lib/jquery.min.js"></script>
-        <script type="application/javascript" src="jqm/jquery.mobile-min.js" data-ver="0"></script>
+    <script type="application/javascript" src="lib/jquery.min.js"></script>
+    <script type="application/javascript" src="jqm/jquery.mobile-min.js" data-ver="0"></script>
 
-        <script type="text/javascript" charset="utf-8" src="js/knockout-3.3.0.js"></script>
-        <script type="text/javascript" charset="utf-8" src="js/knockout.mapping.js"></script>
-        <script type="text/javascript" charset="utf-8" src="js/validate.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/knockout-3.3.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/knockout.mapping.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/validate.js"></script>
 
-        <script type="text/javascript" charset="utf-8" src="js/mainMenu.js"></script>
-        <script type="text/javascript" charset="utf-8" src="js/viewModel/modulesList.js"></script>
-        <script type="text/javascript" charset="utf-8" src="js/viewModel/chaptersList.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/mainMenu.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/viewModel/modulesList.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/viewModel/chaptersList.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/viewModel/quizPage.js"></script>
 
-        <script type="application/javascript" src="js/app.js"></script>
-        <!-- for your event code, see README and file comments for details -->
-        <script type="application/javascript" src="js/init-app.js"></script>
-        <!-- for your init code, see README and file comments for details -->
-        <script type="application/javascript" src="xdk/init-dev.js"></script>
-        <!-- normalizes device and document ready events, see file for details -->
-        <script type="application/javascript" src="popup/popup.min.js"></script>
-        <script type="application/javascript" src="js/index_user_scripts.js"></script>
-        <script type="application/javascript" src="xdk/ad/jqm_subpage.js"></script>
-    </head>
+    <script type="application/javascript" src="js/app.js"></script>
+    <!-- for your event code, see README and file comments for details -->
+    <script type="application/javascript" src="js/init-app.js"></script>
+    <!-- for your init code, see README and file comments for details -->
+    <script type="application/javascript" src="xdk/init-dev.js"></script>
+    <!-- normalizes device and document ready events, see file for details -->
+    <script type="application/javascript" src="popup/popup.min.js"></script>
+    <script type="application/javascript" src="js/index_user_scripts.js"></script>
+    <script type="application/javascript" src="xdk/ad/jqm_subpage.js"></script>
+</head>
 
-    <body>
-        <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
-        <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
-        <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
-        <div class="upage" id="mainpage" data-role="page" data-theme="b">
-            <div class="upage-outer content-area vertical-col left">
-                <div data-role="header" class="container-group inner-element uib_w_1" data-uib="jquery_mobile/header" data-ver="0" data-theme="b">
-                    <h1>R&amp;S MAESTO</h1>
-                    <div class="widget-container wrapping-col single-centered"></div>
-                    <div class="widget-container content-area horiz-area wrapping-col left"><a class="widget uib_w_42 d-margins" data-uib="jquery_mobile/button" data-ver="0" data-role="button" data-theme="a" data-icon="bars" data-iconpos="notext" id="settinheaderSettingsButton">Button</a>
-                    </div>
-                    <div class="widget-container content-area horiz-area wrapping-col right"></div>
+<body>
+    <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
+    <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
+    <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
+    <div class="upage" id="mainpage" data-role="page" data-theme="b">
+        <div class="upage-outer content-area vertical-col left">
+            <div data-role="header" class="container-group inner-element uib_w_1" data-uib="jquery_mobile/header" data-ver="0" data-theme="b">
+                <h1>R&amp;S MAESTO</h1>
+                <div class="widget-container wrapping-col single-centered"></div>
+                <div class="widget-container content-area horiz-area wrapping-col left"><a class="widget uib_w_42 d-margins" data-uib="jquery_mobile/button" data-ver="0" data-role="button" data-theme="a" data-icon="bars" data-iconpos="notext" id="settinheaderSettingsButton">Button</a>
                 </div>
-                <div id="mainMenuListSubpage" class="upage-content vertical-col left ">
+                <div class="widget-container content-area horiz-area wrapping-col right"></div>
+            </div>
+            <div id="mainMenuListSubpage" class="upage-content vertical-col left ">
 
-                    <div class="grid grid-pad urow uib_row_2 row-height-2" data-uib="layout/row" data-ver="0">
-                        <div class="col uib_col_2 col-0_12-12" data-uib="layout/col" data-ver="0">
-                            <div class="widget-container content-area vertical-col">
-                                <div class="widget uib_w_3 ui-content no_wrap outset-margin d-margins" data-uib="jquery_mobile/listview" data-ver="0">
-                                    <ul data-role="listview" data-theme="b" data-bind="foreach: menuList">
-                                        <li class="widget uib_w_4" data-uib="jquery_mobile/listitem" data-ver="0" data-bind="text:menu, attr: { href: '#' }, click: $parent.selectMenu">
-                                        </li>
-                                    </ul>
-                                </div>
-                                <span class="uib_shim"></span>
+                <div class="grid grid-pad urow uib_row_2 row-height-2" data-uib="layout/row" data-ver="0">
+                    <div class="col uib_col_2 col-0_12-12" data-uib="layout/col" data-ver="0">
+                        <div class="widget-container content-area vertical-col">
+                            <div class="widget uib_w_3 ui-content no_wrap outset-margin d-margins" data-uib="jquery_mobile/listview" data-ver="0">
+                                <ul data-role="listview" data-theme="b" data-bind="foreach: menuList">
+                                    <li class="widget uib_w_4" data-uib="jquery_mobile/listitem" data-ver="0" data-bind="text:menu, attr: { href: '#' }, click: $parent.selectMenu">
+                                    </li>
+                                </ul>
                             </div>
+                            <span class="uib_shim"></span>
                         </div>
-                        <span class="uib_shim"></span>
                     </div>
-                </div>
-                <div id="modulesListSubpage" class="upage-content vertical-col left hidden">
-
-                    <div class="grid grid-pad urow uib_row_2 row-height-2" data-uib="layout/row" data-ver="0">
-                        <div class="col uib_col_2 col-0_12-12" data-uib="layout/col" data-ver="0">
-                            <div class="widget-container content-area vertical-col">
-                                <div class="widget uib_w_3 ui-content no_wrap outset-margin d-margins" data-uib="jquery_mobile/listview" data-ver="0">
-                                    <ul data-role="listview" data-theme="b" data-bind="foreach: moduleList">
-                                        <li class="widget uib_w_4" data-uib="jquery_mobile/listitem" data-ver="0" data-bind="text:module_name, attr: { href: '#' }, click: $parent.selectModule">
-                                        </li>
-                                    </ul>
-                                </div>
-                                <span class="uib_shim"></span>
-                            </div>
-                        </div>
-                        <span class="uib_shim"></span>
-                    </div>
-                </div>
-                <div id="chaptersListSubpage" class="upage-content vertical-col left hidden">
-
-                    <div class="grid grid-pad urow uib_row_2 row-height-2" data-uib="layout/row" data-ver="0">
-                        <div class="col uib_col_2 col-0_12-12" data-uib="layout/col" data-ver="0">
-                            <div class="widget-container content-area vertical-col">
-                                <div class="widget uib_w_3 ui-content no_wrap outset-margin d-margins" data-uib="jquery_mobile/listview" data-ver="0">
-                                    <ul data-role="listview" data-theme="b" data-bind="foreach: chaptersList">
-                                        <li class="widget uib_w_4" data-uib="jquery_mobile/listitem" data-ver="0" data-bind="text:chapter_name, attr: { href: '#' }, click: $parent.selectChapter">
-                                        </li>
-                                    </ul>
-                                </div>
-                                <span class="uib_shim"></span>
-                            </div>
-                        </div>
-                        <span class="uib_shim"></span>
-                    </div>
+                    <span class="uib_shim"></span>
                 </div>
             </div>
+            <div id="modulesListSubpage" class="upage-content vertical-col left hidden">
+
+                <div class="grid grid-pad urow uib_row_2 row-height-2" data-uib="layout/row" data-ver="0">
+                    <div class="col uib_col_2 col-0_12-12" data-uib="layout/col" data-ver="0">
+                        <div class="widget-container content-area vertical-col">
+                            <div class="widget uib_w_3 ui-content no_wrap outset-margin d-margins" data-uib="jquery_mobile/listview" data-ver="0">
+                                <ul data-role="listview" data-theme="b" data-bind="foreach: moduleList">
+                                    <li class="widget uib_w_4" data-uib="jquery_mobile/listitem" data-ver="0" data-bind="text:module_name, attr: { href: '#' }, click: $parent.selectModule">
+                                    </li>
+                                </ul>
+                            </div>
+                            <span class="uib_shim"></span>
+                        </div>
+                    </div>
+                    <span class="uib_shim"></span>
+                </div>
+            </div>
+            <div id="chaptersListSubpage" class="upage-content vertical-col left hidden">
+
+                <div class="grid grid-pad urow uib_row_2 row-height-2" data-uib="layout/row" data-ver="0">
+                    <div class="col uib_col_2 col-0_12-12" data-uib="layout/col" data-ver="0">
+                        <div class="widget-container content-area vertical-col">
+                            <div class="widget uib_w_3 ui-content no_wrap outset-margin d-margins" data-uib="jquery_mobile/listview" data-ver="0">
+                                <ul data-role="listview" data-theme="b" data-bind="foreach: chaptersList">
+                                    <li class="widget uib_w_4" data-uib="jquery_mobile/listitem" data-ver="0" data-bind="text:chapter_name, attr: { href: '#' }, click: $parent.selectChapter">
+                                    </li>
+                                </ul>
+                            </div>
+                            <span class="uib_shim"></span>
+                        </div>
+                    </div>
+                    <span class="uib_shim"></span>
+                </div>
+            </div>
+            <div id="chapterContentSubpage" class="upage-content vertical-col left hidden">
+                <div class="widget uib_w_43 d-margins" data-uib="media/iframe" data-ver="0">
+                </div>
+            </div>
+            <div id="quizzesTypeASubpage" class="upage-content vertical-col left hidden">
+                <div class="grid grid-pad urow uib_row_3 row-height-3" data-uib="layout/row" data-ver="0">
+                    <div class="col uib_col_3 col-0_12-12" data-uib="layout/col" data-ver="0">
+                        <div class="widget-container content-area vertical-col">
+                            <a class="widget uib_w_65" data-uib="jquery_mobile/button" data-ver="0" data-bind="click:backA" data-role="button">Back</a>
+                            <div data-role="controlgroup" class="uib-jqm-flex widget uib_w_64 d-margins" data-uib="jquery_mobile/button_group" data-ver="0" data-type="horizontal">
+                                <a class="widget uib_w_66" data-uib="jquery_mobile/button" data-ver="0" data-role="button" data-bind="click:prevA">Prev Question</a><a class="widget uib_w_67" data-uib="jquery_mobile/button" data-ver="0" data-role="button" data-bind="click:nextA">Next Question</a>
+                            </div>
+                            <div class="tarea widget uib_w_44 d-margins" data-uib="media/text" data-ver="0" name="uib_w_44" id="quizName">
+                                <div class="widget-container left-receptacle"></div>
+                                <div class="widget-container right-receptacle"></div>
+                                <div class="text-container">
+                                    <p data-bind="text:questionNameA">Quiz Name</p>
+                                </div>
+                            </div>
+                            <div class="tarea widget uib_w_45 d-margins" data-uib="media/text" data-ver="0" name="uib_w_45" id="questionTypeA">
+                                <div class="widget-container left-receptacle"></div>
+                                <div class="widget-container right-receptacle"></div>
+                                <div data-bind="text:questionA">Question:
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="table-thing with-label no_wrap widget uib_w_46 d-margins" data-uib="jquery_mobile/radio_button_group" data-ver="0">
+                                <label class="narrow-control"></label>
+                                <fieldset data-role="controlgroup" class="widget-container wide-control uib-jqm-flex" data-child-name="jqm-radio-group-0">
+                                    <div class="ui-radio widget uib_w_47" data-uib="jquery_mobile/radio_button" data-ver="0">
+                                        <label data-bind="text:questionChoice1A">Radio Button
+                                            <input type="radio" name="jqm-radio-group-0">
+                                        </label>
+                                    </div>
+                                    <div class="ui-radio widget uib_w_48" data-uib="jquery_mobile/radio_button" data-ver="0">
+                                        <label data-bind="text:questionChoice2A">Radio Button
+                                            <input type="radio" name="jqm-radio-group-0">
+                                        </label>
+                                    </div>
+                                    <div class="ui-radio widget uib_w_49" data-uib="jquery_mobile/radio_button" data-ver="0">
+                                        <label data-bind="text:questionChoice3A">Radio Button
+                                            <input type="radio" name="jqm-radio-group-0">
+                                        </label>
+                                    </div>
+                                    <div class="ui-radio widget uib_w_50" data-uib="jquery_mobile/radio_button" data-ver="0">
+                                        <label data-bind="text:questionChoice4A">Radio Button
+                                            <input type="radio" name="jqm-radio-group-0">
+                                        </label>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <div class="tarea widget uib_w_52 d-margins" data-uib="media/text" data-ver="0" name="uib_w_52" id="QuestionAAnswerDescription">
+                                <div class="widget-container left-receptacle"></div>
+                                <div class="widget-container right-receptacle"></div>
+                                <div class="text-container">
+                                    <p data-bind="text:questionAnswerA" id="answerA">Correct Answer + Description</p>
+                                </div>
+                            </div><a class="widget uib_w_51 d-margins" data-uib="jquery_mobile/button" data-ver="0" data-role="button" data-icon="check" id="questionACheckAnswer" data-bind="click:checkAnswerA">Check Answer</a>
+                            <span class="uib_shim"></span>
+                        </div>
+                    </div>
+                    <span class="uib_shim"></span>
+                </div>
+            </div>
+            <div id="quizzesTypeBSubpage" class="upage-content vertical-col left hidden">
+                <div class="grid grid-pad urow uib_row_3 row-height-3" data-uib="layout/row" data-ver="0">
+                    <div class="col uib_col_3 col-0_12-12" data-uib="layout/col" data-ver="0">
+                        <div class="widget-container content-area vertical-col">
+                            <a class="widget uib_w_65" data-uib="jquery_mobile/button" data-ver="0" data-bind="click:backB" data-role="button">Back</a>
+                            <div data-role="controlgroup" class="uib-jqm-flex widget uib_w_64 d-margins" data-uib="jquery_mobile/button_group" data-ver="0" data-type="horizontal">
+                                <a class="widget uib_w_66" data-uib="jquery_mobile/button" data-ver="0" data-role="button" data-bind="click:prevB">Prev Question</a><a class="widget uib_w_67" data-uib="jquery_mobile/button" data-ver="0" data-role="button" data-bind="click:nextB">Next Question</a>
+                            </div>
+                            <div class="tarea widget uib_w_44 d-margins" data-uib="media/text" data-ver="0" name="uib_w_44" id="quizName">
+                                <div class="widget-container left-receptacle"></div>
+                                <div class="widget-container right-receptacle"></div>
+                                <div class="text-container">
+                                    <p data-bind="text:questionNameB">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                            <div class="tarea widget uib_w_53 d-margins" data-uib="media/text" data-ver="0" name="uib_w_53">
+                                <div class="widget-container left-receptacle"></div>
+                                <div class="widget-container right-receptacle"></div>
+                                <div class="text-container">
+                                    <p data-bind="text:questionB">Question</p>
+                                </div>
+                            </div>
+                            <div class="table-thing with-label no_wrap widget uib_w_54 d-margins" data-uib="jquery_mobile/checkbox_group" data-ver="0">
+                                <label class="narrow-control"></label>
+                                <fieldset data-role="controlgroup" class="widget-container wide-control uib-jqm-flex">
+                                    <div class="ui-checkbox widget uib_w_55" data-uib="jquery_mobile/checkbox" data-ver="0">
+                                        <label data-bind="text:questionChoice1B">Checkbox
+                                            <input type="checkbox">
+                                        </label>
+                                    </div>
+                                    <div class="ui-checkbox widget uib_w_56" data-uib="jquery_mobile/checkbox" data-ver="0">
+                                        <label data-bind="text:questionChoice2B">Checkbox
+                                            <input type="checkbox">
+                                        </label>
+                                    </div>
+                                    <div class="ui-checkbox widget uib_w_57" data-uib="jquery_mobile/checkbox" data-ver="0">
+                                        <label data-bind="text:questionChoice3B">Checkbox
+                                            <input type="checkbox">
+                                        </label>
+                                    </div>
+                                    <label data-bind="text:questionChoice4B">Checkbox
+                                        <input type="checkbox">
+                                    </label>
+                                </fieldset>
+                            </div>
+                            <div class="ui-checkbox widget uib_w_56" data-uib="jquery_mobile/checkbox" data-ver="0">
+                                <label data-bind="text:questionChoice5B">Checkbox
+                                    <input type="checkbox">
+                                </label>
+                            </div>
+                            <div class="ui-checkbox widget uib_w_57" data-uib="jquery_mobile/checkbox" data-ver="0">
+                                <label data-bind="text:questionChoice6B">Checkbox
+                                    <input type="checkbox">
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="tarea widget uib_w_58 d-margins" data-uib="media/text" data-ver="0" name="uib_w_58">
+                            <div class="widget-container left-receptacle"></div>
+                            <div class="widget-container right-receptacle"></div>
+                            <div class="text-container">
+                                <p data-bind="text:questionAnswerB" id="answerB">Answer + Explanation</p>
+                            </div>
+                        </div><a class="widget uib_w_59 d-margins" data-uib="jquery_mobile/button" data-ver="0" data-role="button" data-icon="check" data-bind="click:checkAnswerB">Check Answer</a>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
+                <span class="uib_shim"></span>
+            </div>
         </div>
-    </body>
+        <div id="quizzesTypeCSubpage" class="upage-content vertical-col left hidden">
+            <div class="grid grid-pad urow uib_row_3 row-height-3" data-uib="layout/row" data-ver="0">
+                <div class="col uib_col_3 col-0_12-12" data-uib="layout/col" data-ver="0">
+                    <div class="widget-container content-area vertical-col">
+                        <a class="widget uib_w_65" data-uib="jquery_mobile/button" data-ver="0" data-bind="click:backC" data-role="button">Back</a>
+                        <div data-role="controlgroup" class="uib-jqm-flex widget uib_w_64 d-margins" data-uib="jquery_mobile/button_group" data-ver="0" data-type="horizontal">
+                            <a class="widget uib_w_66" data-uib="jquery_mobile/button" data-ver="0" data-role="button" data-bind="click:prevC">Prev Question</a><a class="widget uib_w_67" data-uib="jquery_mobile/button" data-ver="0" data-role="button" data-bind="click:nextC">Next Question</a>
+                        </div>
+                        <div class="tarea widget uib_w_44 d-margins" data-uib="media/text" data-ver="0" name="uib_w_44" id="quizName">
+                            <div class="widget-container left-receptacle"></div>
+                            <div class="widget-container right-receptacle"></div>
+                            <div class="text-container">
+                                <p data-bind="text:questionNameC">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="tarea widget uib_w_60 d-margins" data-uib="media/text" data-ver="0" name="uib_w_60">
+                            <div class="widget-container left-receptacle"></div>
+                            <div class="widget-container right-receptacle"></div>
+                            <div class="text-container">
+                                <p data-bind="text:questionC">Question</p>
+                            </div>
+                        </div>
+                        <div class="table-thing with-label widget uib_w_61 d-margins" data-uib="jquery_mobile/input" data-ver="0">
+                            <label class="narrow-control label-top-left">Answer</label>
+                            <input class="wide-control" type="text">
+                        </div>
+                        <div class="tarea widget uib_w_62 d-margins" data-uib="media/text" data-ver="0" name="uib_w_62">
+                            <div class="widget-container left-receptacle"></div>
+                            <div class="widget-container right-receptacle"></div>
+                            <div class="text-container">
+                                <p data-bind="text:questionChoiceC" id="answerC">Answer + Description</p>
+                            </div>
+                        </div><a class="widget uib_w_63 d-margins" data-uib="jquery_mobile/button" data-ver="0" data-role="button" data-icon="check" data-bind="click:checkAnswerC">Check Answer</a>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
+                <span class="uib_shim"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
 
 </html>

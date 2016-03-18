@@ -1,0 +1,97 @@
+[
+  {
+    "cheatsheet_id":1,
+    "cheatsheet_name":"Common Ports",
+    "cheatsheet_file":"1. Common Ports.pdf"
+  },
+  {
+    "cheatsheet_id":2,
+    "cheatsheet_name":"EIGRP",
+    "cheatsheet_file":"2. EIGRP.pdf"
+  },
+  {
+    "cheatsheet_id":3,
+    "cheatsheet_name":"First Hop Redundancy",
+    "cheatsheet_file":"3. First Hop Redundancy.pdf"
+  },
+  {
+    "cheatsheet_id":4,
+    "cheatsheet_name":"IEEE 802.11 WLAN",
+    "cheatsheet_file":"4. IEEE 802.11 WLAN.pdf"
+  },
+  {
+    "cheatsheet_id":5,
+    "cheatsheet_name":"IOS Interior Routing Protocols",
+    "cheatsheet_file":"5. IOS Interior Routing Protocols.pdf"
+  },
+  {
+    "cheatsheet_id":6,
+    "cheatsheet_name":"IOS IPv4 Access Lists",
+    "cheatsheet_file":"6. IOS IPv4 Access Lists.pdf"
+  },
+  {
+    "cheatsheet_id":7,
+    "cheatsheet_name":"IPsec",
+    "cheatsheet_file":"7. IPsec.pdf"
+  },
+  {
+    "cheatsheet_id":8,
+    "cheatsheet_name":"IPv4_Subnetting",
+    "cheatsheet_file":"8. IPv4_Subnetting.pdf"
+  },
+  {
+    "cheatsheet_id":9,
+    "cheatsheet_name":"IPv6",
+    "cheatsheet_file":"9. IPv6.pdf"
+  },
+  {
+    "cheatsheet_id":10,
+    "cheatsheet_name":"NAT",
+    "cheatsheet_file":"10. NAT.pdf"
+  },
+  {
+    "cheatsheet_id":11,
+    "cheatsheet_name":"OSPF",
+    "cheatsheet_file":"11. OSPF.pdf"
+  },
+  {
+    "cheatsheet_id":12,
+    "cheatsheet_name":"Physical Terminations",
+    "cheatsheet_file":"12. Physical Terminations.pdf"
+  },
+  {
+    "cheatsheet_id":13,
+    "cheatsheet_name":"PPP",
+    "cheatsheet_file":"13. PPP.pdf"
+  },
+  {
+    "cheatsheet_id":14,
+    "cheatsheet_name":"QoS",
+    "cheatsheet_file":"14. QoS.pdf"
+  },
+  {
+    "cheatsheet_id":15,
+    "cheatsheet_name":"RIP",
+    "cheatsheet_file":"15. RIP.pdf"
+  },
+  {
+    "cheatsheet_id":16,
+    "cheatsheet_name":"Spanning_Tree",
+    "cheatsheet_file":"16. Spanning_Tree.pdf"
+  },
+  {
+    "cheatsheet_id":17,
+    "cheatsheet_name":"VLANs",
+    "cheatsheet_file":"17. VLANs.pdf"
+  },
+  {
+    "cheatsheet_id":18,
+    "cheatsheet_name":"VOIP Basics",
+    "cheatsheet_file":"18. VOIP Basics.pdf"
+  },
+  {
+    "cheatsheet_id":19,
+    "cheatsheet_name":"Wireshark Display Filters",
+    "cheatsheet_file":"19. Wireshark Display Filters.pdf"
+  }
+]
