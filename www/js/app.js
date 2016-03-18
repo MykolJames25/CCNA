@@ -28,6 +28,9 @@ var menuData = [];
 var moduleData = [];
 var chapterData = [];
 var questionData = [];
+var commandNameData = [];
+var commandContentData = [];
+var glossaryData = [];
 
 function onBackKeyDown() {
     console.log('back button handler');

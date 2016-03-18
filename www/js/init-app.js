@@ -41,6 +41,8 @@ var mainMenu = new MainMenu();
 var modulesList = new ModulesList();
 var chapterList = new ChapterList();
 var quizPage = new QuizPage();
+var commandListPage = new CommandList();
+var commandContentPage = new CommandContentPage();
 
 
 app.initEvents = function () {
@@ -60,6 +62,8 @@ app.initEvents = function () {
     ko.applyBindings(quizPage, document.getElementById("quizzesTypeASubpage"));
     ko.applyBindings(quizPage, document.getElementById("quizzesTypeBSubpage"));
     ko.applyBindings(quizPage, document.getElementById("quizzesTypeCSubpage"));
+    ko.applyBindings(commandListPage, document.getElementById("commandGuideListPage"));
+    ko.applyBindings(commandContentPage, document.getElementById("commandContentListPage"));
     console.log("Starting")
     $.getJSON("json/menu.json", function (menu) {
         menuData = menu;
@@ -69,8 +73,16 @@ app.initEvents = function () {
                 chapterData = chapter;
                 $.getJSON("json/quizQuestions.json", function (question) {
                     questionData = question;
-                    console.log(questionData);
-                    mainMenu.load();
+                    $.getJSON("json/commandName.json", function (commandName) {
+                        commandNameData = commandName;
+                        $.getJSON("json/commandContent.json", function (commandContent) {
+                            commandContentData = commandContent;
+                            $.getJSON("json/terms.json", function (terms) {
+                                glossaryData = terms;
+                                mainMenu.load();
+                            });
+                        });
+                    });
                 });
             });
         });

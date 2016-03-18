@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "appDesigner",
       "projectGuid": "4ab9da6d-73be-4182-bacc-bbfbc1169c59",
-      "lastModifiedDate": 1458323875647,
+      "lastModifiedDate": 1458337776880,
       "creationDate": 1444554745657
     },
     "XDK-app-designer": "true",
@@ -52,26 +52,6 @@
         "description": "Cordova Device Plugin",
         "data": {},
         "dependedBy": []
-      },
-      {
-        "id": "com.phonegap.plugins.fileopener",
-        "name": "File Opener",
-        "version": "1.0.0",
-        "originType": "repo",
-        "origin": "https://github.com/antonioJASR/FileOpener.git",
-        "gitref": "",
-        "subdir": ".",
-        "paramvals": {},
-        "sourceLocation": "plugins/com.phonegap.plugins.fileopener",
-        "selectedState": "Included",
-        "checksum": "4fa6e54a",
-        "dependsOn": [],
-        "topLevel": true,
-        "permissions": {},
-        "description": "Cordova InAppBrowser Plugin",
-        "data": {},
-        "dependedBy": [],
-        "custom": "true"
       }
     ],
     "buildConfigurations": {
