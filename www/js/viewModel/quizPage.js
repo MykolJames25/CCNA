@@ -43,9 +43,6 @@ function QuizPage() {
             console.log("Single Answer")
         } else if (questionSet[index].type_id == 2) {
             hideObject("answerB");
-            console.log(questionSet[index]);
-            self.questionNameB(questionSet[index].quiz_name);
-            self.questionB(questionSet[index].question);
             self.questionChoice1B("A:" + questionSet[index].answerA);
             self.questionChoice2B("B:" + questionSet[index].answerB);
             self.questionChoice3B("C:" + questionSet[index].answerC);

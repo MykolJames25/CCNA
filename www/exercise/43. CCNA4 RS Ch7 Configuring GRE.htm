@@ -1,0 +1,2891 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List
+href="43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Betty Staerk</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Nomar Maestro</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>3</o:TotalTime>
+  <o:Created>2016-03-19T01:06:00Z</o:Created>
+  <o:LastSaved>2016-03-19T01:06:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>657</o:Words>
+  <o:Characters>3748</o:Characters>
+  <o:Company>Microsoft</o:Company>
+  <o:Lines>31</o:Lines>
+  <o:Paragraphs>8</o:Paragraphs>
+  <o:CharactersWithSpaces>4397</o:CharactersWithSpaces>
+  <o:Version>15.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=dataStoreItem
+href="43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/item0001.xml"
+target="43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/props002.xml">
+<link rel=themeData
+href="43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DefaultTableStyle>Lab_Table_Style</w:DefaultTableStyle>
+  <w:DrawingGridHorizontalSpacing>5.5 pt</w:DrawingGridHorizontalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>2</w:DisplayHorizontalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseWord2010TableStyleRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="59" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073743103 0 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+h1
+	{mso-style-update:auto;
+	mso-style-priority:9;
+	mso-style-link:"Heading 1 Char";
+	mso-style-next:Normal;
+	margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:#365F91;
+	mso-font-kerning:0pt;}
+h2
+	{mso-style-update:auto;
+	mso-style-priority:9;
+	mso-style-link:"Heading 2 Char";
+	mso-style-next:Normal;
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:#4F81BD;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Comment Text Char";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"Header Char";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.25in right 6.5in;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-update:auto;
+	mso-style-priority:99;
+	mso-style-link:"Footer Char";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:right 7.0in;
+	font-size:8.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+span.MsoCommentReference
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Document Map Char";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+pre
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"HTML Preformatted Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"Comment Text";
+	mso-style-link:"Comment Subject Char";
+	mso-style-next:"Comment Text";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-noshow:yes;
+	mso-style-priority:34;
+	mso-style-qformat:yes;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:"Times New Roman";
+	color:#365F91;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:"Times New Roman";
+	color:#4F81BD;
+	font-weight:bold;}
+p.ClientNote, li.ClientNote, div.ClientNote
+	{mso-style-name:"Client Note";
+	mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	color:red;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.LabSection, li.LabSection, div.LabSection
+	{mso-style-name:"Lab Section";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:"Body Text1";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-indent:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-list:l0 level1 lfo4;
+	tab-stops:list 0in;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-style:italic;}
+p.LabTitle, li.LabTitle, div.LabTitle
+	{mso-style-name:"Lab Title";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:16.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.PageHead, li.PageHead, div.PageHead
+	{mso-style-name:"Page Head";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	tab-stops:right 7.0in;
+	border:none;
+	mso-border-bottom-alt:solid windowtext 2.25pt;
+	padding:0in;
+	mso-padding-alt:0in 0in 1.0pt 0in;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.StepHead, li.StepHead, div.StepHead
+	{mso-style-name:"Step Head";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:"Body Text L25";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.65in;
+	text-indent:-.65in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-list:l1 level2 lfo2;
+	tab-stops:list .65in;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Header;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:Footer;
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:11.0pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+p.BodyText1, li.BodyText1, div.BodyText1
+	{mso-style-name:"Body Text1";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.TableText, li.TableText, div.TableText
+	{mso-style-name:"Table Text";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Table Text Char";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+span.TableTextChar
+	{mso-style-name:"Table Text Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Table Text";}
+p.TableHeading, li.TableHeading, div.TableHeading
+	{mso-style-name:"Table Heading";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:center;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Bulletlevel1, li.Bulletlevel1, div.Bulletlevel1
+	{mso-style-name:"Bullet level 1";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	text-indent:-.25in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	mso-list:l3 level1 lfo1;
+	tab-stops:list .5in;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.Bulletlevel2, li.Bulletlevel2, div.Bulletlevel2
+	{mso-style-name:"Bullet level 2";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	mso-list:l3 level2 lfo1;
+	tab-stops:list .75in;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.InstNoteRed, li.InstNoteRed, div.InstNoteRed
+	{mso-style-name:"Inst Note Red";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"Body Text1";
+	mso-style-next:"Body Text1";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	color:red;}
+p.PartHead, li.PartHead, div.PartHead
+	{mso-style-name:"Part Head";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"List Paragraph";
+	mso-style-next:"Body Text L25";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.75in;
+	text-indent:-.75in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l1 level1 lfo2;
+	tab-stops:list .75in;
+	font-size:14.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.SubStepAlpha, li.SubStepAlpha, div.SubStepAlpha
+	{mso-style-name:"SubStep Alpha";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	text-indent:-.25in;
+	mso-pagination:widow-orphan;
+	mso-list:l1 level3 lfo2;
+	tab-stops:list .5in;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.CMD, li.CMD, div.CMD
+	{mso-style-name:CMD;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.BodyTextL50, li.BodyTextL50, div.BodyTextL50
+	{mso-style-name:"Body Text L50";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.BodyTextL25, li.BodyTextL25, div.BodyTextL25
+	{mso-style-name:"Body Text L25";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"Body Text1";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.25in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.InstNoteRedL50, li.InstNoteRedL50, div.InstNoteRedL50
+	{mso-style-name:"Inst Note Red L50";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"Inst Note Red";
+	mso-style-next:"Body Text1";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.5in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	color:red;}
+p.DevConfigs, li.DevConfigs, div.DevConfigs
+	{mso-style-name:DevConfigs;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.Visual, li.Visual, div.Visual
+	{mso-style-name:Visual;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:center;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+span.DocumentMapChar
+	{mso-style-name:"Document Map Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Document Map";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+span.LabTitleInstVersred
+	{mso-style-name:"Lab Title Inst Vers \(red\)";
+	mso-style-priority:1;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-ansi-font-size:16.0pt;
+	font-family:"Arial","sans-serif";
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	color:red;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+span.AnswerGray
+	{mso-style-name:"Answer Gray";
+	mso-style-priority:1;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	border:none;
+	background:#BFBFBF;}
+span.LabSectionGray
+	{mso-style-name:"Lab Section Gray";
+	mso-style-priority:1;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-ansi-font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	border:none;
+	background:#BFBFBF;}
+p.SubStepNum, li.SubStepNum, div.SubStepNum
+	{mso-style-name:"SubStep Num";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"SubStep Alpha";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	mso-pagination:widow-orphan;
+	mso-list:l1 level4 lfo2;
+	tab-stops:list .75in;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+span.DevConfigGray
+	{mso-style-name:"DevConfig Gray";
+	mso-style-priority:1;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-hansi-font-family:"Courier New";
+	color:windowtext;
+	border:none;
+	background:#BFBFBF;}
+p.CMDOutput, li.CMDOutput, div.CMDOutput
+	{mso-style-name:"CMD Output";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:CMD;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.5in;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+p.InstNoteRedL25, li.InstNoteRedL25, div.InstNoteRedL25
+	{mso-style-name:"Inst Note Red L25";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"Body Text L25";
+	mso-style-next:"Body Text L25";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.25in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	color:red;}
+p.BodyTextL25Bold, li.BodyTextL25Bold, div.BodyTextL25Bold
+	{mso-style-name:"Body Text L25 Bold";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"Body Text L25";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.25in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+span.HTMLPreformattedChar
+	{mso-style-name:"HTML Preformatted Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"HTML Preformatted";
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Comment Text";}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Comment Subject";
+	font-weight:bold;}
+p.ReflectionQ, li.ReflectionQ, div.ReflectionQ
+	{mso-style-name:"Reflection Q";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"Body Text L25";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	mso-pagination:widow-orphan;
+	mso-list:l0 level2 lfo4;
+	tab-stops:list .25in;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-ascii-font-family:Arial;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Arial;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/header.htm") fs;
+	mso-footnote-continuation-separator:url("43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/header.htm") fcs;
+	mso-endnote-separator:url("43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/header.htm") es;
+	mso-endnote-continuation-separator:url("43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/header.htm") ecs;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-title-page:yes;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:303506060;
+	mso-list-template-ids:1377362906;
+	mso-list-style-priority:99;
+	mso-list-style-name:Section_List;}
+@list l0:level1
+	{mso-level-number-format:none;
+	mso-level-style-link:"Lab Section";
+	mso-level-text:"";
+	mso-level-tab-stop:0in;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l0:level2
+	{mso-level-style-link:"Reflection Q";
+	mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"%3\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-text:"\(%4\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"\(%6\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.75in;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0in;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:494494560;
+	mso-list-template-ids:307820460;
+	mso-list-style-priority:99;
+	mso-list-style-name:Part_Step_SubStep_List;}
+@list l1:level1
+	{mso-level-style-link:"Part Head";
+	mso-level-text:"Part %1\:";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.75in;}
+@list l1:level2
+	{mso-level-style-link:"Step Head";
+	mso-level-text:"Step %2\:";
+	mso-level-tab-stop:.65in;
+	mso-level-number-position:left;
+	margin-left:.65in;
+	text-indent:-.65in;}
+@list l1:level3
+	{mso-level-number-format:alpha-lower;
+	mso-level-style-link:"SubStep Alpha";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	margin-left:.5in;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-style-link:"SubStep Num";
+	mso-level-text:"%4\)";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-number-format:none;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"\(%6\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.75in;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0in;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:566721400;
+	mso-list-template-ids:-620363140;}
+@list l2:level1
+	{mso-level-text:"Part %1\:";
+	mso-level-tab-stop:.8in;
+	mso-level-number-position:left;
+	margin-left:.8in;
+	text-indent:-.55in;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.8in;
+	mso-level-number-position:left;
+	margin-left:.8in;
+	text-indent:-.25in;
+	font-family:Symbol;
+	color:windowtext;}
+@list l2:level3
+	{mso-level-number-format:none;
+	mso-level-text:-;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.2in;
+	color:windowtext;}
+@list l2:level4
+	{mso-level-text:"\(%4\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.75in;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"\(%6\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0in;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.5in;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.75in;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1274165302;
+	mso-list-template-ids:874433812;
+	mso-list-style-priority:99;
+	mso-list-style-name:Bullet_List;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:"Bullet level 1";
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:none;
+	mso-level-style-link:"Bullet level 2";
+	mso-level-text:-;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	color:windowtext;}
+@list l3:level3
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	margin-left:.5in;
+	text-indent:-.25in;
+	color:windowtext;}
+@list l3:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.75in;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-text:"\(%6\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0in;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.5in;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.75in;
+	text-indent:-.25in;}
+@list l2:level1 lfo3
+	{mso-level-numbering:continue;
+	mso-level-tab-stop:.8in;
+	mso-level-number-position:left;
+	margin-left:.8in;
+	text-indent:-.55in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:59;
+	mso-style-unhide:no;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";}
+table.LightList-Accent11
+	{mso-style-name:"Light List - Accent 11";
+	mso-tstyle-rowband-size:1;
+	mso-tstyle-colband-size:1;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	border:solid #4F81BD 1.0pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";}
+table.LightList-Accent11FirstRow
+	{mso-style-name:"Light List - Accent 11";
+	mso-table-condition:first-row;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	mso-tstyle-shading:#4F81BD;
+	mso-para-margin-top:0in;
+	mso-para-margin-bottom:0in;
+	mso-para-margin-bottom:.0001pt;
+	line-height:normal;
+	color:white;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.LightList-Accent11LastRow
+	{mso-style-name:"Light List - Accent 11";
+	mso-table-condition:last-row;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	mso-tstyle-border-top:2.25pt double #4F81BD;
+	mso-tstyle-border-left:1.0pt solid #4F81BD;
+	mso-tstyle-border-bottom:1.0pt solid #4F81BD;
+	mso-tstyle-border-right:1.0pt solid #4F81BD;
+	mso-para-margin-top:0in;
+	mso-para-margin-bottom:0in;
+	mso-para-margin-bottom:.0001pt;
+	line-height:normal;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.LightList-Accent11FirstCol
+	{mso-style-name:"Light List - Accent 11";
+	mso-table-condition:first-column;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.LightList-Accent11LastCol
+	{mso-style-name:"Light List - Accent 11";
+	mso-table-condition:last-column;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.LightList-Accent11OddColumn
+	{mso-style-name:"Light List - Accent 11";
+	mso-table-condition:odd-column;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	mso-tstyle-border-top:1.0pt solid #4F81BD;
+	mso-tstyle-border-left:1.0pt solid #4F81BD;
+	mso-tstyle-border-bottom:1.0pt solid #4F81BD;
+	mso-tstyle-border-right:1.0pt solid #4F81BD;}
+table.LightList-Accent11OddRow
+	{mso-style-name:"Light List - Accent 11";
+	mso-table-condition:odd-row;
+	mso-style-priority:61;
+	mso-style-unhide:no;
+	mso-tstyle-border-top:1.0pt solid #4F81BD;
+	mso-tstyle-border-left:1.0pt solid #4F81BD;
+	mso-tstyle-border-bottom:1.0pt solid #4F81BD;
+	mso-tstyle-border-right:1.0pt solid #4F81BD;}
+table.LabTableStyle
+	{mso-style-name:Lab_Table_Style;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .25pt;
+	mso-padding-alt:.7pt 5.75pt .7pt 5.75pt;
+	mso-border-insideh:.25pt solid windowtext;
+	mso-border-insidev:.25pt solid windowtext;
+	mso-tstyle-vert-align:bottom;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-bidi-font-family:"Times New Roman";}
+table.LabTableStyleFirstRow
+	{mso-style-name:Lab_Table_Style;
+	mso-table-condition:first-row;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-tstyle-shading:#DBE5F1;
+	mso-tstyle-vert-align:bottom;
+	mso-tstyle-border-top:.25pt solid windowtext;
+	mso-tstyle-border-left:.25pt solid windowtext;
+	mso-tstyle-border-bottom:.25pt solid windowtext;
+	mso-tstyle-border-right:.25pt solid windowtext;
+	mso-tstyle-diagonal-down:cell-none;
+	mso-tstyle-diagonal-up:cell-none;
+	mso-tstyle-border-insideh:.25pt solid windowtext;
+	mso-tstyle-border-insidev:.25pt solid windowtext;
+	text-align:center;
+	word-break:normal;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-ansi-font-weight:normal;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<p class=LabTitle>Configuring GRE<span class=LabTitleInstVersred><span
+style='mso-bidi-font-family:"Times New Roman";color:windowtext'> </span></span></p>
+
+<p class=InstNoteRed><o:p>&nbsp;</o:p></p>
+
+<p class=LabSection style='margin-left:0in;text-indent:0in;mso-list:l0 level1 lfo4'>Topology</p>
+
+<p class=Visual><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_2" o:spid="_x0000_i1025" type="#_x0000_t75"
+ alt="WT 7B Configuring GRE.png" style='width:315.75pt;height:199.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/image001.png"
+  o:title="WT 7B Configuring GRE"/>
+</v:shape><![endif]--><![if !vml]><img width=421 height=266
+src="43.%20CCNA4%20RS%20Ch7%20Configuring%20GRE_files/image002.jpg"
+alt="WT 7B Configuring GRE.png" v:shapes="Picture_x0020_2"><![endif]></span></p>
+
+<p class=LabSection style='margin-left:0in;text-indent:0in;mso-list:l0 level1 lfo4'>Addressing
+Table</p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=560
+ style='width:420.1pt;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .25pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:.7pt 5.75pt .7pt 5.75pt;mso-border-insideh:
+ .25pt solid windowtext;mso-border-insidev:.25pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;page-break-inside:avoid'>
+  <td width=84 valign=bottom style='width:63.0pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .25pt;background:#DBE5F1;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableHeading>Device</p>
+  </td>
+  <td width=123 valign=bottom style='width:92.2pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .25pt;mso-border-alt:
+  solid windowtext .25pt;background:#DBE5F1;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableHeading>Interface</p>
+  </td>
+  <td width=111 valign=bottom style='width:83.6pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .25pt;mso-border-alt:
+  solid windowtext .25pt;background:#DBE5F1;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableHeading>IP Address</p>
+  </td>
+  <td width=117 valign=bottom style='width:88.0pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .25pt;mso-border-alt:
+  solid windowtext .25pt;background:#DBE5F1;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableHeading>Subnet Mask</p>
+  </td>
+  <td width=124 valign=bottom style='width:93.3pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .25pt;mso-border-alt:
+  solid windowtext .25pt;background:#DBE5F1;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableHeading>Default Gateway</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;page-break-inside:avoid'>
+  <td width=84 rowspan=3 style='width:63.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .25pt;mso-border-alt:
+  solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>RA</p>
+  </td>
+  <td width=123 valign=bottom style='width:92.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>G0/0</p>
+  </td>
+  <td width=111 valign=bottom style='width:83.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>192.168.1.1</p>
+  </td>
+  <td width=117 valign=bottom style='width:88.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>255.255.255.0</p>
+  </td>
+  <td width=124 valign=bottom style='width:93.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>N/A</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;page-break-inside:avoid'>
+  <td width=123 valign=bottom style='width:92.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>S0/0/0</p>
+  </td>
+  <td width=111 valign=bottom style='width:83.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>64.103.211.2</p>
+  </td>
+  <td width=117 valign=bottom style='width:88.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>255.255.255.252</p>
+  </td>
+  <td width=124 valign=bottom style='width:93.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>N/A</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;page-break-inside:avoid'>
+  <td width=123 valign=bottom style='width:92.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>Tunnel 0</p>
+  </td>
+  <td width=111 valign=bottom style='width:83.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>10.10.10.1</p>
+  </td>
+  <td width=117 valign=bottom style='width:88.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>255.255.255.252</p>
+  </td>
+  <td width=124 valign=bottom style='width:93.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>N/A</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;page-break-inside:avoid'>
+  <td width=84 rowspan=3 style='width:63.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .25pt;mso-border-alt:
+  solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>RB</p>
+  </td>
+  <td width=123 valign=bottom style='width:92.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>G0/0</p>
+  </td>
+  <td width=111 valign=bottom style='width:83.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>192.168.2.1</p>
+  </td>
+  <td width=117 valign=bottom style='width:88.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>255.255.255.0</p>
+  </td>
+  <td width=124 valign=bottom style='width:93.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>N/A</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;page-break-inside:avoid'>
+  <td width=123 valign=bottom style='width:92.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>S0/0/0</p>
+  </td>
+  <td width=111 valign=bottom style='width:83.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>209.165.122.2</p>
+  </td>
+  <td width=117 valign=bottom style='width:88.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>255.255.255.252</p>
+  </td>
+  <td width=124 valign=bottom style='width:93.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>N/A</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6;page-break-inside:avoid'>
+  <td width=123 valign=bottom style='width:92.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>Tunnel 0</p>
+  </td>
+  <td width=111 valign=bottom style='width:83.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>10.10.10.2</p>
+  </td>
+  <td width=117 valign=bottom style='width:88.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>255.255.255.252</p>
+  </td>
+  <td width=124 valign=bottom style='width:93.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>N/A</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;page-break-inside:avoid'>
+  <td width=84 style='width:63.0pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .25pt;mso-border-alt:solid windowtext .25pt;
+  padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>PC-A</p>
+  </td>
+  <td width=123 valign=bottom style='width:92.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>NIC</p>
+  </td>
+  <td width=111 valign=bottom style='width:83.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>192.168.1.2</p>
+  </td>
+  <td width=117 valign=bottom style='width:88.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>255.255.255.0</p>
+  </td>
+  <td width=124 valign=bottom style='width:93.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>192.168.1.1</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8;mso-yfti-lastrow:yes;page-break-inside:avoid'>
+  <td width=84 style='width:63.0pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .25pt;mso-border-alt:solid windowtext .25pt;
+  padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>PC-C</p>
+  </td>
+  <td width=123 valign=bottom style='width:92.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>NIC</p>
+  </td>
+  <td width=111 valign=bottom style='width:83.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>192.168.2.2</p>
+  </td>
+  <td width=117 valign=bottom style='width:88.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>255.255.255.0</p>
+  </td>
+  <td width=124 valign=bottom style='width:93.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .25pt;mso-border-left-alt:solid windowtext .25pt;
+  mso-border-alt:solid windowtext .25pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p class=TableText>192.168.2.1</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=LabSection style='margin-left:0in;text-indent:0in;mso-list:l0 level1 lfo4'>Objectives</p>
+
+<p class=BodyTextL25Bold>Part 1: Verify Router Connectivity</p>
+
+<p class=BodyTextL25Bold>Part 2: Configure GRE Tunnels</p>
+
+<p class=BodyTextL25Bold>Part 3: Verify PC Connectivity</p>
+
+<p class=LabSection style='margin-left:0in;text-indent:0in;mso-list:l0 level1 lfo4'>Scenario</p>
+
+<p class=BodyTextL25>You are the network administrator for a company which
+wants to set up a GRE tunnel to a remote office. Both networks are locally
+configured, and need only the tunnel configured.</p>
+
+<p class=PartHead style='mso-list:l1 level1 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Part 1:<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Verify Router Connectivity</p>
+
+<p class=StepHead style='mso-list:l1 level2 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Step 1:<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Ping RA from RB.</p>
+
+<p class=SubStepAlpha style='mso-list:l1 level3 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Use the <b style='mso-bidi-font-weight:normal'>show
+ip interface brief</b> command on <b style='mso-bidi-font-weight:normal'>RA </b>to
+determine the IP address of the S0/0/0 port.</p>
+
+<p class=SubStepAlpha style='mso-list:l1 level3 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>From <b style='mso-bidi-font-weight:normal'>RB</b>
+ping the IP S0/0/0 address of <b style='mso-bidi-font-weight:normal'>RA.</b></p>
+
+<p class=StepHead style='mso-list:l1 level2 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Step 2:<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Ping PCA from PCB.</p>
+
+<p class=BodyTextL25>Attempt to ping the IP address of <b style='mso-bidi-font-weight:
+normal'>PCA</b> from <b style='mso-bidi-font-weight:normal'>PCB</b>. We will
+repeat this test after configuring the GRE tunnel. What were the ping results?
+Why? <span class=AnswerGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>The pings failed because there is no
+route to the destination.</span></span></span><span class=AnswerGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=PartHead style='mso-list:l1 level1 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Part 2:<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Configure GRE Tunnels</p>
+
+<p class=StepHead style='mso-list:l1 level2 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Step 1:<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Configure the Tunnel 0 interface of RA.</p>
+
+<p class=SubStepAlpha style='mso-list:l1 level3 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Enter into the configuration mode for <b
+style='mso-bidi-font-weight:normal'>RA</b> Tunnel 0.</p>
+
+<p class=CMD>RA(config)# <b style='mso-bidi-font-weight:normal'>interface
+tunnel 0</b></p>
+
+<p class=SubStepAlpha style='mso-list:l1 level3 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Set the IP address as indicated in the
+Addressing Table.</p>
+
+<p class=CMD>RA(config-if)# <b style='mso-bidi-font-weight:normal'>ip address
+10.10.10.1 255.255.255.252</b></p>
+
+<p class=SubStepAlpha style='mso-list:l1 level3 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>c.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Set the source and destination for the endpoints
+of Tunnel 0.</p>
+
+<p class=CMD>RA(config-if)# <b style='mso-bidi-font-weight:normal'>tunnel
+source s0/0/0</b></p>
+
+<p class=CMD>RA(config-if)# <b style='mso-bidi-font-weight:normal'>tunnel
+destination 209.165.122.2<o:p></o:p></b></p>
+
+<p class=SubStepAlpha style='mso-list:l1 level3 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>d.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Configure Tunnel 0 to convey IP traffic over
+GRE.</p>
+
+<p class=CMD>RA(config-if)# <b style='mso-bidi-font-weight:normal'>tunnel mode
+gre ip</b></p>
+
+<p class=SubStepAlpha style='mso-list:l1 level3 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>e.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>The Tunnel 0 interface should already be active.
+In the event that it is not, treat it like any other interface.</p>
+
+<p class=CMD>RA(config-if)# <b style='mso-bidi-font-weight:normal'>no shutdown</b></p>
+
+<p class=StepHead style='mso-list:l1 level2 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Step 2:<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Configure the Tunnel 0 interface of RB.</p>
+
+<p class=BodyTextL25>Repeat Steps 1a – e with <b style='mso-bidi-font-weight:
+normal'>RB</b>. Be sure to change the IP addressing as appropriate.</p>
+
+<p class=CMD><span class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>RB(config)# </span></span></span><span
+class=DevConfigGray><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><span
+style='border:none'>interface tunnel 0</span></span></b></span><span
+class=DevConfigGray><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></b></span></p>
+
+<p class=CMD><span class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>RB(config-if)# </span></span></span><span
+class=DevConfigGray><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><span
+style='border:none'>ip<span style='border:none'> address 10.10.10.2
+255.255.255.252</span></span></span></b></span><span class=DevConfigGray><b
+style='mso-bidi-font-weight:normal'><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></b></span></p>
+
+<p class=CMD><span class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>RB(config-if)# </span></span></span><span
+class=DevConfigGray><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><span
+style='border:none'>tunnel source s0/0/0</span></span></b></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=CMD><span class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>RB(config-if)# </span></span></span><span
+class=DevConfigGray><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><span
+style='border:none'>tunnel destination 64.103.211.2</span></span></b></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=CMD><span class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>RB(config-if)# </span></span></span><span
+class=DevConfigGray><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><span
+style='border:none'>tunnel mode gre ip</span></span></b></span><span
+class=DevConfigGray><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></b></span></p>
+
+<p class=CMD><span class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>RB(config-if)# </span></span></span><span
+class=DevConfigGray><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><span
+style='border:none'>no shutdown</span></span></b></span><span
+class=DevConfigGray><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></b></span></p>
+
+<p class=StepHead style='mso-list:l1 level2 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Step 3:<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Configure a route for private IP traffic.</p>
+
+<p class=BodyTextL25>Establish a route between the 192.168.X.X networks using
+the 10.10.10.0/30 network as the destination.</p>
+
+<p class=CMD>RA(config)# <b style='mso-bidi-font-weight:normal'>ip route
+192.168.2.0 255.255.255.0 10.10.10.2</b></p>
+
+<p class=CMD>RB(config)# <b style='mso-bidi-font-weight:normal'>ip route
+192.168.1.0 255.255.255.0 10.10.10.1</b></p>
+
+<p class=PartHead style='mso-list:l1 level1 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Part 3:<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Verify Router Connectivity</p>
+
+<p class=StepHead style='mso-list:l1 level2 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Step 1:<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Ping PCA from PCB.</p>
+
+<p class=BodyTextL25>Attempt to ping the IP address of <b style='mso-bidi-font-weight:
+normal'>PCA</b> from <b style='mso-bidi-font-weight:normal'>PCB</b>. The ping
+should be successful.</p>
+
+<p class=StepHead style='mso-list:l1 level2 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Step 2:<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Trace the path from PCA to PCB.</p>
+
+<p class=BodyTextL25>Attempt to trace the path from <b style='mso-bidi-font-weight:
+normal'>PCA</b> to <b style='mso-bidi-font-weight:normal'>PCB</b>. Note the
+lack of public IP addresses in the output.</p>
+
+<p class=LabSection style='margin-left:0in;text-indent:0in;mso-list:l0 level1 lfo4'><span
+class=LabSectionGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>Device Con</span></span></span><span
+class=LabSectionGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>figs</span></span></span><span
+class=LabSectionGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=LabSection style='margin-left:0in;text-indent:0in;mso-list:l0 level1 lfo4'><span
+class=LabSectionGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>Router R</span></span></span><span
+class=LabSectionGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>A</span></span></span><span
+class=DevConfigGray><span style='mso-ansi-font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>no service timestamps
+log datetime msec</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>no<span
+style='border:none'> service timestamps debug datetime msec</span></span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>no service
+password-encryption</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>hostname RA</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>license udi pid
+CISCO2911/K9 sn FTX15242579</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>spanning-tree mode
+pvst</span></span></span><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface Tunnel0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>ip address 10.10.10.1 255.255.255.252</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>tunnel source Serial0/0/0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>tunnel<span style='border:none'> destination
+209.165.122.2</span></span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>tunnel mode gre ip</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface
+GigabitEthernet0/0</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>ip address 192.168.1.1 255.255.255.0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>duplex auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>speed auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface
+GigabitEthernet0/1</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>no ip address</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>duplex auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>speed auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>shutdown</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface
+GigabitEthernet0/2</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>no ip ad<span style='border:none'>dress</span></span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>duplex auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>speed auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>shutdown</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface Serial0/0/0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>ip address 64.103.211.2 255.255.255.252</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface Serial0/0/1</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>no ip address</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>shutdown</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface Vlan1</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>no ip address</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>shutdown</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>ip classless</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>ip route 192.168.2.0
+255.255.255.0 10.10.10.2</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>ip<span
+style='border:none'> route 0.0.0.0 0.0.0.0 Serial0/0/0 </span></span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>line con 0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>line aux 0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>line vty 0 4</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>login</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>end</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=LabSection style='margin-left:0in;text-indent:0in;mso-list:l0 level1 lfo4'><span
+class=LabSectionGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>Router R</span></span></span><span
+class=LabSectionGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>B</span></span></span><span
+class=DevConfigGray><span style='mso-ansi-font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>no service timestamps
+log datetime msec</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>no service timestamps
+debug datetime msec</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>no service
+password-encryption</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>license udi pid
+CISCO2911/K9 sn FTX152497Z4</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>spannin<span
+style='border:none'>g-tree mode pvst</span></span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface Tunnel0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>ip address 10.10.10.2 255.255.255.252</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>tunnel source Serial0/0/0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>tunnel destination 64.103.211.2</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>tunnel mode gre ip</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface
+GigabitEthernet0/0</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>ip address 192.168.2.1 255.255.255.0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>duplex auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>speed auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface <span
+style='border:none'>GigabitEthernet0/1</span></span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>no ip address</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>duplex auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>speed auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>shutdown</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface
+GigabitEthernet0/2</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>no ip address</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>duplex auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>speed auto</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>shutdown</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>!</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface Serial0/0/0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>ip address 209.165.122.2 255.255.255.252</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>!</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface Serial0/0/1</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>no ip address</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span><span style='border:none'>shutdown</span></span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>interface Vlan1</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>no ip address</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>shutdown</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>ip classless</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>ip route 192.168.1.0
+255.255.255.0 10.10.10.1</span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>ip route 0.0.0.0
+0.0.0.0 Serial0/0/0 </span></span></span><span class=DevConfigGray><span
+style='mso-bidi-font-family:"Times New Roman";border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>line con 0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>line aux 0</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>line vty 0 4</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'><span
+style='mso-spacerun:yes'> </span>login</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><o:p></o:p></span></span></p>
+
+<p class=DevConfigs><span class=DevConfigGray><span style='mso-bidi-font-family:
+"Times New Roman";border:none'><span style='border:none'>en</span></span></span><span
+class=DevConfigGray><span style='mso-bidi-font-family:"Times New Roman";
+border:none'><span style='border:none'>d</span></span></span><span
+style='background:#BFBFBF'><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
