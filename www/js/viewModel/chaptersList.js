@@ -5,6 +5,7 @@ function ChapterList() {
     self.chaptersList = ko.observableArray([]);
 
     self.load = function (menuID) {
+        self.chaptersList([]);
         activate_subpage("#chaptersListSubpage");
         for (var i = 0; i < chapterData.length; i++) {
             if (chapterData[i].module_id == localStorage.module) {
@@ -38,7 +39,7 @@ function ChapterList() {
                 }
             }
             console.log(questionSet);
-            quizPage.load(questionSet,0);
+            quizPage.load(questionSet, 0);
         }
 
     }

@@ -5,6 +5,7 @@ function GlosarryList() {
     self.glossaryList = ko.observableArray([]);
 
     self.load = function () {
+        self.glossaryList([]);
         activate_subpage("#commandGuideListPage");
         for (var i = 0; i < commandNameData.length; i++) {
             command.push(commandNameData[i])

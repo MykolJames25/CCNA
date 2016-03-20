@@ -5,6 +5,7 @@ function CommandList() {
     self.commandNameList = ko.observableArray([]);
 
     self.load = function () {
+        self.commandNameList([]);
         activate_subpage("#commandGuideListPage");
         for (var i = 0; i < commandNameData.length; i++) {
             command.push(commandNameData[i])
